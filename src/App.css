@@ -37,4 +37,17 @@
   }
 }
 
+.container {
+  background-image: url("../src/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  background-color: #18192e;
+  min-height: 100vh;
+}
 
+@media only screen and (min-width: 1250px) {
+  .container {
+    background-size: 100% 100%;
+  }
+}
