@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
 }
 
 .App-logo {
@@ -46,8 +49,70 @@
   min-height: 100vh;
 }
 
+.timer{
+  display: block;
+  position: relative;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+  margin: 50px;
+}
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.clock section p {
+  font-size: 2rem;
+}
+.clock section small {
+  color: silver;
+  text-shadow: none;
+}
+
+.clock {
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 500px;
+}
+
+.timer div:first-child{
+  
+}
+
+.logo{
+ 
+}
+
+.timer div:last-child{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+
+  margin-top: 3em;
+}
+
+section p:first-child, .timer div:last-child span{
+  font-size: 3em;
+}
 @media only screen and (min-width: 1250px) {
   .container {
     background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .timer div:last-child{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3em 1em;
+
   }
 }
