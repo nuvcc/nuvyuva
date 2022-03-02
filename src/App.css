@@ -41,78 +41,48 @@
 }
 
 .container {
-  background-image: url("../src/bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
   background-color: #18192e;
-  min-height: 100vh;
-}
-
-.timer{
-  display: block;
-  position: relative;
-  flex: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 7rem;
-  padding-top: 7rem;
-  margin: 50px;
-}
-
-.clock section {
+  background: url("../src/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 1rem;
-}
-.clock section p {
-  font-size: 2rem;
-}
-.clock section small {
-  color: silver;
-  text-shadow: none;
-}
-
-.clock {
-  position: relative;
-  margin: a;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 0px 500px;
-}
-
-.timer div:first-child{
-  
 }
 
 .logo{
- 
+  width: 400px;
 }
-
-.timer div:last-child{
-  display: grid;
-  grid-template-columns: repeat(7,1fr);
-
-  margin-top: 3em;
+.clock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-section p:first-child, .timer div:last-child span{
-  font-size: 3em;
+.clock-section{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-@media only screen and (min-width: 1250px) {
-  .container {
-    background-size: 100% 100%;
+.clock-wrap{
+  padding: 20px;
+}
+.clock-timer{
+  font-size: 60px;
+  font-weight: bold;
+}
+.clock-seperator{
+  font-size: 30px;
+}
+@media screen and (max-width: 500px){
+  .logo{
+    width: calc(100vw - 160px);
   }
-}
-
-@media screen and (max-width: 480px){
-  .timer div:last-child{
-    margin-left: 2em;
-    margin-right: 2em;
-    padding: 3em 1em;
-
+  .clock-timer{
+    font-size: 30px;
+  }
+  .clock-seperator, .clock-txt{
+    font-size: 15px;
   }
 }
