@@ -1,25 +1,10 @@
-import React,{useEffect, useRef, useState} from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
 
 import "./App.css";
 import logo from './logo.png';
 
 const App = () =>{
-
-  const [vantaEffect, setVantaEffect] = useState(0);
-  const myRef = useRef(null);
-  useEffect(() => {
-    if (!vantaEffect) {
-      setVantaEffect(
-        BIRDS({
-          el: myRef.current
-        })
-      );
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
-  }, [vantaEffect])
 
   const [timerDays, setTimerDays] = useState('00');
   const [timerHours, setTimerHours] = useState('00');
@@ -58,10 +43,82 @@ const App = () =>{
     };
   })
 
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const myRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: myRef.current
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect])
+
   return (
-    <div className="App" id="#App" ref={myRef}>
-     
-    </div>
+    <section className="App" id="#App" ref={myRef}>
+      <section className="container" >
+        <section className="timer">
+          <div>
+              <img src={logo} className="logo" alt="logo"></img>
+          </div>
+          <div className="clock">
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerDays}
+                </div>
+                <div class="clock-txt">
+                  DAYS
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerHours}
+                </div>
+                <div class="clock-txt">
+                  HOURS
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                 {timerMinutes}
+                </div>
+                <div class="clock-txt">
+                  MINUTES
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerSeconds}
+                </div>
+                <div class="clock-txt">
+                  SECONDS
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
   );
 }
 
