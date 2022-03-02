@@ -44,32 +44,62 @@ const App = () =>{
   return (
     <section className="App" id="#App">
       <section className="container">
-      <section className="timer">
-      <div>
-          <img src={logo} className="logo" alt="logo"></img>
-      </div>
-      <div className="clock">
-        <section>
-          <p>{timerDays}</p>
-          <p><small>DAYS</small></p>
+        <section className="timer">
+          <div>
+              <img src={logo} className="logo" alt="logo"></img>
+          </div>
+          <div className="clock">
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerDays}
+                </div>
+                <div class="clock-txt">
+                  DAYS
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerHours}
+                </div>
+                <div class="clock-txt">
+                  HOURS
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                 {timerMinutes}
+                </div>
+                <div class="clock-txt">
+                  MINUTES
+                </div>
+              </div>
+              <div class="clock-seperator">
+                :
+              </div>
+            </div>
+            <div class="clock-section">
+              <div class="clock-wrap">
+                <div class="clock-timer">
+                  {timerSeconds}
+                </div>
+                <div class="clock-txt">
+                  SECONDS
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        <span>:</span>
-        <section>
-          <p>{timerHours}</p>
-          <p><small>HOURS</small></p>
-        </section>
-        <span>:</span>
-        <section>
-          <p>{timerMinutes}</p>
-          <p><small>MINUTES</small></p>
-        </section>
-        <span>:</span>
-        <section>
-          <p>{timerSeconds}</p>
-          <p><small>SECONDS</small></p>
-        </section>
-      </div>
-      </section>
       </section>
     </section>
   );
