@@ -41,16 +41,14 @@
 }
 
 .container {
-  background-image: url("../src/bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
-  background-color: #18192e;
   min-height: 100vh;
 }
 
 .timer{
-  display: block;
+  display:  block;
   position: relative;
   flex: column;
   align-items: center;
@@ -66,22 +64,23 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  margin: 0 auto;
+  background-color: #61dafb;
 }
 .clock section p {
   font-size: 2rem;
 }
 .clock section small {
-  color: silver;
   text-shadow: none;
 }
 
 .clock {
   position: relative;
-  margin: a;
   display: flex;
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
-  margin: 0px 500px;
+  text-align: justify;
+  background-color: #282c34;
 }
 
 .timer div:first-child{
@@ -89,7 +88,8 @@
 }
 
 .logo{
- 
+  width: 300px;
+  height: 233px;
 }
 
 .timer div:last-child{

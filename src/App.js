@@ -1,9 +1,26 @@
 import React,{useEffect, useRef, useState} from 'react';
+import BIRDS from "vanta/dist/vanta.birds.min";
 
 import "./App.css";
 import logo from './logo.png';
 
 const App = () =>{
+
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const myRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: myRef.current
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect])
+
   const [timerDays, setTimerDays] = useState('00');
   const [timerHours, setTimerHours] = useState('00');
   const [timerMinutes, setTimerMinutes] = useState('00');
@@ -42,36 +59,9 @@ const App = () =>{
   })
 
   return (
-    <section className="App" id="#App">
-      <section className="container">
-      <section className="timer">
-      <div>
-          <img src={logo} className="logo" alt="logo"></img>
-      </div>
-      <div className="clock">
-        <section>
-          <p>{timerDays}</p>
-          <p><small>DAYS</small></p>
-        </section>
-        <span>:</span>
-        <section>
-          <p>{timerHours}</p>
-          <p><small>HOURS</small></p>
-        </section>
-        <span>:</span>
-        <section>
-          <p>{timerMinutes}</p>
-          <p><small>MINUTES</small></p>
-        </section>
-        <span>:</span>
-        <section>
-          <p>{timerSeconds}</p>
-          <p><small>SECONDS</small></p>
-        </section>
-      </div>
-      </section>
-      </section>
-    </section>
+    <div className="App" id="#App" ref={myRef}>
+     
+    </div>
   );
 }
 
