@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nuvyuva/static/css/main.87afbecf.css",
+    "main.js": "/nuvyuva/static/js/main.2259c4e6.js",
+    "static/media/logo.png": "/nuvyuva/static/media/logo.36729c726af339b2cb4b.png",
+    "index.html": "/nuvyuva/index.html",
+    "main.87afbecf.css.map": "/nuvyuva/static/css/main.87afbecf.css.map",
+    "main.2259c4e6.js.map": "/nuvyuva/static/js/main.2259c4e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87afbecf.css",
+    "static/js/main.2259c4e6.js"
+  ]
+}
