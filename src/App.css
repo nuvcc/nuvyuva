@@ -84,3 +84,29 @@
     font-size: 15px;
   }
 }
+
+.Button {
+  border-radius: 50px;
+  background: '#010606';
+  white-space: nowrap;
+  padding: 20px 40px;
+  font-size: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+
+.Button:hover {
+  background-color: pink;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0px 20px 0 rgba(255, 192, 203, 0.24);
+}
+
+.Link {
+  text-decoration: none;
+}
