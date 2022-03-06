@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
-// import { BrowserRouter as Router, Routes, Route, Redirect,} from "react-router-dom";
-// import { Link, useNavigate } from "react-router-dom";
 
 import "./Countdown.css"; 
 import logo from './logo.png';
@@ -62,76 +60,66 @@ const Countdown = () =>{
   }, [vantaEffect])
 
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route path='/home' element={<Home />}/>
-    //   </Routes>
-      <section className="App" id="#App" ref={myRef}>
+    <section className="App" id="#App" ref={myRef}>
         <section className="container" >
-          <section className="timer">
-            <div>
-                <img src={logo} className="logo" alt="logo"></img>
-            </div>
-            <div className="clock">
-              <div class="clock-section">
-                <div class="clock-wrap">
-                  <div class="clock-timer">
-                    {timerDays}
-                  </div>
-                  <div class="clock-txt">
-                    DAYS
-                  </div>
+            <section className="timer">
+                <div>
+                    <img src={logo} className="logo" alt="logo"></img>
                 </div>
-                <div class="clock-seperator">
-                  :
+                <div className="clock">
+                    <div className="clock-section">
+                        <div className="clock-wrap">
+                            <div className="clock-timer">
+                            {timerDays}
+                            </div>
+                            <div className="clock-txt">
+                            DAYS
+                            </div>
+                        </div>
+                        <div className="clock-seperator">
+                            :
+                        </div>
+                        </div>
+                        <div className="clock-section">
+                        <div className="clock-wrap">
+                            <div className="clock-timer">
+                            {timerHours}
+                            </div>
+                            <div className="clock-txt">
+                            HOURS
+                            </div>
+                        </div>
+                        <div className="clock-seperator">
+                            :
+                        </div>
+                        </div>
+                        <div className="clock-section">
+                        <div className="clock-wrap">
+                            <div className="clock-timer">
+                            {timerMinutes}
+                            </div>
+                            <div className="clock-txt">
+                            MINUTES
+                            </div>
+                        </div>
+                        <div className="clock-seperator">
+                            :
+                        </div>
+                        </div>
+                        <div className="clock-section">
+                        <div className="clock-wrap">
+                            <div className="clock-timer">
+                            {timerSeconds}
+                            </div>
+                            <div className="clock-txt">
+                            SECONDS
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="clock-section">
-                <div class="clock-wrap">
-                  <div class="clock-timer">
-                    {timerHours}
-                  </div>
-                  <div class="clock-txt">
-                    HOURS
-                  </div>
-                </div>
-                <div class="clock-seperator">
-                  :
-                </div>
-              </div>
-              <div class="clock-section">
-                <div class="clock-wrap">
-                  <div class="clock-timer">
-                  {timerMinutes}
-                  </div>
-                  <div class="clock-txt">
-                    MINUTES
-                  </div>
-                </div>
-                <div class="clock-seperator">
-                  :
-                </div>
-              </div>
-              <div class="clock-section">
-                <div class="clock-wrap">
-                  <div class="clock-timer">
-                    {timerSeconds}
-                  </div>
-                  <div class="clock-txt">
-                    SECONDS
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <div>
-              <Link to="/home" className="Link">
-                <button type="button" className="Button">Dive Into It!</button>
-              </Link>
-            </div> */}
-          </section>
+            </section>
         </section>
-      </section> 
-    // </Router> 
+    </section> 
   );
 }
 
