@@ -9,4 +9,13 @@ export const Event = styled.div`
     width: 100%;
 `;
 
-export const Card = styled.div``;
+export const EventCard = styled.div`
+    width: 100%;
+    padding: 1rem;
+    background-color: green;
+    margin-bottom: 1rem;
+
+    &:first-child{
+        margin-top: 1rem;
+    }
+`;

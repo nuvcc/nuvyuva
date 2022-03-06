@@ -26,8 +26,9 @@ const Countdown = () =>{
       const minutes = Math.floor((distance%(1000*60*60))/(1000*60));
       const seconds = Math.floor((distance%(1000*60))/1000);
 
+      let currentInterval = interval.current;
       if(distance<0){
-        clearInterval(interval.current);
+        clearInterval(currentInterval);
       }else{
         setTimerDays(days);
         setTimerHours(hours);
@@ -39,8 +40,13 @@ const Countdown = () =>{
 
   useEffect(() =>{
     startTimer();
-    return() =>{
-      clearInterval(interval.current)
+    let currentInterval = interval.current;
+    return () => {
+      clearInterval(currentInterval)
+      setTimerDays('00')
+      setTimerHours('00');
+      setTimerMinutes('00');
+      setTimerSeconds('00');
     };
   })
 

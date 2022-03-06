@@ -47,7 +47,7 @@ const Events = () => {
                     <EventsP>Description</EventsP>
                     <EventsBtnWrapper>
                         <Button 
-                            to='cultural' 
+                            to='/event' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
                             primary='true'      
@@ -62,7 +62,7 @@ const Events = () => {
                     <EventsP>Description</EventsP>
                     <EventsBtnWrapper>
                         <Button 
-                            to='cultural' 
+                            to='/event' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
                             primary='true'      
@@ -77,7 +77,7 @@ const Events = () => {
                     <EventsP>Concert, Model United Nations</EventsP>
                     <EventsBtnWrapper>
                         <Button 
-                            to='cultural' 
+                            to='/event' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
                             primary='true'      
