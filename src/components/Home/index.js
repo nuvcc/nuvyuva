@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Sidebar from "../Sidebar";
 import Navbar from "../Navbar";
 import HeroSection from "../HeroSection";
-import Info from "../Info";
+import EventCategory from "../EventCategory";
 import Events from "../Events";
 import About from "../About";
-import { info1, info2, info3 } from "../Info/Data";
+import { eventcategory1, eventcategory2, eventcategory3 } from "../EventCategory/EventCategoryData";
 import Countdown from "../Countdown";
 
 const Home = () => {
@@ -20,9 +20,9 @@ const Home = () => {
             <Navbar toggle={toggle} />
             {/* <HeroSection /> */}
             <Countdown />
-            <Info {...info1}/>
-            <Info {...info2}/>
-            <Info {...info3}/>
+            <EventCategory {...eventcategory1}/>
+            <EventCategory {...eventcategory2}/>
+            <EventCategory {...eventcategory3}/>
             <Events />
             <About />
         </>

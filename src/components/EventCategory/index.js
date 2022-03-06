@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { 
-    InfoContainer,
-    InfoWrapper,
-    InfoRow,
+    EventCategoryContainer,
+    EventCategoryWrapper,
+    EventCategoryRow,
     Column1,
     Column2,
     TextWrapper,
@@ -13,9 +13,9 @@ import {
     Button,
     ImgWrap,
     Img,
-} from './InfoElements'
+} from './EventCategoryElements';
 
-const Info = ({
+const EventCategory = ({
     lightBg, 
     id, 
     imgStart, 
@@ -33,9 +33,9 @@ const Info = ({
 }) => {
   return (
     <>
-        <InfoContainer lightBg={lightBg} id={id}>
-            <InfoWrapper>
-                <InfoRow imgStart={imgStart}>
+        <EventCategoryContainer lightBg={lightBg} id={id}>
+            <EventCategoryWrapper>
+                <EventCategoryRow imgStart={imgStart}>
                     <Column1>
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>
@@ -57,15 +57,15 @@ const Info = ({
                     </TextWrapper>
                     </Column1>
                     <Column2>
-                        <ImgWrap>
-                            <Img src={img} alt={alt}/>
-                        </ImgWrap>
+                        <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
                     </Column2>
-                </InfoRow>
-            </InfoWrapper>
-        </InfoContainer>
+                </EventCategoryRow>
+            </EventCategoryWrapper>
+        </EventCategoryContainer>
     </>
   )
 }
 
-export default Info
+export default EventCategory

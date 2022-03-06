@@ -1,9 +1,9 @@
-export const info1 = {
-    id: 'info1',
+export const eventcategory1 = {
+    id: 'ec1',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Topline',
+    topLine: 'Cultural',
     headline: 'This is headline',
     description: 'This is description',
     buttonLabel: 'Details',
@@ -15,12 +15,12 @@ export const info1 = {
     darkText: false,
 }
 
-export const info2 = {
-    id: 'info2',
+export const eventcategory2 = {
+    id: 'ec2',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Topline',
+    topLine: 'Technical',
     headline: 'This is headline',
     description: 'This is description',
     buttonLabel: 'Details',
@@ -32,12 +32,12 @@ export const info2 = {
     darkText: true,
 }
 
-export const info3 = {
-    id: 'info3',
+export const eventcategory3 = {
+    id: 'ec3',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Topline',
+    topLine: 'Sports',
     headline: 'This is headline',
     description: 'This is description',
     buttonLabel: 'Details',

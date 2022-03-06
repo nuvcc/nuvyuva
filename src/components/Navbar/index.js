@@ -22,7 +22,7 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
-                                to='info1'
+                                to='ec1'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -30,12 +30,12 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}
                                 activeClass='active'
                             >
-                                Info
+                                Cultural
                             </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks 
-                                to='info2'
+                                to='ec2'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -43,12 +43,12 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}
                                 activeClass='active'
                             >
-                                Info
+                                Technical
                             </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks 
-                                to='info3'
+                                to='ec3'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}
                                 activeClass='active'
                             >
-                                Info
+                                Sports
                             </NavLinks>
                         </NavItem>
                         <NavItem>
