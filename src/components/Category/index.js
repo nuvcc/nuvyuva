@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/index.js'
-import {Event, EventContain} from './Category';
+import {Event, EventContain} from './Category.js';
 
 const AnEvent = () => {
   return (
