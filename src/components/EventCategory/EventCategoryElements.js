@@ -42,11 +42,11 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 15px 15px;
     grid-area: col2;
-    background-color: green;
-    width: 500px;
-    height: 500px;
+    background-color: #01bf71;
+    width: 600px;
+    height: 600px;
     overflow: auto;
     text-align:justify;
 `;
@@ -123,3 +123,32 @@ export const Button = styled(Link)`
     }
 `;
 
+export const EventTitle = styled.p`
+    color: #01bf71;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+`;
+
+export const EventSubtitle = styled.h1`
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+    
+    @media screen and (max-width: 480px) {
+        font-size: 32px;
+    }
+`;
+
+export const EventDescription = styled.p`
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+`;
