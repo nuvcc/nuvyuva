@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {Link} from 'react-scroll';
+import {Link as LinkR} from 'react-router-dom'; 
 
 export const EventsContainer = styled.div`
     height: 800px;
@@ -91,7 +92,7 @@ export const EventsBtnWrapper = styled.div`
     align-items: center;
 `
 
-export const Button = styled(Link)`
+export const Button = styled(LinkR)`
     border-radius: 50px;
     background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
     white-space: nowrap;

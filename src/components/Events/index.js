@@ -32,7 +32,7 @@ const Events = () => {
                     <EventsP>Description</EventsP>
                     <EventsBtnWrapper>
                         <Button 
-                            to='cultural' 
+                            to='/event' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
                             primary='true'      
