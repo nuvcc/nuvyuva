@@ -1,5 +1,5 @@
-export const category1event1 = {
-    id: 'c1e1',
+export const category2event1 = {
+    id: 'c2e1',
     lightBg: false,
     darkTitle: false,
     darkSubtitle: true,
@@ -8,15 +8,15 @@ export const category1event1 = {
     event1subtitle: 'Subtitle',
     event1description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     imgStart: false,
-    img: require('../images/i1.jpg'),
+    img: require('../images/i2.jpeg'),
     buttonLabel: 'Register',
     primaryButton: true,
     darkButton: true,
     darkButtonText: false,
 }
 
-export const category1event2 = {
-    id: 'c1e2',
+export const category2event2 = {
+    id: 'c2e2',
     lightBg: false,
     darkTitle: false,
     darkSubtitle: true,
@@ -25,7 +25,7 @@ export const category1event2 = {
     event2subtitle: 'Subtitle',
     event2description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     imgStart: false,
-    img: require('../images/i1.jpg'),
+    img: require('../images/i2.jpeg'),
     buttonLabel: 'Register',
     primaryButton: true,
     darkButton: true,

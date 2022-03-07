@@ -7,13 +7,13 @@ import {
     Column1,
     Column2,
     TextWrapper,
-    TopLine,
-    Heading,
-    Subtitle,
-    BtnWrap,
-    Button,
+    CategoryTitle,
+    CategorySubtitle,
+    CategoryDescription,
     ImgWrap,
     Img,
+    TitleandRegisterButtonWrap,
+    RegisterButton,
     EventTitle,
     EventSubtitle,
     EventDescription,
@@ -23,20 +23,24 @@ const EventCategory = ({
     lightBg, 
     id, 
     imgStart, 
-    topLine, 
-    lightText,
-    headline,
-    darkText,
-    description,
+    categoryTitle, 
+    darkTitle,
+    categorySubtitle,
+    darkSubtitle,
+    categoryDescription,
+    darkDescription,
     buttonLabel,
     img,
     alt,
-    primary,
-    dark,
-    dark2,
-    eventtitle,
-    eventsubtitle,
-    eventdescription,
+    primaryButton,
+    darkButton,
+    darkButtonText,
+    event1title,
+    event1subtitle,
+    event1description,
+    event2title,
+    event2subtitle,
+    event2description,
 }) => {
   return (
     <>
@@ -45,32 +49,50 @@ const EventCategory = ({
                 <EventCategoryRow imgStart={imgStart}>
                     <Column1>
                     <TextWrapper>
-                        <TopLine>{topLine}</TopLine>
-                        <Heading lightText={lightText}>{headline}</Heading>
-                        <Subtitle darkText={darkText}>{description}</Subtitle>
-                        <BtnWrap>
-                            <Button 
-                                to='home'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                primary={primary ? 1 : 0}
-                                dark={dark ? 1 : 0}
-                                dark2={dark2 ? 1 : 0}
-                            >{buttonLabel}</Button>
-                        </BtnWrap>
+                        <CategoryTitle darkTitle={darkTitle}>{categoryTitle}</CategoryTitle>
+                        <CategorySubtitle darkSubtitle={darkSubtitle}>{categorySubtitle}</CategorySubtitle>
+                        <CategoryDescription darkDescription={darkDescription}>{categoryDescription}</CategoryDescription>
                     </TextWrapper>
                     </Column1>
                     <Column2 className='scrollbar'>
-                        {/* <ImgWrap>
+                        <div>
                             <Img src={img} alt={alt}/>
-                        </ImgWrap> */}
+                            <TitleandRegisterButtonWrap>
+                                <EventTitle>{event1title}</EventTitle>
+                                <RegisterButton 
+                                    to='home'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                    primaryButton={primaryButton}
+                                    darkButton={darkButton}
+                                    darkButtonText={darkButtonText}
+                                >{buttonLabel}</RegisterButton>
+                            </TitleandRegisterButtonWrap>
+                            <EventSubtitle>{event1subtitle}</EventSubtitle>
+                            <EventDescription>{event1description}</EventDescription>
+                        </div>
+                        <div>
                         <Img src={img} alt={alt}/>
-                        <EventTitle>{eventtitle}</EventTitle>
-                        <EventSubtitle>{eventsubtitle}</EventSubtitle>
-                        <EventDescription>{eventdescription}</EventDescription>
+                        <TitleandRegisterButtonWrap>
+                                <EventTitle>{event2title}</EventTitle>
+                                <RegisterButton 
+                                    to='home'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                                    primaryButton={primaryButton ? 1 : 0}
+                                    darkButton={darkButton ? 1 : 0}
+                                    darkButtonText={darkButtonText ? 1 : 0}
+                                >{buttonLabel}</RegisterButton>
+                            </TitleandRegisterButtonWrap>
+                        <EventSubtitle>{event2subtitle}</EventSubtitle>
+                        <EventDescription>{event2description}</EventDescription>
+                        </div>
                     </Column2>
                 </EventCategoryRow>
             </EventCategoryWrapper>

@@ -6,7 +6,9 @@ import EventCategory from "../EventCategory";
 import Events from "../Events";
 import About from "../About";
 import { eventcategory1, eventcategory2, eventcategory3 } from "../EventCategory/EventCategoryData";
-import { category1event1 } from "../EventCategory/Category1EventsData";
+import { category1event1, category1event2 } from "../EventCategory/Category1EventsData";
+import { category2event1, category2event2 } from "../EventCategory/Category2EventsData";
+import { category3event1, category3event2 } from "../EventCategory/Category3EventsData";
 import Countdown from "../Countdown";
 
 const Home = () => {
@@ -21,10 +23,10 @@ const Home = () => {
             <Navbar toggle={toggle} />
             {/* <HeroSection /> */}
             <Countdown />
-            <EventCategory {...eventcategory1} {...category1event1}/>
-            <EventCategory {...eventcategory2}/>
-            <EventCategory {...eventcategory3}/>
-            <Events />
+            <EventCategory {...category1event1} {...category1event2} {...eventcategory1} />
+            <EventCategory {...category2event1} {...category2event2} {...eventcategory2} />
+            <EventCategory {...category3event1} {...category3event2} {...eventcategory3} />
+            {/* <Events /> */}
             <About />
         </>
     )

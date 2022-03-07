@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 
 
 export const EventCategoryContainer = styled.div`
-    color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    color: #ffffff;
+    background: ${({lightBg}) => (lightBg ? '#f3f3f7' : '#052c39')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -44,7 +44,7 @@ export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 15px 15px;
     grid-area: col2;
-    background-color: #01bf71;
+    background-color: #031d26;
     width: 600px;
     height: 600px;
     overflow: auto;
@@ -57,8 +57,9 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 `;
 
-export const TopLine = styled.p`
-    color: #01bf71;
+export const CategoryTitle = styled.p`
+    // color: #f3f3f7;
+    color: ${({ darkTitle }) => (darkTitle ? '#052c39' : '#f3f3f7')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -67,29 +68,24 @@ export const TopLine = styled.p`
     margin-bottom: 16px;
 `;
 
-export const Heading = styled.h1`
+export const CategorySubtitle = styled.h1`
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+    color: ${({ darkSubtitle }) => (darkSubtitle ? '#139fcd' : '#139fcd')};
     
     @media screen and (max-width: 480px) {
         font-size: 32px;
     }
 `;
 
-export const Subtitle = styled.p`
+export const CategoryDescription = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
-`;
-
-export const BtnWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
+    color: ${({ darkDescription }) => (darkDescription ? '#052c39' : '#f3f3f7')};
 `;
 
 export const ImgWrap = styled.div`
@@ -103,12 +99,19 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
-export const Button = styled(Link)`
+export const TitleandRegisterButtonWrap = styled.div`
+    display: flex;
+    justify-content: flex-start;
+`;
+
+export const RegisterButton = styled(Link)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
+    background: ${({primary}) => (primary ? '#ffffff' : '#139fcd')};
+    color: #031d26;
     white-space: nowrap;
+    margin-left: 20px;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 15px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -119,12 +122,12 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#fff' : '#01BF71')};
+        background: ${({ primary }) => (primary ? '#139fcd' : '#ffffff')};
     }
 `;
 
 export const EventTitle = styled.p`
-    color: #01bf71;
+    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -138,7 +141,7 @@ export const EventSubtitle = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+    color: ${({ darkText }) => (darkText ? '#010606' : '#f7f8fa')};
     
     @media screen and (max-width: 480px) {
         font-size: 32px;
