@@ -14,9 +14,9 @@ export const eventcategory1 = {
 export const eventcategory2 = {
     id: 'ec2',
     lightBg: true,
-    darkTitle: true,
+    darkTitle: false,
     darkSubtitle: false,
-    darkDescription: true,
+    darkDescription: false,
     categoryTitle: 'Technical',
     categorySubtitle: 'This is subtitle',
     categoryDescription: 'This is description',

@@ -30,15 +30,19 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #ffffff;
+    color: #f3f3f7;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        color: #f3f3f7;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -52,7 +56,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #ffffff;
+        color: #f3f3f7;
     }
 `;
 
@@ -61,7 +65,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-right: -24px;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -72,19 +76,23 @@ export const NavItem = styled.li`
     height: 80px;
 `
 export const NavLinks = styled(LinkS)`
-    color: #ffffff;
+    color: #f3f3f7;
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
+    font-size: 20px;
+    padding: 0 2rem;
     height: 100%;
     cursor: pointer;
-    transition: font-size 1s;
+    transition: 0.2s ease-in-out;
 
     &.active {
-        color: #052c39;
+        color: #139fcd;
         border-bottom: 3px solid #139fcd;
-        background-color: #f3f3f7;
-        font-size: 1.5rem;
+        transition: 0.2s ease-in-out;
+    }
+
+    &:hover {
+        color: #139fcd;
     }
 `;

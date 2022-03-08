@@ -22,13 +22,13 @@ export const EventsWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     @media screen and (max-width: 768 px) {
@@ -39,7 +39,7 @@ export const EventsWrapper = styled.div`
 
 export const EventsCard = styled.div`
     background: #fff;
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -61,6 +61,7 @@ export const EventsIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
+    filter: blur(5px);
 `;
 
 export const EventsH1 = styled.h1`

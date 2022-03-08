@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './EventCategory.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 import { 
     EventCategoryContainer,
     EventCategoryWrapper,
@@ -10,13 +12,15 @@ import {
     CategoryTitle,
     CategorySubtitle,
     CategoryDescription,
-    ImgWrap,
-    Img,
-    TitleandRegisterButtonWrap,
-    RegisterButton,
-    EventTitle,
-    EventSubtitle,
-    EventDescription,
+    EventCardWrapper,
+    EventCardImage,
+    EventCardTextWrapper,
+    EventCardTextTitle,
+    EventCardTextSubtitle,
+    EventCardTextBody,
+    EventCardButtonWrapper,
+    EventCardButton,
+    EventCardButtonText,
 } from './EventCategoryElements';
 
 const EventCategory = ({
@@ -29,18 +33,21 @@ const EventCategory = ({
     darkSubtitle,
     categoryDescription,
     darkDescription,
-    buttonLabel,
-    img,
-    alt,
-    primaryButton,
-    darkButton,
-    darkButtonText,
+    img1,
+    img2,
+    img3,
+    darkEventTitle,
+    darkEventSubtitle,
+    darkEventDescription,
     event1title,
     event1subtitle,
     event1description,
     event2title,
     event2subtitle,
     event2description,
+    event3title,
+    event3subtitle,
+    event3description,
 }) => {
   return (
     <>
@@ -54,45 +61,54 @@ const EventCategory = ({
                         <CategoryDescription darkDescription={darkDescription}>{categoryDescription}</CategoryDescription>
                     </TextWrapper>
                     </Column1>
-                    <Column2 className='scrollbar'>
-                        <div>
-                            <Img src={img} alt={alt}/>
-                            <TitleandRegisterButtonWrap>
-                                <EventTitle>{event1title}</EventTitle>
-                                <RegisterButton 
-                                    to='home'
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}
-                                    primaryButton={primaryButton}
-                                    darkButton={darkButton}
-                                    darkButtonText={darkButtonText}
-                                >{buttonLabel}</RegisterButton>
-                            </TitleandRegisterButtonWrap>
-                            <EventSubtitle>{event1subtitle}</EventSubtitle>
-                            <EventDescription>{event1description}</EventDescription>
-                        </div>
-                        <div>
-                        <Img src={img} alt={alt}/>
-                        <TitleandRegisterButtonWrap>
-                                <EventTitle>{event2title}</EventTitle>
-                                <RegisterButton 
-                                    to='home'
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}
-                                    primaryButton={primaryButton ? 1 : 0}
-                                    darkButton={darkButton ? 1 : 0}
-                                    darkButtonText={darkButtonText ? 1 : 0}
-                                >{buttonLabel}</RegisterButton>
-                            </TitleandRegisterButtonWrap>
-                        <EventSubtitle>{event2subtitle}</EventSubtitle>
-                        <EventDescription>{event2description}</EventDescription>
-                        </div>
+                    <Column2>
+                        <Carousel interval='5000' touch={true} indicators={false}>
+                            <Carousel.Item>
+                                <EventCardWrapper>
+                                    <EventCardImage img={img1} />
+                                    <EventCardTextWrapper>
+                                        <EventCardTextTitle darkEventTitle={darkEventTitle}>{event1title}</EventCardTextTitle>
+                                        <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}>{event1subtitle}</EventCardTextSubtitle>
+                                        <EventCardTextBody  darkEventDescription={darkEventDescription}>{event1description}</EventCardTextBody>
+                                    </EventCardTextWrapper>
+                                    <EventCardButtonWrapper>
+                                        <EventCardButton> 
+                                            <EventCardButtonText href="https://www.nuv.ac.in/cpe-regn/">Register</EventCardButtonText>
+                                        </EventCardButton>
+                                    </EventCardButtonWrapper>
+                                </EventCardWrapper>
+                            </Carousel.Item>    
+                            <Carousel.Item>
+                                <EventCardWrapper>
+                                    <EventCardImage img={img2} />
+                                    <EventCardTextWrapper>
+                                        <EventCardTextTitle darkEventTitle={darkEventTitle}>{event2title}</EventCardTextTitle>
+                                        <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}>{event2subtitle}</EventCardTextSubtitle>
+                                        <EventCardTextBody  darkEventDescription={darkEventDescription}>{event2description}</EventCardTextBody>
+                                    </EventCardTextWrapper>
+                                    <EventCardButtonWrapper>
+                                        <EventCardButton> 
+                                            <EventCardButtonText href="https://www.nuv.ac.in/cpe-regn/">Register</EventCardButtonText>
+                                        </EventCardButton>
+                                    </EventCardButtonWrapper>
+                                </EventCardWrapper>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <EventCardWrapper>
+                                    <EventCardImage img={img3} />
+                                    <EventCardTextWrapper>
+                                        <EventCardTextTitle darkEventTitle={darkEventTitle}>{event3title}</EventCardTextTitle>
+                                        <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}>{event3subtitle}</EventCardTextSubtitle>
+                                        <EventCardTextBody  darkEventDescription={darkEventDescription}>{event3description}</EventCardTextBody>
+                                    </EventCardTextWrapper>
+                                    <EventCardButtonWrapper>
+                                        <EventCardButton> 
+                                            <EventCardButtonText href="https://www.nuv.ac.in/cpe-regn/">Register</EventCardButtonText>
+                                        </EventCardButton>
+                                    </EventCardButtonWrapper>
+                                </EventCardWrapper>
+                            </Carousel.Item>
+                         </Carousel>
                     </Column2>
                 </EventCategoryRow>
             </EventCategoryWrapper>
