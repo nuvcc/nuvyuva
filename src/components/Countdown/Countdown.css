@@ -1,4 +1,4 @@
-.App {
+.Countdown {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -6,18 +6,18 @@
     background-color: #1B0644;
   }
   
-  .App-logo {
+  .Countdown-logo {
     height: 40vmin;
     pointer-events: none;
   }
   
   @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+    .Countdown-logo {
       animation: App-logo-spin infinite 20s linear;
     }
   }
   
-  .App-header {
+  .Countdown-header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     color: white;
   }
   
-  .App-link {
+  .Countdown-link {
     color: #61dafb;
   }
   

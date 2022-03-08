@@ -2,9 +2,17 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 
+
 export const EventCategoryContainer = styled.div`
-    color: #ffffff;
-    background: ${({lightBg}) => (lightBg ? '#073b4c' : '#052c39')};
+    // color: #ffffff;
+    // background: ${({bg}) => (bg ? '#073b4c' : '#052c39')};
+    // background: linear-gradient(
+    //     0deg,
+    //     #073b4c 0%,
+    //     #073b4c 20%,
+    //     #07192f 60%,
+    //     #07192f 100%
+    // )};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -35,8 +43,8 @@ export const EventCategoryRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
+    margin-bottom: 0px;
+    padding: 0 5rem;
     grid-area: col1;
 `;
 
@@ -48,6 +56,7 @@ export const Column2 = styled.div`
     // width: 500px;
     overflow: auto;
     text-align:justify;
+    border-radius: 20px;
 `;
 
 export const TextWrapper = styled.div`
@@ -166,7 +175,7 @@ export const EventCardWrapper = styled.div`
     grid-auto-column: minmax(auto, 1fr);
     grid-template-rows: 220px 230px 50px;
     grid-template-areas: "image" "text" "button";
-    //   border-radius: 18px;
+    border-radius: 18px;
     background: #031d26;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     text-align: center;
@@ -175,8 +184,8 @@ export const EventCardWrapper = styled.div`
 export const EventCardImage = styled.div`
     grid-area: image;
     background-image: url(${props => props.img});
-    //   border-top-left-radius: 15px;
-    //   border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     background-size: cover;
 `;
 
@@ -233,10 +242,9 @@ export const EventCardButtonWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
-    //   border-bottom-left-radius: 15px;
-    //   border-bottom-right-radius: 15px;
-    background: #139fcd;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #60b8d5;
 `;
 
 export const EventCardButton = styled.div`
@@ -244,16 +252,21 @@ export const EventCardButton = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #f3f3f7;
+    color: #031d26;
     padding: 10px;
-`;
-
-export const EventCardButtonText = styled.a`
-    color: #f3f3f7;
-    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        color: #052c39;
+        background: #139fcd;
+        color: #031d26;
     }
+`;
+
+export const EventCardButtonText = styled.a`
+    color: #031d26;
+    text-decoration: none;
+    font-weight: bold;
 `;

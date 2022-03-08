@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './EventCategory.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { 
@@ -23,7 +24,7 @@ import {
 } from './EventCategoryElements';
 
 const EventCategory = ({
-    bg, 
+    lightBg, 
     id, 
     imgStart, 
     categoryTitle, 
@@ -51,7 +52,7 @@ const EventCategory = ({
 
     return (
         <>
-            <EventCategoryContainer bg={bg} id={id}>
+            <EventCategoryContainer lightBg={lightBg} id={id}>
                 <EventCategoryWrapper>
                     <EventCategoryRow imgStart={imgStart}>
                         <Column1>
@@ -62,8 +63,7 @@ const EventCategory = ({
                         </TextWrapper>
                         </Column1>
                         <Column2>
-                            <Carousel fade interval='5000' touch={true} indicators={false}>
-
+                            <Carousel interval='5000' touch={true} indicators={false}>
                                 <Carousel.Item>
                                     <EventCardWrapper>
                                         <EventCardImage img={img1} />

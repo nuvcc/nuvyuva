@@ -50,17 +50,18 @@ const Countdown = () =>{
     if (!vantaEffect) {
       setVantaEffect(
         BIRDS({
-          el: myRef.current
+          el: myRef.current,
+          // backgroundColor: 0x031d26
         })
       );
     }
     return () => {
       if (vantaEffect) vantaEffect.destroy();
-    };
+    }; 
   }, [vantaEffect])
 
   return (
-    <section className="App" id="#App" ref={myRef}>
+    <section className="Countdown" id="#Countdown" ref={myRef}>
         <section className="container" >
             <section className="timer">
                 <div>

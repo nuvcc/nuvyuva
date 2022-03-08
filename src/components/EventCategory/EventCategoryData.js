@@ -1,6 +1,6 @@
 export const eventcategory1 = {
     id: 'ec1',
-    lightBg: false,
+    bg: false,
     darkTitle: false,
     darkSubtitle: true,
     darkDescription: false,
@@ -13,7 +13,7 @@ export const eventcategory1 = {
 
 export const eventcategory2 = {
     id: 'ec2',
-    lightBg: true,
+    bg: true,
     darkTitle: false,
     darkSubtitle: false,
     darkDescription: false,
@@ -26,7 +26,7 @@ export const eventcategory2 = {
 
 export const eventcategory3 = {
     id: 'ec3',
-    lightBg: false,
+    bg: false,
     darkTitle: false,
     darkSubtitle: true,
     darkDescription: false,
