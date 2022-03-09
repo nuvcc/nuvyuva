@@ -1,0 +1,51 @@
+export const category1event1 = {
+    id: 'c1e1',
+    lightBg: false,
+    darkEventTitle: false,
+    darkEventSubtitle: true,
+    darkEventDescription: false,
+    event1title: 'Event 1',
+    event1subtitle: 'Subtitle',
+    event1description: 'This is line 1 for event 1 of category 1. This is line 2 for event 1 of category 1.',
+    imgStart: false,
+    img1: require('../images/i1.jpg'),
+    buttonLabel: 'Register',
+    primaryButton: true,
+    darkButton: true,
+    darkButtonText: false,
+}
+
+export const category1event2 = {
+    id: 'c1e2',
+    lightBg: false,
+    darkEventTitle: false,
+    darkEventSubtitle: true,
+    darkEventDescription: false,
+    event2title: 'Event 2',
+    event2subtitle: 'Subtitle',
+    event2description: 'This is line 1 for event 2 of category 1. This is line 2 for event 2 of category 1.',
+    imgStart: false,
+    img2: require('../images/i1.jpg'),
+    buttonLabel: 'Register',
+    primaryButton: true,
+    darkButton: true,
+    darkButtonText: false,
+}
+
+
+export const category1event3 = {
+    id: 'c1e3',
+    lightBg: false,
+    darkEventTitle: false,
+    darkEventSubtitle: true,
+    darkEventDescription: false,
+    event3title: 'Event 3',
+    event3subtitle: 'Subtitle',
+    event3description: 'This is line 1 for event 3 of category 1. This is line 2 for event 3 of category 1.',
+    imgStart: false,
+    img3: require('../images/i1.jpg'),
+    buttonLabel: 'Register',
+    primaryButton: true,
+    darkButton: true,
+    darkButtonText: false,
+}
