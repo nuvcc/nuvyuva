@@ -36,14 +36,14 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             primary='true'      
                         >
-                            View Details
+                            Coming Soon
                         </Button>
                     </EventsBtnWrapper>
                 </EventsCard>
                 <EventsCard>
                     <EventsIcon src={Icon2}/>
-                    <EventsH2>Cultural</EventsH2>
-                    <EventsP>Description</EventsP>
+                    <EventsH2>Concert</EventsH2>
+                    {/* <EventsP>Description</EventsP> */}
                     <EventsBtnWrapper>
                         <Button 
                             to='cultural' 
@@ -51,7 +51,7 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             primary='true'      
                         >
-                            View Details
+                            Coming Soon
                         </Button>
                     </EventsBtnWrapper>
                 </EventsCard>
@@ -66,7 +66,7 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             primary='true'      
                         >
-                            View Details
+                            Coming Soon
                         </Button>
                     </EventsBtnWrapper>
                 </EventsCard>

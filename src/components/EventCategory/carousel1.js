@@ -1,7 +1,7 @@
 
 // import React, { useState, useEffect } from 'react';
 // import './EventCategory.css';
-// import data from './data.js';
+// import data from './Data/data.js';
 // import './slider.css';
 // import { 
 //     EventCategoryContainer,

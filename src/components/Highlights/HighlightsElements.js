@@ -28,7 +28,7 @@ export const EventsWrapper = styled.div`
     padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     @media screen and (max-width: 768 px) {
@@ -38,14 +38,14 @@ export const EventsWrapper = styled.div`
 `;
 
 export const EventsCard = styled.div`
-    background: #fff;
+    background: #052c39;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
-    max-height: 300px;
+    border-radius: 20px;
+    max-height: 340px;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
@@ -61,7 +61,8 @@ export const EventsIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
-    filter: blur(5px);
+    border-radius: 20px;
+    // filter: blur(5px);
 `;
 
 export const EventsH1 = styled.h1`
@@ -94,10 +95,12 @@ export const EventsBtnWrapper = styled.div`
 
 export const Button = styled(Link)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
+    background: ${({primary}) => (primary ? '#60b8d5' : '#139fcd')};
     white-space: nowrap;
+    text-decoration: none;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 1rem;
+    color: #f3f3f7;
     outline: none;
     border: none;
     cursor: pointer;
@@ -108,6 +111,7 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#fff' : '#01BF71')};
+        background: ${({ primary }) => (primary ? '#139fcd' : '#60b8d5')};
+        color: #f3f3f7;
     }
 `;

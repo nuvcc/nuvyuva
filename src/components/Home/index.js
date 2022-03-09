@@ -11,6 +11,8 @@ import { category3event1, category3event2, category3event3 } from "../EventCateg
 import Countdown from "../Countdown";
 import Highlights from "../Highlights";
 import { BodyGradient } from "./HomeElements";
+import { EventsData } from "../EventCategory/EventsData";
+import Footer from "../Footer";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,12 +27,12 @@ const Home = () => {
             {/* <HeroSection /> */}
             <Countdown />
             <BodyGradient>
-                <EventCategory {...category1event1} {...category1event2} {...category1event3} {...eventcategory1} />
-                <EventCategory {...category2event1} {...category2event2} {...category2event3} {...eventcategory2} />
-                <EventCategory {...category3event1} {...category3event2} {...category3event3} {...eventcategory3} />
+                <EventCategory { ...EventsData}/>
+                {/* <EventCategory {...category2event1} {...category2event2} {...category2event3} {...eventcategory2} /> */}
+                {/* <EventCategory {...category3event1} {...category3event2} {...category3event3} {...eventcategory3} /> */}
             </BodyGradient>
-  
-            {/* <Highlights /> */}
+            <Highlights />
+            <Footer />
             {/* <About /> */}
         </>
     )

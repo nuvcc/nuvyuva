@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 import {
     Nav, 
     NavbarContainer, 
@@ -11,31 +12,23 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    }
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    {/* <NavLogo to='/'>NUV Yuva</NavLogo> */}
+                    {/* <NavLogo to='/' onClick={toggleHome}>NUV Yuva</NavLogo> */}
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
                             <NavLinks 
-                                to='ec1'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                activeClass='active'
-                            >
-                                Cultural
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks 
-                                to='ec2'
+                                to='1'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -48,7 +41,33 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks 
-                                to='ec3'
+                                to='2'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass='active'
+                            >
+                                Workshops
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks 
+                                to='3'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass='active'
+                            >
+                                Cultural
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks 
+                                to='4'
                                 smooth={true}
                                 duration={500}
                                 spy={true}

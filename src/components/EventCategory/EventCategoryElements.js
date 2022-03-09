@@ -33,18 +33,20 @@ export const EventCategoryWrapper = styled.div`
 
 export const EventCategoryRow = styled.div`
     display: grid;
+    // grid-template-columns: 500px;
     grid-auto-column: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
     
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 'col2'`: `'col1 col1' 'col2 col2'`)};
+        // grid-template-columns: 200px;
     }
 `;
 
 export const Column1 = styled.div`
     margin-bottom: 0px;
-    padding: 0 5rem;
+    padding: 0 2rem;
     grid-area: col1;
 `;
 
@@ -53,23 +55,26 @@ export const Column2 = styled.div`
     padding: 0px 0px;
     grid-area: col2;
     background-color: #031d26;
-    // width: 500px;
+    width: 500px;
     overflow: auto;
     text-align:justify;
     border-radius: 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+    }
 `;
 
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
 `;
 
 export const CategoryTitle = styled.p`
     // color: #f3f3f7;
     color: ${({ darkTitle }) => (darkTitle ? '#052c39' : '#f3f3f7')};
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -97,17 +102,18 @@ export const CategoryDescription = styled.p`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
-    text-align: center;
+    // max-width: 555px;
+    width: 10em;
+    height: 10em;
     height: 100%;
 `;
 
 export const Img = styled.img`
-    width: 300px;
-    height: 300px;
+    width: 20em;
+    height: 20em;
     margin: 0 0 0 0;
     padding-right: 0;
-    filter: blur(10px);
+    // filter: blur(10px);
 `;
 
 export const TitleandRegisterButtonWrap = styled.div`
@@ -173,7 +179,7 @@ export const EventCardWrapper = styled.div`
     display: grid;
     // grid-template-columns: 500px;
     grid-auto-column: minmax(auto, 1fr);
-    grid-template-rows: 220px 230px 50px;
+    grid-template-rows: 240px 240px 50px;
     grid-template-areas: "image" "text" "button";
     border-radius: 18px;
     background: #031d26;
@@ -192,6 +198,8 @@ export const EventCardImage = styled.div`
 export const EventCardTextWrapper = styled.div`
     grid-area: text;
     margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 `;
 
 export const EventCardTextTitle = styled.h2`
@@ -202,13 +210,8 @@ export const EventCardTextTitle = styled.h2`
     line-height: 1.2;
     margin: 0px;
     background: linear-gradient(
-        110.78deg,
+        90deg,
         #f3f3f7 0%,
-        #f3f3f7 15%,
-        #f3f3f7 40%,
-        #f3f3f7 50%,
-        #139fcd 60%,
-        #139fcd 85%,
         #139fcd 100%
         // rgb(118, 230, 80) -1.13%,
         // rgb(249, 214, 73) 15.22%,
@@ -225,16 +228,30 @@ export const EventCardTextTitle = styled.h2`
 
 export const EventCardTextSubtitle = styled.span`
     color: #139fcd;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
     margin-top: 10px;
 `;
 
 export const EventCardTextBody = styled.p`
     color: #f3f3f7;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-top: 10px;
+`;
+
+export const EventCardTextEventCriteria1 = styled.h6`
+    color: #f3f3f7;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0px;
+`;
+
+export const EventCardTextEventCriteria2 = styled.h6`
+    color: #f3f3f7;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0px;
 `;
 
 export const EventCardButtonWrapper = styled.div`
