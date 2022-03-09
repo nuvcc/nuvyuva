@@ -1,14 +1,46 @@
 {
   "files": {
-    "main.css": "/static/css/main.87afbecf.css",
-    "main.js": "/static/js/main.f6f71fe1.js",
+    "main.css": "/static/css/main.1571f153.css",
+    "main.js": "/static/js/main.d1e274a6.js",
+    "static/media/fastandfurious.png": "/static/media/fastandfurious.24e681b27cba2847317e.png",
+    "static/media/uncharted.png": "/static/media/uncharted.40988b7537cb143af362.png",
+    "static/media/video.mp4": "/static/media/video.ed36aa123702ef6b3ad4.mp4",
+    "static/media/dance.png": "/static/media/dance.74d4802e6dc4f591b5c1.png",
+    "static/media/cricket.png": "/static/media/cricket.8df435ac1e5acb873909.png",
+    "static/media/rocket.png": "/static/media/rocket.87bc493f54687e829299.png",
+    "static/media/i2.jpeg": "/static/media/i2.a2341741cd28e8462944.jpeg",
+    "static/media/design.png": "/static/media/design.b2238f74f667ccf4a5de.png",
+    "static/media/football.png": "/static/media/football.39853550ec935c08f64d.png",
+    "static/media/fashion_show.png": "/static/media/fashion_show.42b53859f47fa6937507.png",
+    "static/media/drama.png": "/static/media/drama.fc436e466003840bd1b9.png",
+    "static/media/web_3.png": "/static/media/web_3.cf5cb64421c79b9172ed.png",
+    "static/media/tug_of_war.png": "/static/media/tug_of_war.9aed5fc73e157cf4012e.png",
+    "static/media/music.png": "/static/media/music.32914de25a4ac98f998d.png",
+    "static/media/rangoli.png": "/static/media/rangoli.1e6d1699ee402980fe14.png",
+    "static/media/i1.jpg": "/static/media/i1.c88aaab526de4211bc64.jpg",
+    "static/media/carrom.png": "/static/media/carrom.1fef93b742d6225a3b59.png",
+    "static/media/table_tennis.png": "/static/media/table_tennis.fc829825f7e7a62ed7c9.png",
+    "static/media/flutter.png": "/static/media/flutter.f86c98732af7be931059.png",
+    "static/media/i3.jpg": "/static/media/i3.cec9127497087287c4fe.jpg",
+    "static/media/web.png": "/static/media/web.7f25e9cc3f14a2bf11c6.png",
+    "static/media/band_show.png": "/static/media/band_show.eed3192d3aca8c191e09.png",
+    "static/media/basketball.png": "/static/media/basketball.c72b5cc25cb5196ff90a.png",
+    "static/media/makingabot.png": "/static/media/makingabot.9df99de7d82d9db4955d.png",
+    "static/media/chess.png": "/static/media/chess.6939f23297a2b67e6da0.png",
+    "static/media/linefollower.png": "/static/media/linefollower.472b626f9a687990bbd3.png",
+    "static/media/freesbie.png": "/static/media/freesbie.2ce99f33efc931e57d30.png",
+    "static/media/nvidia.png": "/static/media/nvidia.d20f5df9e0780b4b163d.png",
+    "static/media/Crypto_Finance.jpg": "/static/media/Crypto_Finance.2aa7dba1201a4fd8aac5.jpg",
+    "static/media/discord.png": "/static/media/discord.db816f60b200d360e7c1.png",
     "static/media/logo.png": "/static/media/logo.36729c726af339b2cb4b.png",
+    "static/media/event.jpg": "/static/media/event.b9a1a589a92e34730bfd.jpg",
+    "static/media/a.png": "/static/media/a.647013c210d05f0530d1.png",
     "index.html": "/index.html",
-    "main.87afbecf.css.map": "/static/css/main.87afbecf.css.map",
-    "main.f6f71fe1.js.map": "/static/js/main.f6f71fe1.js.map"
+    "main.1571f153.css.map": "/static/css/main.1571f153.css.map",
+    "main.d1e274a6.js.map": "/static/js/main.d1e274a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.87afbecf.css",
-    "static/js/main.f6f71fe1.js"
+    "static/css/main.1571f153.css",
+    "static/js/main.d1e274a6.js"
   ]
 }
