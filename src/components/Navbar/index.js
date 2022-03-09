@@ -33,7 +33,6 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={-80}
                                 activeClass='active'
                             >
                                 Technical
@@ -46,7 +45,6 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={-80}
                                 activeClass='active'
                             >
                                 Workshops
@@ -59,7 +57,6 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={-80}
                                 activeClass='active'
                             >
                                 Cultural
@@ -72,7 +69,6 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={-80}
                                 activeClass='active'
                             >
                                 Sports

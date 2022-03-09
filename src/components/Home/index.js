@@ -31,7 +31,6 @@ const Home = () => {
                 {/* <EventCategory {...category2event1} {...category2event2} {...category2event3} {...eventcategory2} /> */}
                 {/* <EventCategory {...category3event1} {...category3event2} {...category3event3} {...eventcategory3} /> */}
             </BodyGradient>
-            <Highlights />
             <Footer />
             {/* <About /> */}
         </>
