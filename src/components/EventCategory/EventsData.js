@@ -76,7 +76,7 @@ export const EventsData = [
             {
                 "image" : require("../images/design.png"),
                 "name" : "Design Simplified",
-                "description" : "Where Design Comes to Life/Adding Creativity to your Triumph/Creativity meets technology",
+                "description" : "Where Design Comes to Life",
                 "price" : "200"
             },
             {
