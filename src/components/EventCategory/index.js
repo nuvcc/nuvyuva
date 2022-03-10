@@ -69,8 +69,8 @@ const EventCategory = ({
                                                                     <EventCardTextEventCriteria2>{event.size}</EventCardTextEventCriteria2>  
                                                             </EventCardTextWrapper>
                                                             <EventCardButtonWrapper>
-                                                                <EventCardButton onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/")}>
-                                                                    Register
+                                                                <EventCardButton>
+                                                                    Registrations Opening Soon
                                                                 </EventCardButton>
                                                             </EventCardButtonWrapper>
                                                         </EventCardWrapper>
