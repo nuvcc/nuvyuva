@@ -82,6 +82,7 @@ export const EventsData = [
                 "description2" : "Adding Creativity to your Triumph",
                 "description3" : "Creativity meets technology",
                 "price" : "200 PP"
+
             },
             {
                 "image" : require("../images/discord.png"),
