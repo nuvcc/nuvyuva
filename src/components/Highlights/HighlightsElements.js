@@ -62,12 +62,12 @@ export const HighlightsIcon = styled.img`
 `;
 
 export const HighlightsH1 = styled.h1`
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #f3f3f7;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 `;
 
