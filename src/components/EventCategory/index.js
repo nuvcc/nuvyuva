@@ -2,10 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { EventsData } from './EventsData';
-import { 
-    FaRupeeSign,
-} from 'react-icons/fa';
-import image from '../images/a.png';
+import { FaRupeeSign } from 'react-icons/fa';
 import Image from 'react-bootstrap/Image'
 import { 
     EventCategoryContainer,
@@ -34,29 +31,13 @@ import {
 
 const EventCategory = ({
     bg, 
-    id, 
     imgStart, 
-    categoryTitle, 
     darkTitle,
-    categorySubtitle,
     darkSubtitle,
-    categoryDescription,
     darkDescription,
-    img1,
-    img2,
-    img3,
     darkEventTitle,
     darkEventSubtitle,
     darkEventDescription,
-    event1title,
-    event1subtitle,
-    event1description,
-    event2title,
-    event2subtitle,
-    event2description,
-    event3title,
-    event3subtitle,
-    event3description,
 }) => {
 
     return (
@@ -85,7 +66,7 @@ const EventCategory = ({
                                                                     <EventCardTextBody darkEventDescription={darkEventDescription}>{event.description}</EventCardTextBody>
                                                                     <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}><FaRupeeSign />{event.price}</EventCardTextSubtitle>
                                                                     <EventCardTextEventCriteria1>{event.group}</EventCardTextEventCriteria1>                    
-                                                                    <EventCardTextEventCriteria2>{event.max}</EventCardTextEventCriteria2>  
+                                                                    <EventCardTextEventCriteria2>{event.size}</EventCardTextEventCriteria2>  
                                                             </EventCardTextWrapper>
                                                             <EventCardButtonWrapper>
                                                                 <EventCardButton onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/")}>

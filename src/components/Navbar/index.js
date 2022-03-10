@@ -3,8 +3,7 @@ import {FaBars} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
     Nav, 
-    NavbarContainer, 
-    NavLogo, 
+    NavbarContainer,  
     MobileIcon, 
     NavMenu, 
     NavItem, 
@@ -21,7 +20,6 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    {/* <NavLogo to='/' onClick={toggleHome}>NUV Yuva</NavLogo> */}
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -74,32 +72,18 @@ const Navbar = ({ toggle }) => {
                                 Sports
                             </NavLinks>
                         </NavItem>
-                        {/* <NavItem>
+                        <NavItem>
                             <NavLinks 
-                                to='highlights'
+                                to='5'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
-                                offset={-80}
                                 activeClass='active'
                             >
                                 Highlights
                             </NavLinks>
                         </NavItem>
-                        <NavItem>
-                        <NavLinks 
-                                to='about'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                                activeClass='active'
-                            >
-                                About
-                            </NavLinks>
-                        </NavItem> */}
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

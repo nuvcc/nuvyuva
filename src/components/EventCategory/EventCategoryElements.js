@@ -15,7 +15,7 @@ export const EventCategoryContainer = styled.div`
     // )};
 
     @media screen and (max-width: 768px) {
-        padding: 100px 0;
+        padding: 0 0;
     }
 `;
 
@@ -46,8 +46,16 @@ export const EventCategoryRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 0px;
-    padding: 0 2rem;
+    // padding: 0 2rem;
     grid-area: col1;
+    width: 500px;
+    text-align:justify;
+    border-radius: 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+        text-align: center;
+    }
 `;
 
 export const Column2 = styled.div`
@@ -57,7 +65,7 @@ export const Column2 = styled.div`
     background-color: #031d26;
     width: 500px;
     overflow: auto;
-    text-align:justify;
+    text-align: justify;
     border-radius: 20px;
 
     @media screen and (max-width: 768px) {
@@ -144,44 +152,13 @@ export const RegisterButton = styled(Link)`
     }
 `;
 
-export const EventTitle = styled.p`
-    color: ${({ darkEventTitle }) => (darkEventTitle ? '#139fcd' : '#f3f3f7')};
-    font-size: 26px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-`;
-
-export const EventSubtitle = styled.h1`
-    margin-bottom: 12px;
-    font-size: 36px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: ${({ darkEventSubtitle }) => (darkEventSubtitle ? '#139fcd' : '#f3f3f7')};
-    
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
-    }
-`;
-
-export const EventDescription = styled.p`
-    max-width: 440px;
-    margin-bottom: 35px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 24px;
-    color: ${({ darkEventDescription }) => (darkEventDescription ? '#139fcd' : '#f7f8fa')};
-`;
-
 export const EventCardWrapper = styled.div`
     display: grid;
     // grid-template-columns: 500px;
-    grid-auto-column: minmax(auto, 1fr);
+    // grid-auto-column: minmax(auto, 1fr);
     grid-template-rows: 240px 240px 50px;
     grid-template-areas: "image" "text" "button";
-    border-radius: 18px;
+    border-radius: 20px;
     background: #031d26;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     text-align: center;
@@ -190,14 +167,14 @@ export const EventCardWrapper = styled.div`
 export const EventCardImage = styled.div`
     grid-area: image;
     background-image: url(${props => props.img});
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-size: cover;
 `;
 
 export const EventCardTextWrapper = styled.div`
     grid-area: text;
-    margin: 10px;
+    margin: 5px;
     margin-left: 30px;
     margin-right: 30px;
 `;
@@ -207,7 +184,7 @@ export const EventCardTextTitle = styled.h2`
     font-size: 2rem;
     box-sizing: border-box;
     min-width: 0px;
-    line-height: 1.2;
+    // line-height: 1.2;
     margin: 0px;
     background: linear-gradient(
         90deg,
@@ -226,11 +203,12 @@ export const EventCardTextTitle = styled.h2`
     color: transparent;
 `;
 
-export const EventCardTextSubtitle = styled.span`
+export const EventCardTextSubtitle = styled.p`
     color: #139fcd;
     font-size: 1rem;
     font-weight: bold;
     margin-top: 10px;
+    margin-bottom: 0px;
 `;
 
 export const EventCardTextBody = styled.p`
@@ -238,6 +216,10 @@ export const EventCardTextBody = styled.p`
     font-size: 1.5rem;
     font-weight: 300;
     margin-top: 10px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+    }
 `;
 
 export const EventCardTextEventCriteria1 = styled.h6`
@@ -245,6 +227,7 @@ export const EventCardTextEventCriteria1 = styled.h6`
     font-size: 1rem;
     font-weight: 300;
     margin-top: 0px;
+    margin-bottom: 0px;
 `;
 
 export const EventCardTextEventCriteria2 = styled.h6`
@@ -252,6 +235,7 @@ export const EventCardTextEventCriteria2 = styled.h6`
     font-size: 1rem;
     font-weight: 300;
     margin-top: 0px;
+    margin-bottom: 0px;
 `;
 
 export const EventCardButtonWrapper = styled.div`
@@ -259,8 +243,8 @@ export const EventCardButtonWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background: #60b8d5;
 `;
 
