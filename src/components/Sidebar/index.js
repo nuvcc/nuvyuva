@@ -12,20 +12,24 @@ const Sidebar = ({ isOpen, toggle }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
-                <CloseIcon>
-
-                </CloseIcon>
+                <CloseIcon />
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='ec1' onClick={toggle}>
-                        Cultural
-                    </SidebarLink>
-                    <SidebarLink to='ec2' onClick={toggle}>
+                    <SidebarLink to='1' onClick={toggle}>
                         Technical
                     </SidebarLink>
-                    <SidebarLink to='ec3' onClick={toggle}>
+                    <SidebarLink to='2' onClick={toggle}>
+                        Workshops
+                    </SidebarLink>
+                    <SidebarLink to='3' onClick={toggle}>
+                        Cultural
+                    </SidebarLink>
+                    <SidebarLink to='4' onClick={toggle}>
                         Sports
+                    </SidebarLink>
+                    <SidebarLink to='5' onClick={toggle}>
+                        Highlights
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

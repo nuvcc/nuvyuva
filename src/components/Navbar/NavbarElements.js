@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
     height: 60px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 80px 0px;
     max-width: 1100px;
 `;
 
@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
         top: 0;
         right: 0;
         align-items: center;
-        transform: translate(-100%, 60%);
+        transform: translate(-60%, 10%);
         font-size: 1.8rem;
         cursor: pointer;
         color: #f3f3f7;
