@@ -1,8 +1,7 @@
 export const EventsData = [
     {
         "id": 1,
-        "name" : "Technical Events",
-        "image" : require("../images/artwork10.png"),
+        "name" : "Tech Events",
         "events" : [
             {
                 "image" : require("../images/web.png"),
@@ -204,7 +203,7 @@ export const EventsData = [
             {
                 "image" : require("../images/football.png"),
                 "name" : "Yuva league",
-                "description" : "Some dream about goals-we make them!(6-a-side)",
+                "description" : "Some dream about goals-we make them (6-a-side)",
                 "price" : "1400",
                 "group" : "Group Event",
                 "size" : "Maximum people: 7"
@@ -212,7 +211,7 @@ export const EventsData = [
             {
                 "image" : require("../images/basketball.png"),
                 "name" : "Dribble",
-                "description" : "let's make a hoop for Kobe.(5-a-side)",
+                "description" : "let's make a hoop for Kobe (5-a-side)",
                 "price" : "1200",
                 "group" : "Group Event",
                 "size" : "Maximum people: 6"
