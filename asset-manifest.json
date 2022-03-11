@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b97e2b6d.css",
-    "main.js": "/static/js/main.da3de2e7.js",
+    "main.js": "/static/js/main.1ccdd49f.js",
     "static/media/fast_and_furious.png": "/static/media/fast_and_furious.24e681b27cba2847317e.png",
     "static/media/uncharted.png": "/static/media/uncharted.40988b7537cb143af362.png",
     "static/media/dance.png": "/static/media/dance.74d4802e6dc4f591b5c1.png",
@@ -29,7 +29,7 @@
     "static/media/mun_1.jpg": "/static/media/mun_1.66d83c68152fd5b492a3.jpg",
     "static/media/concert_1.jpg": "/static/media/concert_1.b89938a18e51fe86da02.jpg",
     "static/media/nvidia.png": "/static/media/nvidia.d20f5df9e0780b4b163d.png",
-    "static/media/crypto_finance.jpg": "/static/media/crypto_finance.2aa7dba1201a4fd8aac5.jpg",
+    "static/media/Crypto_Finance.jpg": "/static/media/Crypto_Finance.2aa7dba1201a4fd8aac5.jpg",
     "static/media/discord.png": "/static/media/discord.db816f60b200d360e7c1.png",
     "static/media/artwork4.PNG": "/static/media/artwork4.346c51be4d2e43c5d567.PNG",
     "static/media/logo.png": "/static/media/logo.36729c726af339b2cb4b.png",
@@ -37,10 +37,10 @@
     "static/media/artwork10.png": "/static/media/artwork10.647013c210d05f0530d1.png",
     "index.html": "/index.html",
     "main.b97e2b6d.css.map": "/static/css/main.b97e2b6d.css.map",
-    "main.da3de2e7.js.map": "/static/js/main.da3de2e7.js.map"
+    "main.1ccdd49f.js.map": "/static/js/main.1ccdd49f.js.map"
   },
   "entrypoints": [
     "static/css/main.b97e2b6d.css",
-    "static/js/main.da3de2e7.js"
+    "static/js/main.1ccdd49f.js"
   ]
 }
