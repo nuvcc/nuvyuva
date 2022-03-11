@@ -4,37 +4,37 @@ export const EventsData = [
         "name" : "Tech Events",
         "events" : [
             {
-                "image" : require("../images/web.png"),
+                "image" : require("../images/webp/web.webp"),
                 "name" : "Web Programming Pillars (HTML & CSS)",
                 "description" : "You are the CSS to my HTML",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/make_a_bot.png"),
+                "image" : require("../images/webp/make_a_bot.webp"),
                 "name" : "Make a bot",
                 "description" : "Automate things using a bot",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/uncharted.png"),
+                "image" : require("../images/webp/uncharted.webp"),
                 "name" : "Uncharted (Treasure Hunt)",
                 "description" : "Track, Trail, & Tail",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/rocket.png"),
+                "image" : require("../images/webp/rocket.webp"),
                 "name" : "Bottle Rocket",
                 "description" : "Sending it to Mars maybe?",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/line_follower.png"),
+                "image" : require("../images/webp/line_follower.webp"),
                 "name" : "Line Follower Robot",
                 "description" : "No wrong turns",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/fast_and_furious.png"),
+                "image" : require("../images/webp/fast_and_furious.webp"),
                 "name" : "Fast and furious",
                 "description" : "Start your engines",
                 "price" : "200 PP",
@@ -64,19 +64,19 @@ export const EventsData = [
         "image" : require("../images/artwork10.png"),
         "events" : [
             {
-                "image" : require("../images/web_3.png"),
+                "image" : require("../images/webp/web_3.webp"),
                 "name" : "Web 3.0",
                 "description" : "An Intro to the new and decentralised web",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/crypto_finance.jpg"),
+                "image" : require("../images/webp/Crypto_Finance.webp"),
                 "name" : "Crypto and Finance",
                 "description" : "The new level of currency",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/design.png"),
+                "image" : require("../images/webp/design.webp"),
                 "name" : "Design Simplified",
                 "description" : "Where Design Comes to Life",
                 "description2" : "Adding Creativity to your Triumph",
@@ -85,19 +85,19 @@ export const EventsData = [
 
             },
             {
-                "image" : require("../images/discord.png"),
+                "image" : require("../images/webp/discord.webp"),
                 "name" : "Discord Bots 101",
                 "description" : "Bring your imagination to discord :D",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/flutter.png"),
+                "image" : require("../images/webp/flutter.webp"),
                 "name" : "Flutter Workshop",
                 "description" : "Everything is a widget",
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/nvidia.png"),
+                "image" : require("../images/webp/nvidia.webp"),
                 "name" : "Nvidia Workshop",
                 "description" : "Deep learning for computer vision",
                 "price" : "200 PP"
@@ -138,49 +138,49 @@ export const EventsData = [
         "image" : require("../images/artwork10.png"),
         "events" : [
             {
-                "image" : require("../images/dance.png"),
+                "image" : require("../images/webp/dance.webp"),
                 "name" : "Aaja Nachle",
                 "description" : "It's the time to disco",
                 "price" : "100",
                 "group" : true
             },
             {
-                "image" : require("../images/music.png"),
+                "image" : require("../images/webp/music.webp"),
                 "name" : "Yuva Studio",
                 "description" : "Bless us with your lovely tone.",
                 "price" : "100",
                 "group" : true
             },
             {
-                "image" : require("../images/fashion_show.png"),
+                "image" : require("../images/webp/fashion_show.webp"),
                 "name" : "Yuva's Ramp show",
                 "description" : "Fashion ka hai yeh jalwa",
                 "price" : "100",
                 "group" : false
             },
             {
-                "image" : require("../images/drama.png"),
+                "image" : require("../images/webp/drama.webp"),
                 "name" : "Oscar Academy",
                 "description" : "Don't explain, it's time to express.",
                 "price" : "100",
                 "group" : true
             },
             {
-                "image" : require("../images/band_show.png"),
+                "image" : require("../images/webp/band_show.webp"),
                 "name" : "Rock with Band",
                 "description" : "So who are the next backstreet boys?",
                 "price" : "100",
                 "group" : true
             },
             {
-                "image" : require("../images/rangoli.png"),
+                "image" : require("../images/webp/rangoli.webp"),
                 "name" : "Rango ki mehfil",
                 "description" : "kuch Rang apne hunar ke.",
                 "price" : "50",
                 "group" : true
             },
             {
-                "image" : require("../images/painting.jpg"),
+                "image" : require("../images/webp/painting.webp"),
                 "name" : "Painter's Den",
                 "description" : "Let the canvas do the talking",
                 "price" : "50",
@@ -194,7 +194,7 @@ export const EventsData = [
         "image" : require("../images/artwork10.png"),
         "events" : [
             {
-                "image" : require("../images/cricket.png"),
+                "image" : require("../images/webp/cricket.webp"),
                 "name" : "Box Cric",
                 "description" : "Either a six or wicket, but the watch shows time for Super-Over. (7-a-side)",
                 "price" : "1600",
@@ -202,7 +202,7 @@ export const EventsData = [
                 "size" : "Maximum people: 8"
             },
             {
-                "image" : require("../images/football.png"),
+                "image" : require("../images/webp/football.webp"),
                 "name" : "Yuva league",
                 "description" : "Some dream about goals-we make them (6-a-side)",
                 "price" : "1400",
@@ -210,7 +210,7 @@ export const EventsData = [
                 "size" : "Maximum people: 7"
             },
             {
-                "image" : require("../images/basketball.png"),
+                "image" : require("../images/webp/basketball.webp"),
                 "name" : "Dribble",
                 "description" : "let's make a hoop for Kobe (5-a-side)",
                 "price" : "1200",
@@ -218,28 +218,28 @@ export const EventsData = [
                 "size" : "Maximum people: 6"
             },
             {
-                "image" : require("../images/chess.png"),
+                "image" : require("../images/webp/chess.webp"),
                 "name" : "Game of Thrones",
                 "description" : "Don't let the king die",
                 "price" : "50",
                 "group" : false
             },
             {
-                "image" : require("../images/carrom.png"),
+                "image" : require("../images/webp/carrom.webp"),
                 "name" : "Flick",
                 "description" : "Rani toh Pappa nij",
                 "price" : "70",
                 "group" : false
             },
             {
-                "image" : require("../images/table_tennis.png"),
+                "image" : require("../images/webp/table_tennis.webp"),
                 "name" : "Ping Pong (Table Tennis)",
                 "description" : "Eat. Sleep. Ping Pong.",
                 "price" : "100",
                 "group" : false
             },
             {
-                "image" : require("../images/tug_of_war.png"),
+                "image" : require("../images/webp/tug_of_war.webp"),
                 "name" : "Rope dopes",
                 "description" : "A war fought with ropes ",
                 "price" : "400",
@@ -247,7 +247,7 @@ export const EventsData = [
                 "size" : "Group Size: 8"
             },
             {
-                "image" : require("../images/frisbee.png"),
+                "image" : require("../images/webp/frisbee.webp"),
                 "name" : "Discy Wing",
                 "description" : "It's time to show your frisbee skills",
                 "price" : "60",
