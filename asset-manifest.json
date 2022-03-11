@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b97e2b6d.css",
-    "main.js": "/static/js/main.1ccdd49f.js",
+    "main.js": "/static/js/main.5130bc73.js",
     "static/media/fast_and_furious.png": "/static/media/fast_and_furious.24e681b27cba2847317e.png",
     "static/media/uncharted.png": "/static/media/uncharted.40988b7537cb143af362.png",
     "static/media/dance.png": "/static/media/dance.74d4802e6dc4f591b5c1.png",
@@ -37,10 +37,10 @@
     "static/media/artwork10.png": "/static/media/artwork10.647013c210d05f0530d1.png",
     "index.html": "/index.html",
     "main.b97e2b6d.css.map": "/static/css/main.b97e2b6d.css.map",
-    "main.1ccdd49f.js.map": "/static/js/main.1ccdd49f.js.map"
+    "main.5130bc73.js.map": "/static/js/main.5130bc73.js.map"
   },
   "entrypoints": [
     "static/css/main.b97e2b6d.css",
-    "static/js/main.1ccdd49f.js"
+    "static/js/main.5130bc73.js"
   ]
 }
