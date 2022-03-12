@@ -9,23 +9,23 @@ import { EventsData } from "../EventCategory/EventsData";
 import Footer from "../Footer";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-            <Countdown />
-            <BodyGradient>
-                <EventCategory { ...EventsData}/>
-                <Highlights />
-            </BodyGradient>
-            <Footer />
-        </>
-    )
-}
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <Countdown />
+      <BodyGradient>
+        <EventCategory {...EventsData} />
+        <Highlights />
+      </BodyGradient>
+      <Footer />
+    </>
+  );
+};
 
 export default Home;
