@@ -29,7 +29,6 @@ const Members = () => {
       fontHeight: 700,
       letterSpacing: " 1.4px",
       textTransform: "uppercase",
-      marginBottom: " 2rem",
     },
     subtitle: {
       color: " #f3f3f7",
@@ -37,7 +36,7 @@ const Members = () => {
       fontHeight: 700,
       letterSpacing: " 1.4px",
       textTransform: "uppercase",
-      marginBottom: " 2rem",
+      marginBottom: " 3rem",
     },
     card: {
       width: "21rem",

@@ -13,6 +13,7 @@ import tej from "./images/tej.jpg";
 import zaahiya from "./images/zaahiya.jpg";
 import jigar from "./images/jigar.jpg";
 import jaydev from "./images/jaydev.jpeg";
+import shivani from "./images/shivani.jpeg";
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
@@ -62,7 +63,7 @@ export const memberData = [
   },
   {
     id: 6,
-    name: "Parth",
+    name: "Dr. Parth Pandya",
     imgSrc: parth,
     postion: "Cultural Committee Convener",
     posId: 4,
@@ -118,9 +119,16 @@ export const memberData = [
   },
   {
     id: 14,
-    name: "Jigar",
+    name: "Jigar Shah",
     imgSrc: jigar,
     postion: "Sports Committee Convener",
     posId: 4,
   },
+  {
+    id: 15,
+    name: "Shivani Rathod",
+    imgSrc: shivani,
+    postion: "Cultural Head",
+    posId: 3,
+  }
 ];
