@@ -119,7 +119,7 @@ export const memberData = [
   },
   {
     id: 14,
-    name: "Jigar Shah",
+    name: "Dr. Jigar Shah",
     imgSrc: jigar,
     postion: "Sports Committee Convener",
     posId: 4,
