@@ -1,0 +1,22 @@
+.card {
+  padding: 0 !important;
+}
+
+.card-img {
+  /* width: 20rem !important; */
+}
+
+.team-cat .subtitle {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 50rem !important;
+  }
+  .team-cat .subtitle {
+    font-size: 1rem !important;
+  }
+
+
+}
