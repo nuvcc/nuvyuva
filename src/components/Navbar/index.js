@@ -7,7 +7,8 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks
+    NavLinks,
+    NavPageLinks,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -83,6 +84,18 @@ const Navbar = ({ toggle }) => {
                             >
                                 Highlights
                             </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavPageLinks 
+                                to='about'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                activeClass='active'
+                            >
+                                About
+                            </NavPageLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

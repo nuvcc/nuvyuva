@@ -2,6 +2,7 @@ export const EventsData = [
     {
         "id": 1,
         "name" : "Tech Events",
+        "image" : require("../images/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web.webp"),
@@ -48,7 +49,7 @@ export const EventsData = [
     // {
     //     "id": "2",
     //     "name" : "Hackathon (Hack For Change)",
-    //     "image" : require("../images/artwork10.png"),
+    //     "image" : require("../images/trippy_element_1.png"),
     //     "events" : [
     //         {
     //             "image" : require("../images/web.png"), 
@@ -61,7 +62,7 @@ export const EventsData = [
     { 
         "id": 2,
         "name" : "Workshops",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web_3.webp"),
@@ -107,7 +108,7 @@ export const EventsData = [
     // {
     //     "id": "4",
     //     "name" : "Gaming Events",
-    //     "image" : require("../images/artwork10.png"),
+    //     "image" : require("../images/trippy_element_1.png"),
     //     "events" : [
     //         {
     //             "image" : require("../images/csgo.png"), 
@@ -135,55 +136,55 @@ export const EventsData = [
     {
         "id": 3,
         "name" : "Cultural Events",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/dance.webp"),
                 "name" : "Aaja Nachle",
                 "description" : "It's the time to disco",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/music.webp"),
                 "name" : "Yuva Studio",
                 "description" : "Bless us with your lovely tone.",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/fashion_show.webp"),
                 "name" : "Yuva's Ramp show",
                 "description" : "Fashion ka hai yeh jalwa",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : false
             },
             {
                 "image" : require("../images/webp/drama.webp"),
                 "name" : "Oscar Academy",
                 "description" : "Don't explain, it's time to express.",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/band_show.webp"),
                 "name" : "Rock with Band",
                 "description" : "So who are the next backstreet boys?",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/rangoli.webp"),
                 "name" : "Rango ki mehfil",
                 "description" : "kuch Rang apne hunar ke.",
-                "price" : "50",
+                "price" : "50 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/painting.webp"),
                 "name" : "Painter's Den",
                 "description" : "Let the canvas do the talking",
-                "price" : "50",
+                "price" : "50 PP",
                 "group" : false
             }
         ]
@@ -191,7 +192,7 @@ export const EventsData = [
     {
         "id": 4,
         "name" : "Sports Events",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/cricket.webp"),
@@ -256,60 +257,3 @@ export const EventsData = [
         ]
     }
 ];
-
-export const culturalevents = [
-    {
-        "name" : "Cultural Events",
-        "image" : require("../images/artwork4.PNG"),
-        "events" : [
-            {
-                "name" : "Aaja Nachle",
-                "description" : "It's the time to disco",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Yuva Studio",
-                "description" : "Bless us with your lovely tone.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Yuva's Ramp show",
-                "description" : "Fashion ka hai yeh jalwa",
-                "price" : "100",
-                "group" : false
-            },
-            {
-                "name" : "Oscar Academy",
-                "description" : "Don't explain, it's time to express.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Oscar Academy",
-                "description" : "Don't explain, it's time to express.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Rock with Band",
-                "description" : "So who are the next backstreet boys?",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Rango ki mehfil",
-                "description" : "kuch Rang apne hunar ke.",
-                "price" : "50",
-                "group" : true
-            },
-            {
-                "name" : "Painter's Den",
-                "description" : "Let the canvas do the talking",
-                "price" : "50",
-                "group" : false
-            }
-        ]
-    },
-]

@@ -96,3 +96,25 @@ export const NavLinks = styled(LinkS)`
         color: #139fcd;
     }
 `;
+
+export const NavPageLinks = styled(LinkR)`
+    color: #f3f3f7;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 2rem;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &.active {
+        color: #139fcd;
+        border-bottom: 3px solid #139fcd;
+        transition: 0.2s ease-in-out;
+    }
+
+    &:hover {
+        color: #139fcd;
+    }
+`;

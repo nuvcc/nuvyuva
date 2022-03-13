@@ -1,40 +1,46 @@
 import React from "react";
+import logo from '../images/navrachana_university_logo.png';
+import {BiArrowBack} from 'react-icons/bi';
+
 import {
     AboutContainer,
     AboutWrapper,
-    AboutRow,
-    Column1,
-    Column2,
-    TextWrapper,
-    Title,
-    Subtitle,
-    Heading,
+    HeadRow,
+    LogoRow,
+    WebsiteRow,
+    DescriptionRow,
+    WebsiteButton,
+    BackButton,
     Content,
     Img,
 } from './AboutElements';
+import { useNavigate } from 'react-router-dom';
+ 
+const About = () => {
+    const navigate = useNavigate()
 
-const AboutSection = () => {
     return (
         <>
-            <AboutContainer id='about'>
-                <AboutWrapper>
-                    <AboutRow>
-                        <Column1>
-                        <TextWrapper>
-                            <Title>About</Title>
-                            <Subtitle>Subtitle</Subtitle>
-                            <Heading>Heading</Heading>
-                            <Content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Content>
-                        </TextWrapper>
-                        </Column1>
-                        <Column2>
-                            <Img src='../images/event.jpg'/>
-                        </Column2>
-                    </AboutRow>
+            <AboutContainer>
+                <HeadRow>
+                    <BackButton onClick={() => navigate(-1)}><BiArrowBack /></BackButton>
+                </HeadRow>
+                <AboutWrapper>   
+                    <LogoRow>
+                        <Img src={logo}/>
+                    </LogoRow>
+                    <WebsiteRow>
+                        <WebsiteButton onClick={() => window.open("https://nuv.ac.in/", "_self")}>
+                            Visit Website
+                        </WebsiteButton>
+                    </WebsiteRow>
+                    <DescriptionRow>
+                            <Content>Traditionally, the purpose of college education has been to create individuals who know everything about something. Unfortunately, this methodology also results in individuals who know little about anything else, except their subject. At NUV, we aim to create T-shaped personalities. Our students have working knowledge about a wide range of subjects and deep domain knowledge in one area of specialisation. We enable this through three synergies - Synergy of Theory & Practice, Synergy of Faculty & Industry, and Synergy of Youth & Experience.</Content>
+                    </DescriptionRow>
                 </AboutWrapper>
             </AboutContainer>
         </>
     )
 }
 
-export default AboutSection
+export default About
