@@ -2,7 +2,7 @@ export const EventsData = [
     {
         "id": 1,
         "name" : "Tech Events",
-        "image" : require("../images/trippy_element_1.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web.webp"),
@@ -46,23 +46,10 @@ export const EventsData = [
             }
         ]
     },
-    // {
-    //     "id": "2",
-    //     "name" : "Hackathon (Hack For Change)",
-    //     "image" : require("../images/trippy_element_1.png"),
-    //     "events" : [
-    //         {
-    //             "image" : require("../images/web.png"), 
-    //             "name" : "Hackathon",
-    //             "description" : "Can't find a solution? Let's build one",
-    //             "price" : "0"
-    //         }
-    //     ]
-    // },
     { 
         "id": 2,
         "name" : "Workshops",
-        "image" : require("../images/trippy_element_1.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web_3.webp"),
@@ -71,7 +58,7 @@ export const EventsData = [
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/webp/Crypto_Finance.webp"),
+                "image" : require("../images/webp/crypto_finance.webp"),
                 "name" : "Crypto and Finance",
                 "description" : "The new level of currency",
                 "price" : "200 PP"
@@ -105,38 +92,41 @@ export const EventsData = [
             }
         ]
     },
-    // {
-    //     "id": "4",
-    //     "name" : "Gaming Events",
-    //     "image" : require("../images/trippy_element_1.png"),
-    //     "events" : [
-    //         {
-    //             "image" : require("../images/csgo.png"), 
-    //             "name" : "CS-GO",
-    //             "description" : "Are we just rushin' in? Or are we goin' all sneaky beaky like? Let's bring it on!",
-    //             "price" : "100",
-    //             "group" : 5
-    //         },
-    //         {
-    //             "image" : require("../images/valorant.png"), 
-    //             "name" : "Valorant",
-    //             "description" : "Sheeeshh! Neon's gonna get' em all!... OMG LAG!!",
-    //             "price" : "100",
-    //             "group" : 5
-    //         },
-    //         {
-    //             "image" : require("../images/pubg.png"),     
-    //             "name" : "Pubg Mobile",
-    //             "description" : "Winner Winner chicken dinner",
-    //             "price" : "100",
-    //             "group" : 4
-    //         }
-    //     ]
-    // },
     {
         "id": 3,
+        "name" : "Gaming Events",
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
+        "events" : [
+            {
+                "image" : require("../images/webp/csgo.webp"), 
+                "name" : "CS-GO",
+                "description" : "Are we just rushin' in? Or are we goin' all sneaky beaky like? Let's bring it on!",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 5",
+            },
+            {
+                "image" : require("../images/webp/valorant.webp"), 
+                "name" : "Valorant",
+                "description" : "Sheeeshh! Neon's gonna get' em all!... OMG LAG!!",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 5",
+            },
+            {
+                "image" : require("../images/webp/pubg.webp"),     
+                "name" : "Pubg Mobile",
+                "description" : "Winner Winner chicken dinner",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 4",
+            }
+        ]
+    },
+    {
+        "id": 4,
         "name" : "Cultural Events",
-        "image" : require("../images/trippy_element_1.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/dance.webp"),
@@ -190,9 +180,9 @@ export const EventsData = [
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "name" : "Sports Events",
-        "image" : require("../images/trippy_element_1.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/cricket.webp"),
@@ -253,6 +243,27 @@ export const EventsData = [
                 "description" : "It's time to show your frisbee skills",
                 "price" : "60",
                 "group" : false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name" : "MBA Events",
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
+        "events" : [
+            {
+                "image" : require("../images/webp/ad_mad_show.webp"),
+                "name" : "Ad-Mad Show",
+                "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
+                "price" : "",
+                "group" : "",
+            },
+            {
+                "image" : require("../images/webp/make_your_meme.webp"),
+                "name" : "Make your meme",
+                "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
+                "price" : "",
+                "group" : "",
             }
         ]
     }
