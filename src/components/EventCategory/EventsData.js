@@ -255,15 +255,13 @@ export const EventsData = [
                 "image" : require("../images/webp/ad_mad_show.webp"),
                 "name" : "Ad-Mad Show",
                 "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
-                "price" : "",
-                "group" : "",
+                "price" : "100 PP",
             },
             {
                 "image" : require("../images/webp/make_your_meme.webp"),
                 "name" : "Make your meme",
                 "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
-                "price" : "",
-                "group" : "",
+                "price" : "50 PP",
             }
         ]
     }
