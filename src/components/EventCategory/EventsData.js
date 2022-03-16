@@ -43,6 +43,18 @@ export const EventsData = [
                     "Wired",
                     "Not Wired"
                 ]
+            },
+            {
+                "image" : require("../images/webp/ad_mad_show.webp"),
+                "name" : "Ad-Mad Show",
+                "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
+                "price" : "100 PP",
+            },
+            {
+                "image" : require("../images/webp/make_your_meme.webp"),
+                "name" : "Make your meme",
+                "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
+                "price" : "50 PP",
             }
         ]
     },
@@ -246,23 +258,4 @@ export const EventsData = [
             }
         ]
     },
-    {
-        "id": 6,
-        "name" : "MBA Events",
-        "image" : require("../images/graphical_elements/trippy_element_1.png"),
-        "events" : [
-            {
-                "image" : require("../images/webp/ad_mad_show.webp"),
-                "name" : "Ad-Mad Show",
-                "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
-                "price" : "100 PP",
-            },
-            {
-                "image" : require("../images/webp/make_your_meme.webp"),
-                "name" : "Make your meme",
-                "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
-                "price" : "50 PP",
-            }
-        ]
-    }
 ];

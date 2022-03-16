@@ -99,6 +99,7 @@ export const HighlightsButton = styled(Link)`
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1rem;
+    font-weight: bold;
     color: #010606;
     outline: none;
     border: none;
