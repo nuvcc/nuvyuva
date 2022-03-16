@@ -13,9 +13,7 @@ import {
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-      </Routes>
+      <App />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")

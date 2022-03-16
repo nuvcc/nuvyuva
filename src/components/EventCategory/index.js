@@ -48,6 +48,9 @@ const EventCategory = ({
                         <EventCategoryWrapper>
                             <EventCategoryRow imgStart={imgStart}>
                                 <Column1 key={data.name}>
+                                {/* <ImgWrap>
+                                    <Image src={data.image} fluid={true} />
+                                </ImgWrap> */}
                                 <TextWrapper>
                                     <CategoryTitle darkTitle={darkTitle}>{data.name}</CategoryTitle>
                                     {/* <CategorySubtitle darkSubtitle={darkSubtitle}>{categorySubtitle}</CategorySubtitle> */}

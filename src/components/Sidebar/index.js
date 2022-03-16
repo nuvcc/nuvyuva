@@ -6,6 +6,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
+    SidebarPageLink,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -23,14 +24,20 @@ const Sidebar = ({ isOpen, toggle }) => {
                         Workshops
                     </SidebarLink>
                     <SidebarLink to='3' onClick={toggle}>
-                        Cultural
+                        Gaming
                     </SidebarLink>
                     <SidebarLink to='4' onClick={toggle}>
-                        Sports
+                        Cultural
                     </SidebarLink>
                     <SidebarLink to='5' onClick={toggle}>
+                        Sports
+                    </SidebarLink>
+                    <SidebarLink to='highlights' onClick={toggle}>
                         Highlights
                     </SidebarLink>
+                    <SidebarPageLink to='about' onClick={toggle}>
+                        About
+                    </SidebarPageLink>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

@@ -1,95 +1,110 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
+    background: linear-gradient(
+        0deg,
+        #bf0a1e 0%,
+        #07192f 20%,
+        #07192f 100%
+    )};
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 `;
 
 export const AboutWrapper = styled.div`
-    display: grid;
-    z-index = 1;
-    height: 860px;
-    width: 100%;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 24px;
-    justify-content: center;
+  display: grid;
+  grid-template-rows: 25% 25% 50%;
+  grid-template-areas: "logo" "website" "description";
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
 `;
 
-export const AboutRow = styled.div`
-    display: grid;
-    grid-auto-column: minmax(auto, 1fr);
-    align-items: center;
-    grid-template-areas: {({imgStart}) => (imgStart ? 'col2 col1' : 'col1 col2')};
-
-    @media screen and (max-width: 768px) {
-        grid-template-areas: {({imgStart}) => (imgStart ? 'col2 col1' : 'col1 col1' 'col2 col2)};
-    }
+export const HeadRow = styled.div`
+  display: flex;
+  justify-content: left;
+  height: 60px;
 `;
 
-export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
-  grid-area: col1;
+export const LogoRow = styled.div`
+  grid-area: logo;
+  justify-content: center;
 `;
 
-export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
-  grid-area: col2;
+export const WebsiteRow = styled.div`
+  grid-area: website;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
 `;
 
-export const TextWrapper = styled.div`
-  max-width: 540px;
-  padding-top: 0;
-  padding-bottom: 60px;
-`;
-
-export const Title = styled.p`
-  color: #o1bf71;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-`;
-
-export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
-  font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")} @media screen
-    and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
-
-export const Subtitle = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+export const DescriptionRow = styled.div`
+  grid-area: description;
+  justify-content: center;
+  padding: 10px;
 `;
 
 export const Content = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 14px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  grid-area: description;
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #f3f3f7;
+  margin: auto;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 300px;
+  }
 `;
 
 export const Img = styled.img`
-    width: 100%;
-    height: 100%:
-    margin: 0 0 10px 0;
-    padding-right: 0;
+    grid-area: logo;
+    width: 50%;
+    height: 50%:
+`;
+
+export const WebsiteButton = styled.div`
+  grid-area: website;
+  width: 100%;
+  color: #031d26;
+  background: #60b8d5;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin: auto;
+  width: 200px;
+  border-radius: 30px;
+  font-weight: bold;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #139fcd;
+    color: #031d26;
+  }
+`;
+
+export const BackButton = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #031d26;
+  border-radius: 30px;
+  background: #60b8d5;
+  width: 50px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #139fcd;
+    color: #031d26;
+  }
 `;

@@ -2,6 +2,7 @@ export const EventsData = [
     {
         "id": 1,
         "name" : "Tech Events",
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web.webp"),
@@ -42,26 +43,25 @@ export const EventsData = [
                     "Wired",
                     "Not Wired"
                 ]
+            },
+            {
+                "image" : require("../images/webp/ad_mad_show.webp"),
+                "name" : "Ad-Mad Show",
+                "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
+                "price" : "100 PP",
+            },
+            {
+                "image" : require("../images/webp/make_your_meme.webp"),
+                "name" : "Make your meme",
+                "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
+                "price" : "50 PP",
             }
         ]
     },
-    // {
-    //     "id": "2",
-    //     "name" : "Hackathon (Hack For Change)",
-    //     "image" : require("../images/artwork10.png"),
-    //     "events" : [
-    //         {
-    //             "image" : require("../images/web.png"), 
-    //             "name" : "Hackathon",
-    //             "description" : "Can't find a solution? Let's build one",
-    //             "price" : "0"
-    //         }
-    //     ]
-    // },
     { 
         "id": 2,
         "name" : "Workshops",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/web_3.webp"),
@@ -104,94 +104,97 @@ export const EventsData = [
             }
         ]
     },
-    // {
-    //     "id": "4",
-    //     "name" : "Gaming Events",
-    //     "image" : require("../images/artwork10.png"),
-    //     "events" : [
-    //         {
-    //             "image" : require("../images/csgo.png"), 
-    //             "name" : "CS-GO",
-    //             "description" : "Are we just rushin' in? Or are we goin' all sneaky beaky like? Let's bring it on!",
-    //             "price" : "100",
-    //             "group" : 5
-    //         },
-    //         {
-    //             "image" : require("../images/valorant.png"), 
-    //             "name" : "Valorant",
-    //             "description" : "Sheeeshh! Neon's gonna get' em all!... OMG LAG!!",
-    //             "price" : "100",
-    //             "group" : 5
-    //         },
-    //         {
-    //             "image" : require("../images/pubg.png"),     
-    //             "name" : "Pubg Mobile",
-    //             "description" : "Winner Winner chicken dinner",
-    //             "price" : "100",
-    //             "group" : 4
-    //         }
-    //     ]
-    // },
     {
         "id": 3,
+        "name" : "Gaming Events",
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
+        "events" : [
+            {
+                "image" : require("../images/webp/csgo.webp"), 
+                "name" : "CS-GO",
+                "description" : "Are we just rushin' in? Or are we goin' all sneaky beaky like? Let's bring it on!",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 5",
+            },
+            {
+                "image" : require("../images/webp/valorant.webp"), 
+                "name" : "Valorant",
+                "description" : "Sheeeshh! Neon's gonna get' em all!... OMG LAG!!",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 5",
+            },
+            {
+                "image" : require("../images/webp/pubg.webp"),     
+                "name" : "Pubg Mobile",
+                "description" : "Winner Winner chicken dinner",
+                "price" : "100 PP",
+                "group" : "Group Event",
+                "size": "Team Size: 4",
+            }
+        ]
+    },
+    {
+        "id": 4,
         "name" : "Cultural Events",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/dance.webp"),
                 "name" : "Aaja Nachle",
                 "description" : "It's the time to disco",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/music.webp"),
                 "name" : "Yuva Studio",
                 "description" : "Bless us with your lovely tone.",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/fashion_show.webp"),
                 "name" : "Yuva's Ramp show",
                 "description" : "Fashion ka hai yeh jalwa",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : false
             },
             {
                 "image" : require("../images/webp/drama.webp"),
                 "name" : "Oscar Academy",
                 "description" : "Don't explain, it's time to express.",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/band_show.webp"),
                 "name" : "Rock with Band",
                 "description" : "So who are the next backstreet boys?",
-                "price" : "100",
+                "price" : "100 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/rangoli.webp"),
                 "name" : "Rango ki mehfil",
                 "description" : "kuch Rang apne hunar ke.",
-                "price" : "50",
+                "price" : "50 PP",
                 "group" : true
             },
             {
                 "image" : require("../images/webp/painting.webp"),
                 "name" : "Painter's Den",
                 "description" : "Let the canvas do the talking",
-                "price" : "50",
+                "price" : "50 PP",
                 "group" : false
             }
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "name" : "Sports Events",
-        "image" : require("../images/artwork10.png"),
+        "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/cricket.webp"),
@@ -256,60 +259,3 @@ export const EventsData = [
         ]
     }
 ];
-
-export const culturalevents = [
-    {
-        "name" : "Cultural Events",
-        "image" : require("../images/artwork4.PNG"),
-        "events" : [
-            {
-                "name" : "Aaja Nachle",
-                "description" : "It's the time to disco",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Yuva Studio",
-                "description" : "Bless us with your lovely tone.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Yuva's Ramp show",
-                "description" : "Fashion ka hai yeh jalwa",
-                "price" : "100",
-                "group" : false
-            },
-            {
-                "name" : "Oscar Academy",
-                "description" : "Don't explain, it's time to express.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Oscar Academy",
-                "description" : "Don't explain, it's time to express.",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Rock with Band",
-                "description" : "So who are the next backstreet boys?",
-                "price" : "100",
-                "group" : true
-            },
-            {
-                "name" : "Rango ki mehfil",
-                "description" : "kuch Rang apne hunar ke.",
-                "price" : "50",
-                "group" : true
-            },
-            {
-                "name" : "Painter's Den",
-                "description" : "Let the canvas do the talking",
-                "price" : "50",
-                "group" : false
-            }
-        ]
-    },
-]
