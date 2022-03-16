@@ -75,7 +75,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 60px;
 `
-export const NavLinks = styled(LinkS)`
+export const NavLink = styled(LinkS)`
     color: #f3f3f7;
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
-export const NavPageLinks = styled(LinkR)`
+export const NavPageLink = styled(LinkR)`
     color: #f3f3f7;
     display: flex;
     align-items: center;

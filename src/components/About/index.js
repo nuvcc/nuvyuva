@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/navrachana_university_logo.png';
+import logo from '../images/logo/navrachana_university_logo.png';
 import {BiArrowBack} from 'react-icons/bi';
 
 import {

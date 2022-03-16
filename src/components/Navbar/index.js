@@ -7,8 +7,8 @@ import {
     MobileIcon, 
     NavMenu, 
     NavItem, 
-    NavLinks,
-    NavPageLinks,
+    NavLink,
+    NavPageLink,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -26,7 +26,7 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks 
+                            <NavLink 
                                 to='1'
                                 smooth={true}
                                 duration={500}
@@ -35,10 +35,10 @@ const Navbar = ({ toggle }) => {
                                 activeClass='active'
                             >
                                 Technical
-                            </NavLinks>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLinks 
+                            <NavLink 
                                 to='2'
                                 smooth={true}
                                 duration={500}
@@ -47,10 +47,10 @@ const Navbar = ({ toggle }) => {
                                 activeClass='active'
                             >
                                 Workshops
-                            </NavLinks>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLinks 
+                            <NavLink 
                                 to='3'
                                 smooth={true}
                                 duration={500}
@@ -58,11 +58,11 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 activeClass='active'
                             >
-                                Cultural
-                            </NavLinks>
+                                Gaming
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLinks 
+                            <NavLink 
                                 to='4'
                                 smooth={true}
                                 duration={500}
@@ -70,11 +70,11 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 activeClass='active'
                             >
-                                Sports
-                            </NavLinks>
+                                Cultural
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLinks 
+                            <NavLink
                                 to='5'
                                 smooth={true}
                                 duration={500}
@@ -82,11 +82,23 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 activeClass='active'
                             >
-                                Highlights
-                            </NavLinks>
+                                Sports
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavPageLinks 
+                            <NavLink
+                                to='highlights'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                activeClass='active'
+                            >
+                                Highlights
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavPageLink
                                 to='about'
                                 smooth={true}
                                 duration={500}
@@ -95,7 +107,7 @@ const Navbar = ({ toggle }) => {
                                 activeClass='active'
                             >
                                 About
-                            </NavPageLinks>
+                            </NavPageLink>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
