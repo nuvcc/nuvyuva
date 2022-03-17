@@ -70,7 +70,7 @@ export const EventsData = [
                 "price" : "200 PP"
             },
             {
-                "image" : require("../images/webp/Crypto_Finance.webp"),
+                "image" : require("../images/webp/crypto_finance.webp"),
                 "name" : "Crypto and Finance",
                 "description" : "The new level of currency",
                 "price" : "200 PP"
