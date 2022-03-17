@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2414b1df.css",
-    "main.js": "/static/js/main.66d3bd3b.js",
+    "main.css": "/static/css/main.b0941d5d.css",
+    "main.js": "/static/js/main.aa32448e.js",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/sagar.jpg": "/static/media/sagar.5345f12cc4cc8f95dfe9.jpg",
     "static/media/jaydev.jpeg": "/static/media/jaydev.17a85e0d6368b54c0561.jpeg",
@@ -17,7 +17,6 @@
     "static/media/carrom.webp": "/static/media/carrom.3e7eef418b5340b0424f.webp",
     "static/media/tug_of_war.webp": "/static/media/tug_of_war.0b2de57e591d3c22c6c5.webp",
     "static/media/rangoli.webp": "/static/media/rangoli.d0d38b5977900cc283da.webp",
-    "static/media/sachin.jpeg": "/static/media/sachin.90b78b0594af2d5a6d71.jpeg",
     "static/media/valorant.webp": "/static/media/valorant.cd1bbbddcebbb23a581f.webp",
     "static/media/football.webp": "/static/media/football.0b14ff8bfb9130321b68.webp",
     "static/media/dance.webp": "/static/media/dance.b2576c5a20cc684aee90.webp",
@@ -42,6 +41,7 @@
     "static/media/hardik.jpg": "/static/media/hardik.4966d5547c0314d3cc49.jpg",
     "static/media/frisbee.webp": "/static/media/frisbee.cb143d68e384646003b3.webp",
     "static/media/zaahiya.jpg": "/static/media/zaahiya.57f4fc7c40c205a7e460.jpg",
+    "static/media/sachin.jpeg": "/static/media/sachin.df6e8f06207bef32bf8e.jpeg",
     "static/media/naitik.jpg": "/static/media/naitik.c14c5136f205e46558b2.jpg",
     "static/media/make_your_meme.webp": "/static/media/make_your_meme.6414798d6c05ae0602c7.webp",
     "static/media/ad_mad_show.webp": "/static/media/ad_mad_show.883639f0ddc2409db7ec.webp",
@@ -57,11 +57,11 @@
     "static/media/shivam.jpeg": "/static/media/shivam.6a3b72097e0982d12b6c.jpeg",
     "static/media/fast_and_furious.webp": "/static/media/fast_and_furious.f0390e1cfdb33378d9eb.webp",
     "index.html": "/index.html",
-    "main.2414b1df.css.map": "/static/css/main.2414b1df.css.map",
-    "main.66d3bd3b.js.map": "/static/js/main.66d3bd3b.js.map"
+    "main.b0941d5d.css.map": "/static/css/main.b0941d5d.css.map",
+    "main.aa32448e.js.map": "/static/js/main.aa32448e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2414b1df.css",
-    "static/js/main.66d3bd3b.js"
+    "static/css/main.b0941d5d.css",
+    "static/js/main.aa32448e.js"
   ]
 }
