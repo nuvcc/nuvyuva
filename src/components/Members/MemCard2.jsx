@@ -2,7 +2,7 @@ import React from 'react'
 import { styles } from './Members';
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
 
-const MemCard = ({ data }) => {
+const MemCard2 = ({ data }) => {
 
     const { id, name, imgSrc, postion } = data;
 
@@ -27,4 +27,4 @@ const MemCard = ({ data }) => {
     )
 }
 
-export default MemCard
+export default MemCard2
