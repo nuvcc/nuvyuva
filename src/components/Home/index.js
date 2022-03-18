@@ -8,6 +8,7 @@ import { BodyGradient } from "./HomeElements";
 import { EventsData } from "../EventCategory/EventsData";
 import Footer from "../Footer";
 import Members from "../Members/Members";
+import GoogleMaps from "./../Maps/GoogleMap";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
         <EventCategory {...EventsData} />
         <Highlights />
         <Members />
+        <GoogleMaps />
       </BodyGradient>
       <Footer />
     </>
