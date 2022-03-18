@@ -52,7 +52,7 @@ const GoogleMaps = () => {
             Concert Ground
           </Button>{" "}
           <Button onClick={() => setCenter(nuv)} variant="secondary">
-            Navrachna University
+            All Events
           </Button>
         </div>
       </div>
