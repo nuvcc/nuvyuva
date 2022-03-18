@@ -13,10 +13,21 @@ export const StatsHeading = styled.h1`
     font-size: 3rem;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+`;
+
+export const VisitorCount = styled.div`
+    color: rgb(243, 243, 247);
+    font-size: 3rem;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 `;
 
 export const VisitorsHeading = styled(StatsHeading)`
-    font-size: 2rem;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 1rem 0;
 `;
 
 export const ViewsHeading = styled(VisitorsHeading)``;
@@ -32,7 +43,9 @@ export const WrapVisitors = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    /* width: 30%; */
+    padding: 2rem 3rem;
+    margin-bottom: 6rem;
 
     background-color: #052c39;
     border-radius: 20px;
