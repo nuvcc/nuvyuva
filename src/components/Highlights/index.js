@@ -45,11 +45,12 @@ const Highlights = () => {
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
-                            to='cultural' 
+                            to='concert' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
+                            onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/", "_self")}
                         >
-                            Coming Soon
+                            Register Now
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>

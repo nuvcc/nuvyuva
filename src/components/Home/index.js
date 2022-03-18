@@ -10,24 +10,24 @@ import Footer from "../Footer";
 import Members from "../Members/Members";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-            <Countdown />
-            <BodyGradient>
-                <EventCategory { ...EventsData}/>
-                <Highlights />
-                <Members />
-            </BodyGradient>
-            <Footer />
-        </>
-    )
-}
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <Countdown />
+      <BodyGradient>
+        <EventCategory {...EventsData} />
+        <Highlights />
+        <Members />
+      </BodyGradient>
+      <Footer />
+    </>
+  );
+};
 
 export default Home;
