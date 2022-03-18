@@ -94,7 +94,7 @@ const Members = () => {
         </Row>
 
         <div style={styles.header}>
-          <h3 style={styles.subtitle} className="subtitle">Commitee Heads</h3>
+          <h3 style={styles.subtitle} className="subtitle">Committee Heads</h3>
         </div>
         <Row>
           {Data.filter((data) => data.posId === 3).map((val, index) => {
