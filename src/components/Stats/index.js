@@ -17,7 +17,6 @@ const Stats = () => {
         fetch("https://plausible.io/api/v1/stats/aggregate?site_id=nuvyuva.com&period=6mo&metrics=visitors,pageviews,bounce_rate,visit_duration", requestOptions)
             .then(response => response.json())
             .then(result => {
-                console.log(result.results.visitors.value);
                 setVisitors(result.results.visitors.value);
             })
             .catch(error => console.log('error', error));
