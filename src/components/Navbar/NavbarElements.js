@@ -45,22 +45,6 @@ export const NavLogo = styled(LinkR)`
     }
 `;
 
-export const MobileIcon = styled.div`
-    display: none;
-
-    @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        align-items: center;
-        transform: translate(-60%, 10%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #f3f3f7;
-    }
-`;
-
 export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
@@ -80,7 +64,7 @@ export const NavLink = styled(LinkS)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 0 2rem;
     height: 100%;
     cursor: pointer;
@@ -102,7 +86,7 @@ export const NavPageLink = styled(LinkR)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 0 2rem;
     height: 100%;
     cursor: pointer;
@@ -116,5 +100,91 @@ export const NavPageLink = styled(LinkR)`
 
     &:hover {
         color: #139fcd;
+    }
+`;
+
+export const DownloadLink = styled.a`
+    text-decoration: none;
+`;
+
+export const Button = styled.button`
+    border-radius: 50px;
+    background: #60b8d5;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #010606;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #139fcd;
+        color: #010606;
+    }
+`;
+
+
+export const MobileIcon = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        align-items: center;
+        transform: translate(-60%, 10%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #f3f3f7;
+    }
+`;
+
+export const MobileDownloadLink = styled.a`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        text-decoration: none;
+    }
+`;
+
+export const MobileButton = styled.button`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, 20%);
+        border-radius: 50px;
+        background: #60b8d5;
+        white-space: nowrap;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #010606;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: #139fcd;
+            color: #010606;
+        }
     }
 `;
