@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b0941d5d.css",
-    "main.js": "/static/js/main.91ef0143.js",
+    "main.js": "/static/js/main.f86a0628.js",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/sagar.jpg": "/static/media/sagar.5345f12cc4cc8f95dfe9.jpg",
     "static/media/jaydev.jpeg": "/static/media/jaydev.17a85e0d6368b54c0561.jpeg",
     "static/media/parth.jpg": "/static/media/parth.de821a87968e0082a14a.jpg",
     "static/media/fatema.jpg": "/static/media/fatema.30275f0b41a65a8c213b.jpg",
-    "static/media/yogesh.jpg": "/static/media/yogesh.7e0756ed96af42c10ead.jpg",
     "static/media/rocket.webp": "/static/media/rocket.21adb787911d8bf2f428.webp",
     "static/media/nimit.jpg": "/static/media/nimit.948df91eb3cdbcc2cc68.jpg",
     "static/media/web_3.webp": "/static/media/web_3.c7162915253902dec644.webp",
@@ -45,6 +44,7 @@
     "static/media/zaahiya.jpg": "/static/media/zaahiya.57f4fc7c40c205a7e460.jpg",
     "static/media/sachin.jpeg": "/static/media/sachin.df6e8f06207bef32bf8e.jpeg",
     "static/media/naitik.jpg": "/static/media/naitik.c14c5136f205e46558b2.jpg",
+    "static/media/yogesh.jpg": "/static/media/yogesh.3cddc839bbd4792882c1.jpg",
     "static/media/make_your_meme.webp": "/static/media/make_your_meme.6414798d6c05ae0602c7.webp",
     "static/media/ad_mad_show.webp": "/static/media/ad_mad_show.883639f0ddc2409db7ec.webp",
     "static/media/flutter.webp": "/static/media/flutter.55a83711ea6bfd518e86.webp",
@@ -60,10 +60,10 @@
     "static/media/fast_and_furious.webp": "/static/media/fast_and_furious.f0390e1cfdb33378d9eb.webp",
     "index.html": "/index.html",
     "main.b0941d5d.css.map": "/static/css/main.b0941d5d.css.map",
-    "main.91ef0143.js.map": "/static/js/main.91ef0143.js.map"
+    "main.f86a0628.js.map": "/static/js/main.f86a0628.js.map"
   },
   "entrypoints": [
     "static/css/main.b0941d5d.css",
-    "static/js/main.91ef0143.js"
+    "static/js/main.f86a0628.js"
   ]
 }
