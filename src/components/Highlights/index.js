@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import hackathon from '../images/highlights/hackathon_1.png';
-import concert from '../images/highlights/concert_1.jpg';
-import mun from '../images/highlights/mun_1.jpg';
+import hackathon from '../images/highlights/hackathon_1.webp';
+import concert from '../images/highlights/concert_1.webp';
+import mun from '../images/highlights/mun_1.webp';
 
 import {
     HighlightsContainer,

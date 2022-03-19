@@ -4,12 +4,17 @@ import { animateScroll as scroll } from 'react-scroll';
 import {
     Nav, 
     NavbarContainer,  
-    MobileIcon, 
     NavMenu, 
     NavItem, 
     NavLink,
     NavPageLink,
+    DownloadLink,
+    Button,
+    MobileIcon, 
+    MobileDownloadLink,
+    MobileButton,
 } from './NavbarElements';
+import Brochure from "../brochure/brochure.pdf";
 
 const Navbar = ({ toggle }) => {
 
@@ -24,7 +29,13 @@ const Navbar = ({ toggle }) => {
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
+                    <MobileDownloadLink href={Brochure} download="Brochure" target='_blank'>
+                            <MobileButton>Brochure</MobileButton>
+                    </MobileDownloadLink>
                     <NavMenu>
+                        <DownloadLink href={Brochure} download="Brochure" target='_blank'>
+                            <Button>Brochure</Button>
+                        </DownloadLink>
                         <NavItem>
                             <NavLink 
                                 to='1'
