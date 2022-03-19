@@ -43,7 +43,7 @@ export const HighlightsCard = styled.div`
     border-radius: 20px;
     max-height: 400px;
     padding: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(1, 6, 6, 1);
     transition: all 0.2s ease-in-out;
 
     &:hover {

@@ -27,7 +27,7 @@ const Highlights = () => {
             <HighlightsWrapper>
                 <HighlightsCard>
                     <HighlightsIcon src={hackathon}/>
-                    <HighlightsH2>Hackathon</HighlightsH2>
+                    <HighlightsH2>Hack For Change</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
@@ -48,7 +48,7 @@ const Highlights = () => {
                             to='concert' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            onClick={() => window.open("https://forms.gle/HiuuvDrZiGRJTLcV9", "_self")}
+                            onClick={() => window.open("https://forms.gle/mM92w2wrtnvWiA2c9", "_self")}
                         >
                             Register Now
                         </HighlightsButton>
@@ -56,7 +56,7 @@ const Highlights = () => {
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={mun}/>
-                    <HighlightsH2>MUN</HighlightsH2>
+                    <HighlightsH2>NUV MUN</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 

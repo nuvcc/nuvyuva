@@ -14,6 +14,8 @@ import zaahiya from "./images/zaahiya.jpg";
 import jigar from "./images/jigar.jpg";
 import jaydev from "./images/jaydev.jpeg";
 import shivani from "./images/shivani.jpeg";
+import dhaval from "./images/dhaval.jpeg";
+import yogesh from "./images/yogesh.jpg";
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
@@ -130,5 +132,19 @@ export const memberData = [
     imgSrc: shivani,
     postion: "Cultural Head",
     posId: 3,
+  },
+  {
+    id: 16,
+    name: "Prof. Dhaval Mehta",
+    imgSrc: dhaval,
+    postion: "Technical Committee Convener",
+    posId: 4,
+  },
+  {
+    id: 17,
+    name: "Prof. Yogesh Chowdhary",
+    imgSrc: yogesh,
+    postion: "Technical Committee Convener",
+    posId: 4,
   }
 ];

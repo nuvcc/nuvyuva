@@ -8,26 +8,28 @@ import { BodyGradient } from "./HomeElements";
 import { EventsData } from "../EventCategory/EventsData";
 import Footer from "../Footer";
 import Members from "../Members/Members";
+import GoogleMaps from "./../Maps/GoogleMap";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggle} />
-            <Navbar toggle={toggle} />
-            <Countdown />
-            <BodyGradient>
-                <EventCategory { ...EventsData}/>
-                <Highlights />
-                <Members />
-            </BodyGradient>
-            <Footer />
-        </>
-    )
-}
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <Countdown />
+      <BodyGradient>
+        <EventCategory {...EventsData} />
+        <Highlights />
+        <Members />
+        <GoogleMaps />
+      </BodyGradient>
+      <Footer />
+    </>
+  );
+};
 
 export default Home;

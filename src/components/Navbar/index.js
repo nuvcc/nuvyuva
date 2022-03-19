@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 activeClass='active'
                             >
-                                About
+                                About NUV
                             </NavPageLink>
                         </NavItem>
                     </NavMenu>
