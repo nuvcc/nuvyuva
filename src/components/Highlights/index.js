@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import hackathon from '../images/highlights/hackathon_1.png';
-import concert from '../images/highlights/concert_1.jpg';
-import mun from '../images/highlights/mun_1.jpg';
+import hackathon from '../images/highlights/hackathon_1.webp';
+import concert from '../images/highlights/concert_1.webp';
+import mun from '../images/highlights/mun_1.webp';
 
 import {
     HighlightsContainer,
@@ -27,7 +27,7 @@ const Highlights = () => {
             <HighlightsWrapper>
                 <HighlightsCard>
                     <HighlightsIcon src={hackathon}/>
-                    <HighlightsH2>Hackathon</HighlightsH2>
+                    <HighlightsH2>Hack For Change</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
@@ -45,17 +45,18 @@ const Highlights = () => {
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
-                            to='cultural' 
+                            to='concert' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
+                            onClick={() => window.open("https://forms.gle/mM92w2wrtnvWiA2c9", "_self")}
                         >
-                            Coming Soon
+                            Register Now
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={mun}/>
-                    <HighlightsH2>MUN</HighlightsH2>
+                    <HighlightsH2>NUV MUN</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 

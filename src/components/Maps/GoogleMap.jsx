@@ -16,7 +16,7 @@ const containerStyle = {
 };
 //22.294675, 73.118827
 const center = {
-  position: { lat: 22.29455, lng: 73.118727 },
+  position: { lat: 22.294675, lng: 73.118827 },
   label: "Concert Ground",
   link: "https://goo.gl/maps/2cWuZvLZkUgviSX7A",
 };
@@ -52,7 +52,7 @@ const GoogleMaps = () => {
             Concert Ground
           </Button>{" "}
           <Button onClick={() => setCenter(nuv)} variant="secondary">
-            Navrachna University
+            Navrachana University
           </Button>
         </div>
       </div>

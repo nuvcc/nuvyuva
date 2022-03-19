@@ -1,19 +1,22 @@
-import fateman from "./images/fatema.jpg";
-import hardik from "./images/hardik.jpg";
-import meet from "./images/meet.jpg";
-import naitik from "./images/naitik.jpg";
-import nimit from "./images/nimit.jpg";
-import parth from "./images/parth.jpg";
-import rucha from "./images/rucha.jpg";
-import sagar from "./images/sagar.jpg";
-import samarth from "./images/samarth.jpg";
-import sachin from "./images/sachin.jpeg";
-import shivam from "./images/shivam.jpeg";
-import tej from "./images/tej.jpg";
-import zaahiya from "./images/zaahiya.jpg";
-import jigar from "./images/jigar.jpg";
-import jaydev from "./images/jaydev.jpeg";
-import shivani from "./images/shivani.jpeg";
+import fateman from "./images/fatema.webp";
+import hardik from "./images/hardik.webp";
+import meet from "./images/meet.webp";
+import naitik from "./images/naitik.webp";
+import nimit from "./images/nimit.webp";
+import parth from "./images/parth.webp";
+import rucha from "./images/rucha.webp";
+import sagar from "./images/sagar.webp";
+import samarth from "./images/samarth.webp";
+import sachin from "./images/sachin.webp";
+import shivam from "./images/shivam.webp";
+import tej from "./images/tej.webp";
+import zaahiya from "./images/zaahiya.webp";
+import jigar from "./images/jigar.webp";
+import jaydev from "./images/jaydev.webp";
+import shivani from "./images/shivani.webp";
+import dhaval from "./images/dhaval.webp";
+import yogesh from "./images/yogesh.webp";
+import gaurav from "./images/gaurav.webp";
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
@@ -130,5 +133,26 @@ export const memberData = [
     imgSrc: shivani,
     postion: "Cultural Head",
     posId: 3,
+  },
+  {
+    id: 16,
+    name: "Prof. Gauravkumarsingh Gaharwar",
+    imgSrc: gaurav,
+    postion: "Sports Committee Convener",
+    posId: 4,
+  },
+  {
+    id: 17,
+    name: "Prof. Dhaval Mehta",
+    imgSrc: dhaval,
+    postion: "Technical Committee Convener",
+    posId: 4,
+  },
+  {
+    id: 18,
+    name: "Prof. Yogesh Chowdhary",
+    imgSrc: yogesh,
+    postion: "Technical Committee Convener",
+    posId: 4,
   }
 ];
