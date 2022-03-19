@@ -16,7 +16,7 @@ const containerStyle = {
 };
 //22.294675, 73.118827
 const center = {
-  position: { lat: 22.294675, lng: 73.118827 },
+  position: { lat: 22.29455, lng: 73.118727 },
   label: "Concert Ground",
   link: "https://goo.gl/maps/2cWuZvLZkUgviSX7A",
 };
@@ -59,16 +59,10 @@ const GoogleMaps = () => {
       <LoadScript googleMapsApiKey={"AIzaSyDPK4W-mdjPmzRnJAgB63bHm9KiiyZ6bJM"}>
         <GoogleMap
           mapContainerStyle={containerStyle}
-          center={centers.position}
+          center={{ lat: 22.294991, lng: 73.124237 }}
           zoom={15}
         >
-          <OverlayView
-            mapPaneName="floatPane"
-            position={{
-              lat: 22.2981306,
-              lng: 73.1291185,
-            }}
-          >
+          <OverlayView mapPaneName="floatPane" position={centers.position}>
             <Card style={{ width: "18rem" }}>
               <Card.Body>
                 <Card.Title>{centers.label}</Card.Title>
