@@ -3,7 +3,6 @@ import { Row, Col, Container, Card, Button } from "react-bootstrap";
 import { memberData } from "./list";
 import "../../styles/style.css";
 import MemCard from "./MemCard";
-import MemCard2 from "./MemCard2";
 
 export const styles = {
   box: {
@@ -114,8 +113,7 @@ const Members = () => {
             const { id, name, imgSrc, postion } = val;
 
             return (
-              <MemCard2 data={val} />
-
+              <MemCard data={val} />
             );
           })}
         </Row>

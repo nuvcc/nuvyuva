@@ -16,6 +16,7 @@ import jaydev from "./images/jaydev.webp";
 import shivani from "./images/shivani.webp";
 import dhaval from "./images/dhaval.webp";
 import yogesh from "./images/yogesh.webp";
+import gaurav from "./images/gaurav.webp";
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
@@ -135,13 +136,20 @@ export const memberData = [
   },
   {
     id: 16,
+    name: "Prof. Gauravkumarsingh Gaharwar",
+    imgSrc: gaurav,
+    postion: "Sports Committee Convener",
+    posId: 4,
+  },
+  {
+    id: 17,
     name: "Prof. Dhaval Mehta",
     imgSrc: dhaval,
     postion: "Technical Committee Convener",
     posId: 4,
   },
   {
-    id: 17,
+    id: 18,
     name: "Prof. Yogesh Chowdhary",
     imgSrc: yogesh,
     postion: "Technical Committee Convener",
