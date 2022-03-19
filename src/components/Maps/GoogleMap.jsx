@@ -56,7 +56,7 @@ const GoogleMaps = () => {
           </Button>
         </div>
       </div>
-      <LoadScript googleMapsApiKey={"AIzaSyDPK4W-mdjPmzRnJAgB63bHm9KiiyZ6bJM"}>
+      <LoadScript googleMapsApiKey={"AIzaSyDPuxz-j8VUcDOn2npXmEMjTwR_fEEdYpQ"}>
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={centers.position}
