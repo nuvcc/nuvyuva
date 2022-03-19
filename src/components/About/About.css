@@ -25,6 +25,14 @@
   padding: 0px 300px;  
 }
 
+.about-heading{
+  float: left;
+}
+
+.about-info{
+  margin-top: 80px;
+}
+
 .about-btn {
   grid-area: website;
   width: 100%;

@@ -1,0 +1,13 @@
+.events {
+  background-color: #000015;
+  min-height: 63vh;
+}
+
+.event-heading h2 {
+  color: white;
+}
+
+.events-img {
+  height: 400px;
+  width: auto;
+}
