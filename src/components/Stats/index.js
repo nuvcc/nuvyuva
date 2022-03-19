@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { WrapStats, WrapVisitors, StatsSection, StatsHeading, VisitorsHeading, VisitorCount } from './StatsStyled';
+import { WrapStats, WrapVisitors, StatsSection, StatsHeading, VisitorsHeading, VisitorCount, WrapDesc, Desc } from './StatsStyled';
 
 const Stats = () => {
     const [visitors, setVisitors] = useState(0);
@@ -23,11 +23,14 @@ const Stats = () => {
     })
     return (
         <StatsSection>
-            <StatsHeading>Stats</StatsHeading>
+            <WrapDesc>
+                <StatsHeading>What is NuvYuva?</StatsHeading>
+                <Desc>NUV-YUVA is an inter-college festival that encourages students from various institutions all over gujarat to demonstrate their ability and talents in various fields and events.</Desc>
+            </WrapDesc>
             <WrapStats>
                 <WrapVisitors>
                     <VisitorCount>{visitors}</VisitorCount>
-                    <VisitorsHeading>Visitors</VisitorsHeading>
+                    <VisitorsHeading>Engagement</VisitorsHeading>
                 </WrapVisitors>
             </WrapStats>
         </StatsSection>
