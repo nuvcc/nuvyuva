@@ -51,8 +51,12 @@ const Countdown = () => {
       setVantaEffect(
         BIRDS({
           el: myRef.current,
-
-          // backgroundColor: 0x031d26
+          backgroundColor: 0x00010f,
+          color1: 0x39063a,
+          color2: 0xb40a98,
+          colorMode: "lerp",
+          wingSpan: 30.0,
+          separation: 40.0,
         })
       );
     }
