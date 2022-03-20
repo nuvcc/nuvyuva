@@ -8,37 +8,41 @@ export const EventsData = [
                 "image" : require("../images/webp/web.webp"),
                 "name" : "Web Programming Pillars (HTML & CSS)",
                 "description" : "You are the CSS to my HTML",
-                "price" : "200 PP"
+                "price" : "100 PP"
             },
             {
                 "image" : require("../images/webp/make_a_bot.webp"),
                 "name" : "Make a bot",
                 "description" : "Automate things using a bot",
-                "price" : "200 PP"
+                "price" : "200 PP",
+                "group": "Individual/Group",
+                "size": "Group Size: 2",
             },
             {
                 "image" : require("../images/webp/uncharted.webp"),
                 "name" : "Uncharted (Treasure Hunt)",
                 "description" : "Track, Trail, & Tail",
-                "price" : "200 PP"
+                "price" : "200 PG",
+                "group": "Group Event",
+                "size": "Group Size: 2-4",
             },
             {
                 "image" : require("../images/webp/rocket.webp"),
                 "name" : "Bottle Rocket",
                 "description" : "Sending it to Mars maybe?",
-                "price" : "200 PP"
+                "price" : "100 PP"
             },
             {
                 "image" : require("../images/webp/line_follower.webp"),
                 "name" : "Line Follower Robot",
                 "description" : "No wrong turns",
-                "price" : "200 PP"
+                "price" : "150 PP"
             },
             {
                 "image" : require("../images/webp/fast_and_furious.webp"),
                 "name" : "Fast and furious",
                 "description" : "Start your engines",
-                "price" : "200 PP",
+                "price" : "100 PP",
                 "type" : [
                     "Wired",
                     "Not Wired"
@@ -71,7 +75,7 @@ export const EventsData = [
             },
             {
                 "image" : require("../images/webp/Crypto_Finance.webp"),
-                "name" : "Crypto and Finance",
+                "name" : "Finance Workshop",
                 "description" : "The new level of currency",
                 "price" : "200 PP"
             },
