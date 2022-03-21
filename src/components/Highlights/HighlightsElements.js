@@ -33,7 +33,7 @@ export const HighlightsWrapper = styled.div`
 `;
 
 export const HighlightsCard = styled.div`
-    background: #052c39;
+    background: #570658;
     width: 300px;
     height: 500px;
     display: flex;
@@ -94,7 +94,7 @@ export const HighlightsBtnWrapper = styled.div`
 
 export const HighlightsButton = styled(Link)`
     border-radius: 50px;
-    background: #60b8d5;
+    background: #d941c0;
     white-space: nowrap;
     text-decoration: none;
     padding: 10px 20px;
@@ -111,7 +111,7 @@ export const HighlightsButton = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #139fcd;
+        background: #d667c4;
         color: #010606;
     }
 `;
