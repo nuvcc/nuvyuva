@@ -24,8 +24,8 @@ export const HighlightsWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 20px;
-    padding: 0 0px;
+    grid-gap: 3rem;
+    padding: 0px 0px;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
@@ -43,7 +43,7 @@ export const HighlightsCard = styled.div`
     border-radius: 20px;
     max-height: 400px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(1, 6, 6, 1);
+    box-shadow: 0 0 1rem 0 #d941c0;
     transition: all 0.2s ease-in-out;
 
     &:hover {

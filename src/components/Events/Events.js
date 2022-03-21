@@ -1,18 +1,18 @@
 import React from "react";
 import { Carousel } from "3d-react-carousal";
 import "./Events.css";
-import tech from "./tech.png";
-import cultural from "./cultural.png";
-import gaming from "./gaming.png";
-import workshop from "./workshop.png";
-import sports from "./sports.png";
+import tech from "../images/eventcategories/tech.webp";
+import workshop from "../images/eventcategories/workshop.webp";
+import gaming from "../images/eventcategories/gaming.webp";
+import cultural from "../images/eventcategories/cultural.webp";
+import sports from "../images/eventcategories/sports.webp";
 
 const Events = () => {
   let slides = [
     <a href="/technical">
       <img className="events-img" src={tech} alt="Technical Events" />
     </a>,
-    <a href="/workshop">
+    <a href="/workshops">
       <img className="events-img" src={workshop} alt="Workshops" />
     </a>,
     <a href="/gaming">
