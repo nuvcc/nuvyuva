@@ -37,76 +37,13 @@ const Navbar = ({ toggle }) => {
                             <Button>Brochure</Button>
                         </DownloadLink>
                         <NavItem>
-                            <NavLink 
-                                to='1'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Technical
-                            </NavLink>
+                        <NavLink to="Countdown">HOME</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink 
-                                to='2'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Workshops
-                            </NavLink>
+                        <NavLink to="events">EVENTS</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink 
-                                to='3'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Gaming
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink 
-                                to='4'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Cultural
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink
-                                to='5'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Sports
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink
-                                to='highlights'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                activeClass='active'
-                            >
-                                Highlights
-                            </NavLink>
+                        <NavLink to="highlights">HIGHLIGHTS</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavPageLink
@@ -117,7 +54,7 @@ const Navbar = ({ toggle }) => {
                                 exact='true'
                                 activeClass='active'
                             >
-                                About NUV
+                                NUV
                             </NavPageLink>
                         </NavItem>
                     </NavMenu>

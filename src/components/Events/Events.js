@@ -28,11 +28,9 @@ const Events = () => {
 
   return (
     <div className="events">
-      <div className="event-heading">Events</div>
+      <div className="event-heading">EVENTS</div>
       <div className="events-cards">
-        <Carousel slides={slides} autoplay={true} interval={2000}>
-          <div className="layer"></div>
-        </Carousel>
+        <Carousel slides={slides} autoplay={true} interval={2000} arrows={true} />
       </div>
     </div>
   );

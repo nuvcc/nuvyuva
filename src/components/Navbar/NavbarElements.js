@@ -70,13 +70,13 @@ export const NavLink = styled(LinkS)`
   transition: 0.2s ease-in-out;
 
   &.active {
-    color: #b40a98;
+    color: #B40A98;
     border-bottom: 3px solid #b40a98;
     transition: 0.2s ease-in-out;
   }
 
   &:hover {
-    color: #b40a98;
+    color: #B40A98;
   }
 `;
 

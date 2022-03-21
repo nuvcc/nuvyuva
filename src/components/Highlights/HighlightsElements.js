@@ -33,7 +33,7 @@ export const HighlightsWrapper = styled.div`
 `;
 
 export const HighlightsCard = styled.div`
-    background: #570658;
+    background: #130735;
     width: 300px;
     height: 500px;
     display: flex;
@@ -62,9 +62,11 @@ export const HighlightsIcon = styled.img`
 `;
 
 export const HighlightsH1 = styled.h1`
-    font-size: 3rem;
+    font-size: 2rem;
     color: #f3f3f7;
     margin-bottom: 64px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
     @media screen and (max-width: 480px) {
         font-size: 3rem;
@@ -72,10 +74,12 @@ export const HighlightsH1 = styled.h1`
 `;
 
 export const HighlightsH2 = styled.h2`
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #f3f3f7;
     margin-bottom: 5px;
     margin-top: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 `;
 
 export const HighlightsP = styled.p`
@@ -94,13 +98,13 @@ export const HighlightsBtnWrapper = styled.div`
 
 export const HighlightsButton = styled(Link)`
     border-radius: 50px;
-    background: #d941c0;
+    background: #fff;
     white-space: nowrap;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
-    color: #010606;
+    color: #d941c0;;
     outline: none;
     border: none;
     cursor: pointer;

@@ -23,11 +23,11 @@ const Highlights = () => {
     }
     return (
         <HighlightsContainer id='highlights'>
-            <HighlightsH1>Highlights</HighlightsH1>
+            <HighlightsH1>HIGHLIGHTS</HighlightsH1>
             <HighlightsWrapper>
                 <HighlightsCard>
                     <HighlightsIcon src={hackathon}/>
-                    <HighlightsH2>Hack For Change</HighlightsH2>
+                    <HighlightsH2>HACK FOR CHANGE</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
@@ -41,7 +41,7 @@ const Highlights = () => {
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={concert}/>
-                    <HighlightsH2>Concert</HighlightsH2>
+                    <HighlightsH2>CONCERT</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
