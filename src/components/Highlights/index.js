@@ -34,8 +34,9 @@ const Highlights = () => {
                             to='hackathon' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
+                            onClick={() => window.open("https://hack-for-change.devpost.com/", "_self")}
                         >
-                            Coming Soon
+                            Register Now
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
