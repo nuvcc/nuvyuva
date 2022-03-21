@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.b0941d5d.css",
-    "main.js": "/static/js/main.23bfdb57.js",
+    "main.js": "/static/js/main.5cc743ff.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/jaydev.webp": "/static/media/jaydev.e7a07afcd711e4e3d3e2.webp",
-    "static/media/sagar.webp": "/static/media/sagar.ff843dc09634d56f3112.webp",
     "static/media/rocket.webp": "/static/media/rocket.21adb787911d8bf2f428.webp",
     "static/media/web_3.webp": "/static/media/web_3.c7162915253902dec644.webp",
     "static/media/pubg.webp": "/static/media/pubg.1e0356c4d7fceb711797.webp",
@@ -17,6 +16,7 @@
     "static/media/carrom.webp": "/static/media/carrom.3e7eef418b5340b0424f.webp",
     "static/media/tug_of_war.webp": "/static/media/tug_of_war.0b2de57e591d3c22c6c5.webp",
     "static/media/rangoli.webp": "/static/media/rangoli.d0d38b5977900cc283da.webp",
+    "static/media/sagar.webp": "/static/media/sagar.af07a9dbcd50cb53acb7.webp",
     "static/media/valorant.webp": "/static/media/valorant.cd1bbbddcebbb23a581f.webp",
     "static/media/football.webp": "/static/media/football.0b14ff8bfb9130321b68.webp",
     "static/media/dance.webp": "/static/media/dance.b2576c5a20cc684aee90.webp",
@@ -28,6 +28,7 @@
     "static/media/design.webp": "/static/media/design.ac2287632bda1fd6854e.webp",
     "static/media/cricket.webp": "/static/media/cricket.200558e1a2ffc037628b.webp",
     "static/media/band_show.webp": "/static/media/band_show.54e6cc243339694873f0.webp",
+    "static/media/sachin.webp": "/static/media/sachin.6259759e5d8f70c8ecfb.webp",
     "static/media/make_a_bot.webp": "/static/media/make_a_bot.5d3507c2c074ccd2a10b.webp",
     "static/media/dhaval.webp": "/static/media/dhaval.b1bd51918ac73c79d51c.webp",
     "static/media/line_follower.webp": "/static/media/line_follower.bc0272dd1f654ae8b71c.webp",
@@ -47,7 +48,6 @@
     "static/media/hardik.webp": "/static/media/hardik.75f380361a1539ad991f.webp",
     "static/media/nvidia.webp": "/static/media/nvidia.105a9534a0b765a3f7ed.webp",
     "static/media/meet.webp": "/static/media/meet.2dafc21fb582b59f0fdc.webp",
-    "static/media/sachin.webp": "/static/media/sachin.5286af67366b82387c8c.webp",
     "static/media/logo.png": "/static/media/logo.36729c726af339b2cb4b.png",
     "static/media/tej.webp": "/static/media/tej.fadd9fdb0b8dbb4b8265.webp",
     "static/media/samarth.webp": "/static/media/samarth.fab5f6e3329e1504ee73.webp",
@@ -62,10 +62,10 @@
     "static/media/shivam.webp": "/static/media/shivam.ab72da4ac44747776c85.webp",
     "index.html": "/index.html",
     "main.b0941d5d.css.map": "/static/css/main.b0941d5d.css.map",
-    "main.23bfdb57.js.map": "/static/js/main.23bfdb57.js.map"
+    "main.5cc743ff.js.map": "/static/js/main.5cc743ff.js.map"
   },
   "entrypoints": [
     "static/css/main.b0941d5d.css",
-    "static/js/main.23bfdb57.js"
+    "static/js/main.5cc743ff.js"
   ]
 }
