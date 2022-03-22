@@ -29,8 +29,7 @@ const Home = () => {
       <BodyGradient>
         {/* <EventCategory {...EventsData} /> */}
         <Events />
-        <Highlights />
-        <Members />
+        <Highlights />        
         <GoogleMaps />
       </BodyGradient>
       <ScrollToTop smooth top="1000" color="#570658" viewbox="5 5 5 5" height="20" width="20"/>
