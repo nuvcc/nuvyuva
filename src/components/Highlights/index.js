@@ -15,6 +15,8 @@ import {
     HighlightsButton,
 } from './HighlightsElements';
 
+const Circle1 = require("../images/circles/Circle1.png");
+
 const Highlights = () => {
     const  [hover, setHover] = useState(false)
 
@@ -23,6 +25,9 @@ const Highlights = () => {
     }
     return (
         <HighlightsContainer id='highlights'>
+            <img src={Circle1} className="highlights-img1" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img2" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img3" alt="circle-png"/>
             <HighlightsH1>HIGHLIGHTS</HighlightsH1>
             <HighlightsWrapper>
                 <HighlightsCard>

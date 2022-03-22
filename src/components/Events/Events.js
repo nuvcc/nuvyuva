@@ -6,6 +6,7 @@ import workshop from "../images/eventcategories/workshop.webp";
 import gaming from "../images/eventcategories/gaming.webp";
 import cultural from "../images/eventcategories/cultural.webp";
 import sports from "../images/eventcategories/sports.webp";
+const Circle1 = require("../images/circles/Circle1.png");
 
 const Events = () => {
   let slides = [
@@ -28,6 +29,9 @@ const Events = () => {
 
   return (
     <div className="events">
+      <img src={Circle1} className="events-img1" alt="circle-png"/>
+      <img src={Circle1} className="events-img2" alt="circle-png"/>
+      <img src={Circle1} className="events-img3" alt="circle-png"/>
       <div className="event-heading">EVENTS</div>
       <div className="events-cards">
         <Carousel slides={slides} autoplay={true} interval={2000} arrows={true} />

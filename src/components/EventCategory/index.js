@@ -47,8 +47,8 @@ const EventCategory = ({
             {EventsData.map(data => {
                 return (
                     <EventCategoryContainer bg={bg} id={data.id}>
-                        <img src={Circle1} className="img1" alt="circle-png"/>
-                        <img src={Circle1} className="img2" alt="circle-png"/>
+                        <img src={Circle1} className="events-img1" alt="circle-png"/>
+                        <img src={Circle1} className="events-img2" alt="circle-png"/>
                         <EventCategoryWrapper>
                             <EventCategoryRow imgStart={imgStart}>
                                 <Column1 key={data.name}>

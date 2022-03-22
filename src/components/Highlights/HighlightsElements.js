@@ -7,7 +7,29 @@ export const HighlightsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   // background: #010606;
+
+.highlights-img1, .highlights-img2, .highlights-img3{
+  position: absolute;
+}
+
+.highlights-img1{
+  top: 0;
+  left: -5rem;
+  width: 15rem;
+  transform: rotate(120deg);
+}
+.highlights-img2{
+  bottom: 0rem;
+  right: 0rem;
+  width: 10rem;
+}
+.highlights-img3{
+  bottom: 5rem;
+  left: 1rem;
+  width: 6rem;
+}
 
   @media screen and (max-width: 768px) {
     height: 1500px;
