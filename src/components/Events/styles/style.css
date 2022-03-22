@@ -1,0 +1,66 @@
+box {
+    padding: "5rem 10rem 5rem 10rem";
+}
+
+@media screen and (max-width: 768px) {
+    box { 
+        padding: "0rem 0rem 0rem 0rem";
+        }
+}
+
+col_card {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    padding: "2rem";
+}
+
+card {
+    width: "21rem";
+    background-color: "#130634";
+    padding: "0rem";
+    border-color: "#a30a8d";
+    box-shadow: "0 0 5rem 0 #130634";
+}
+
+card_image {
+    border-radius: "20px";
+}
+
+card_title {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    color: " #f3f3f7";
+    text-transform: "uppercase";
+}
+
+card_description {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    text-transform: "uppercase";
+    color: " #f3f3f7";
+}
+
+card_subtitle {
+    font-family: "'Courier New' , monospace ";
+    font-size: "1.5rem";
+    font-weight: "bold";
+    display: "flex";
+    justify-content: "center";
+    text-transform: "uppercase";
+    align-items: "center";
+    color: "#a30a8d";
+}
+
+card_button {
+    width: "100%";
+    background-color: "#a30a8d";
+    font-size: "1rem";
+    font-weight: "bold";
+    text-transform: "uppercase";
+    border-color: "#a30a8d",;
+    color: "#130634";
+    border-radius: 20px;
+}
