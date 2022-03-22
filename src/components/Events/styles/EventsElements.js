@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Header = styled.header`
-    background: #130634;
     height: 80px;
     margin-top: -80px;
     padding: 2rem;
@@ -15,7 +14,7 @@ export const Header = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 20px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -33,11 +32,12 @@ export const Heading = styled.h1`
     text-align: center;
     justify-content: center;
     color: White;
-    font-size: 3rem;
+    font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 1.4px;
     margin: 0;
     text-transform: uppercase;
+    letter-spacing: 6px;
 
     @media screen and (max-width: 960px) {
         font-size: 1.5rem;
