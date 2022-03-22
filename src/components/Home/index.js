@@ -10,6 +10,8 @@ import Footer from "../Footer";
 import Members from "../Members/Members";
 import GoogleMaps from "./../Maps/GoogleMap";
 import Events from "../Events/Events";
+import About from "../About";
+import Nuv from "../Nuv";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +24,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Countdown />
+      <About/>
       <BodyGradient>
         {/* <EventCategory {...EventsData} /> */}
         <Events />

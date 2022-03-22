@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-    background: #000015;
+    background: linear-gradient(
+        0deg,
+        #bf0a1e 0%,
+        #07192f 20%,
+        #07192f 100%
+    )};
     justify-content: center;
     height: 100vh;
     align-items: center;
@@ -48,7 +53,6 @@ export const Content = styled.p`
   line-height: 30px;
   color: #f3f3f7;
   margin: auto;
-
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 20px;
@@ -65,8 +69,8 @@ export const Img = styled.img`
 export const WebsiteButton = styled.div`
   grid-area: website;
   width: 100%;
-  color: #fff;
-  background: #B40A98;
+  color: #031d26;
+  background: #60b8d5;
   padding: 10px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -74,10 +78,9 @@ export const WebsiteButton = styled.div`
   width: 200px;
   border-radius: 30px;
   font-weight: bold;
-
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #d941c0;
+    background: #139fcd;
     color: #031d26;
   }
 `;
@@ -89,17 +92,16 @@ export const BackButton = styled.div`
   flex-direction: column;
   color: #031d26;
   border-radius: 30px;
-  background: #B40A98;
+  background: #60b8d5;
   width: 50px;
   padding: 10px;
   margin-left: 10px;
   margin-top: 10px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #d941c0;
+    background: #139fcd;
     color: #031d26;
   }
 `;

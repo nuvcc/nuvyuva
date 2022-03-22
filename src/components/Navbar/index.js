@@ -29,15 +29,12 @@ const Navbar = ({ toggle }) => {
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
-                    <MobileDownloadLink href={Brochure} download="Brochure" target='_blank'>
-                            <MobileButton>Brochure</MobileButton>
-                    </MobileDownloadLink>
                     <NavMenu>
-                        <DownloadLink href={Brochure} download="Brochure" target='_blank'>
-                            <Button>Brochure</Button>
-                        </DownloadLink>
                         <NavItem>
                         <NavLink to="Countdown">HOME</NavLink>
+                        </NavItem>
+                        <NavItem>
+                        <NavLink to="about">ABOUT</NavLink>
                         </NavItem>
                         <NavItem>
                         <NavLink to="events">EVENTS</NavLink>
@@ -47,7 +44,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavPageLink
-                                to='about'
+                                to='nuv'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
