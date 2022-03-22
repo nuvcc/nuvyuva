@@ -1,12 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-    background: linear-gradient(
-        0deg,
-        #bf0a1e 0%,
-        #07192f 20%,
-        #07192f 100%
-    )};
+    background: #000015;
     justify-content: center;
     height: 100vh;
     align-items: center;
@@ -69,8 +64,8 @@ export const Img = styled.img`
 export const WebsiteButton = styled.div`
   grid-area: website;
   width: 100%;
-  color: #031d26;
-  background: #60b8d5;
+  color: #fff;
+  background: #B40A98;
   padding: 10px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -80,7 +75,7 @@ export const WebsiteButton = styled.div`
   font-weight: bold;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #139fcd;
+    background: #d941c0;
     color: #031d26;
   }
 `;
@@ -92,7 +87,7 @@ export const BackButton = styled.div`
   flex-direction: column;
   color: #031d26;
   border-radius: 30px;
-  background: #60b8d5;
+  background: #B40A98;
   width: 50px;
   padding: 10px;
   margin-left: 10px;
@@ -101,7 +96,7 @@ export const BackButton = styled.div`
   cursor: pointer;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #139fcd;
+    background: #d941c0;
     color: #031d26;
   }
 `;
