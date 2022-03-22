@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #000015;
-  height: 60px;
+  height: 50px;
   margin-top: -60px;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: center;
-  height: 60px;
+  height: 50px;
   z-index: 1;
   width: 100%;
   padding: 80px 0px;
@@ -32,10 +32,9 @@ export const NavLogo = styled(LinkR)`
   color: #f3f3f7;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 
@@ -64,19 +63,19 @@ export const NavLink = styled(LinkS)`
   align-items: center;
   text-decoration: none;
   font-size: 1.2rem;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   height: 100%;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 
   &.active {
-    color: #b40a98;
+    color: #B40A98;
     border-bottom: 3px solid #b40a98;
     transition: 0.2s ease-in-out;
   }
 
   &:hover {
-    color: #b40a98;
+    color: #B40A98;
   }
 `;
 
@@ -143,15 +142,7 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
     color: #f3f3f7;
-  }
-`;
-
-export const MobileDownloadLink = styled.a`
-  display: none;
-
-  @media screen and (max-width: 768px) {
-    display: block;
-    text-decoration: none;
+    margin-top: -5px;
   }
 `;
 

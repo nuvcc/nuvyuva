@@ -23,25 +23,26 @@ const Highlights = () => {
     }
     return (
         <HighlightsContainer id='highlights'>
-            <HighlightsH1>Highlights</HighlightsH1>
+            <HighlightsH1>HIGHLIGHTS</HighlightsH1>
             <HighlightsWrapper>
                 <HighlightsCard>
                     <HighlightsIcon src={hackathon}/>
-                    <HighlightsH2>Hack For Change</HighlightsH2>
+                    <HighlightsH2>HACK FOR CHANGE</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
                             to='hackathon' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
+                            onClick={() => window.open("https://hack-for-change.devpost.com/", "_self")}
                         >
-                            Coming Soon
+                            Register Now
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={concert}/>
-                    <HighlightsH2>Concert</HighlightsH2>
+                    <HighlightsH2>CONCERT</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 

@@ -53,7 +53,6 @@ export const Content = styled.p`
   line-height: 30px;
   color: #f3f3f7;
   margin: auto;
-
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 20px;
@@ -79,7 +78,6 @@ export const WebsiteButton = styled.div`
   width: 200px;
   border-radius: 30px;
   font-weight: bold;
-
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #139fcd;
@@ -101,7 +99,6 @@ export const BackButton = styled.div`
   margin-top: 10px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #139fcd;
