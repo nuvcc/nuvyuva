@@ -157,7 +157,7 @@ export const memberData = [
   },
   {
     id: 19,
-    name: "Anchal",
+    name: "Aanchal Mantry",
     imgSrc: anchal,
     postion: "Cultural Head",
     posId: 3,
