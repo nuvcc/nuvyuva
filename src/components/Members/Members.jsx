@@ -13,7 +13,7 @@ export const styles = {
 
   wholeComponent:{
     backgroundColor:"#000015",
-    paddingTop:"20px"
+    paddingTop:"0px"
   },
 
   box: {
@@ -24,7 +24,8 @@ export const styles = {
     display: "flex",
     justifyContent: "center",
     alignItem: "center",
-    margin:"1rem",
+    marginBottom: "1rem",
+    marginTop: "1rem",
     padding: "0.8rem",
   },
   header: {
@@ -51,8 +52,10 @@ export const styles = {
   },
   card: {
     width: "21rem",
-    borderBottomRightRadius: "16px",
-    borderBottomLeftRadius: "16px",
+    borderBottomRightRadius: "20px",
+    borderBottomLeftRadius: "20px",
+    borderTopRightRadius: "20px",
+    borderTopLeftRadius: "20px",
     backgroundColor: "#130735",
     boxShadow: "0 0 1rem 0 #d941c0",
     padding: "0rem",

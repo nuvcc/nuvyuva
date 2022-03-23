@@ -35,13 +35,13 @@ export const Heading = styled.h1`
     color: White;
     font-size: 3rem;
     font-weight: 400;
-    letter-spacing: 1.4px;
+    letter-spacing: 6px;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing: 6px;
 
     @media screen and (max-width: 960px) {
         font-size: 1.5rem;
+        letter-spacing: 1px;
     }
 `;
 
@@ -58,12 +58,12 @@ export const BackButton = styled.div`
     border: 0.1rem solid #a30a8d;
     background: #130634;
     width: 3rem;
-    padding: 0.5rem;
+    padding: 0.4rem;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 
     @media screen and (max-width: 768px) {
-        padding: 0.5rem;
+        padding: 0.4rem;
         width: 3rem;
     }
 
