@@ -23,7 +23,7 @@ const TechnicalEvents = () => {
                     return (
                         <>
                             <Header>
-                                    <BackButton onClick={() => navigate(-1)}><BiArrowBack /></BackButton>
+                                    <BackButton onClick={() => navigate(-1)}><BiArrowBack size={30}/></BackButton>
                                     <Heading>{data.name}</Heading>
                             </Header>
                             <Row md={2}>
