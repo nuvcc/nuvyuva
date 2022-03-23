@@ -30,6 +30,22 @@ export const HighlightsContainer = styled.div`
   left: 1rem;
   width: 6rem;
 }
+  @media screen and (max-width: 40rem) {
+    .highlights-img1{
+      top: 0;
+      left: -5rem;
+      width: 10rem;
+      transform: rotate(120deg);
+    }
+    .highlights-img2{
+      bottom: 0rem;
+      right: 0rem;
+      width: 8rem;
+    }
+    .highlights-img3{
+      display: none;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     height: 1500px;
@@ -48,6 +64,7 @@ export const HighlightsWrapper = styled.div`
   align-items: center;
   grid-gap: 3rem;
   padding: 0px 0px;
+  z-index: 5;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -89,6 +106,7 @@ export const HighlightsH1 = styled.h1`
   margin-bottom: 64px;
   font-size: 40px;
   letter-spacing: 6px;
+  positions: relative;
 
   @media screen and (max-width: 480px) {
     font-size: 3rem;

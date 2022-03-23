@@ -25,9 +25,9 @@ const Highlights = () => {
     }
     return (
         <HighlightsContainer id='highlights'>
-            <img src={Circle1} className="highlights-img1" alt="circle-png"/>
-            <img src={Circle1} className="highlights-img2" alt="circle-png"/>
-            <img src={Circle1} className="highlights-img3" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img1 circle-svgs" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img2 circle-svgs" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img3 circle-svgs" alt="circle-png"/>
             <HighlightsH1>HIGHLIGHTS</HighlightsH1>
             <HighlightsWrapper>
                 <HighlightsCard>

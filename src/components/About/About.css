@@ -39,6 +39,18 @@
   margin-top: 10px;
   margin-bottom: 10px;
   letter-spacing: 6px;
+  position: relative;
+}
+
+.about-circle-img1 {
+  position: absolute;
+}
+
+.about-circle-img1{
+  top: -3rem;
+  left: -3rem;
+  width: 7rem;
+  transform: rotate(120deg);
 }
 
 .about-info{
@@ -101,5 +113,11 @@
   }
   .about-heading{
     text-align: center;
+  }
+  .about-circle-img1{
+    top: -1rem;
+    left: 20%;
+    width: 5rem;
+    transform: rotate(120deg) translate(-0%, 0%);
   }
 }

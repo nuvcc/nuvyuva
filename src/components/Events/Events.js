@@ -29,9 +29,9 @@ const Events = () => {
 
   return (
     <div className="events">
-      <img src={Circle1} className="events-img1" alt="circle-png"/>
-      <img src={Circle1} className="events-img2" alt="circle-png"/>
-      <img src={Circle1} className="events-img3" alt="circle-png"/>
+      <img src={Circle1} className="events-img1 circle-svgs" alt="circle-png"/>
+      <img src={Circle1} className="events-img2 circle-svgs" alt="circle-png"/>
+      <img src={Circle1} className="events-img3 circle-svgs" alt="circle-png"/>
       <div className="event-heading">EVENTS</div>
       <div className="events-cards">
         <Carousel slides={slides} autoplay={true} interval={2000} arrows={true} />
