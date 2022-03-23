@@ -15,7 +15,7 @@ export const EventsData = [
                 "description" : "Automate things using a bot",
                 "price" : "200 PP",
                 "group": "Individual/Group",
-                "size": "Group Size: 2",
+                "size": "Group Size: 2"
             },
             {
                 "image" : require("../images/webp/uncharted.webp"),
@@ -23,7 +23,7 @@ export const EventsData = [
                 "description" : "Track, Trail, & Tail",
                 "price" : "200 PG",
                 "group": "Group Event",
-                "size": "Group Size: 2-4",
+                "size": "Group Size: 2-4"
             },
             {
                 "image" : require("../images/webp/rocket.webp"),
@@ -51,13 +51,13 @@ export const EventsData = [
                 "image" : require("../images/webp/ad_mad_show.webp"),
                 "name" : "Ad-Mad Show",
                 "description" : "Go crazy or be sensible all you need conceptive idea to attract the public towards your product",
-                "price" : "100 PP",
+                "price" : "100 PP"
             },
             {
                 "image" : require("../images/webp/make_your_meme.webp"),
                 "name" : "Make your meme",
                 "description" : "Memes unite the funny bones of the online world and provide a platform for a social commentary, pop culture, pop culture observations",
-                "price" : "50 PP",
+                "price" : "50 PP"
             }
         ]
     },
@@ -116,7 +116,7 @@ export const EventsData = [
                 "description" : "Are we just rushin' in? Or are we goin' all sneaky beaky like? Let's bring it on!",
                 "price" : "100 PP",
                 "group" : "Group Event",
-                "size": "Team Size: 5",
+                "size": "Team Size: 5"
             },
             {
                 "image" : require("../images/webp/valorant.webp"), 
@@ -124,7 +124,7 @@ export const EventsData = [
                 "description" : "Sheeeshh! Neon's gonna get' em all!... OMG LAG!!",
                 "price" : "100 PP",
                 "group" : "Group Event",
-                "size": "Team Size: 5",
+                "size": "Team Size: 5"
             },
             {
                 "image" : require("../images/webp/pubg.webp"),     
@@ -132,7 +132,7 @@ export const EventsData = [
                 "description" : "Winner Winner chicken dinner",
                 "price" : "100 PP",
                 "group" : "Group Event",
-                "size": "Team Size: 4",
+                "size": "Team Size: 4"
             }
         ]
     },
@@ -145,49 +145,49 @@ export const EventsData = [
                 "name" : "Aaja Nachle",
                 "description" : "It's the time to disco",
                 "price" : "100 PP",
-                "group" : true
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/music.webp"),
                 "name" : "Yuva Studio",
                 "description" : "Bless us with your lovely tone.",
                 "price" : "100 PP",
-                "group" : true
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/fashion_show.webp"),
                 "name" : "Yuva's Ramp show",
                 "description" : "Fashion ka hai yeh jalwa",
                 "price" : "100 PP",
-                "group" : false
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/drama.webp"),
                 "name" : "Oscar Academy",
                 "description" : "Don't explain, it's time to express.",
                 "price" : "100 PP",
-                "group" : true
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/band_show.webp"),
                 "name" : "Rock with Band",
                 "description" : "So who are the next backstreet boys?",
                 "price" : "100 PP",
-                "group" : true
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/rangoli.webp"),
                 "name" : "Rango ki mehfil",
                 "description" : "kuch Rang apne hunar ke.",
                 "price" : "50 PP",
-                "group" : true
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/painting.webp"),
                 "name" : "Painter's Den",
                 "description" : "Let the canvas do the talking",
                 "price" : "50 PP",
-                "group" : false
+                "group" : ""
             }
         ]
     },
@@ -224,21 +224,21 @@ export const EventsData = [
                 "name" : "Game of Thrones",
                 "description" : "Don't let the king die",
                 "price" : "50",
-                "group" : false
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/carrom.webp"),
                 "name" : "Flick",
                 "description" : "Rani toh Pappa nij",
                 "price" : "70",
-                "group" : false
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/table_tennis.webp"),
                 "name" : "Ping Pong (Table Tennis)",
                 "description" : "Eat. Sleep. Ping Pong.",
                 "price" : "100",
-                "group" : false
+                "group" : ""
             },
             {
                 "image" : require("../images/webp/tug_of_war.webp"),
@@ -253,7 +253,7 @@ export const EventsData = [
                 "name" : "Discy Wing",
                 "description" : "It's time to show your frisbee skills",
                 "price" : "60",
-                "group" : false
+                "group" : ""
             }
         ]
     }

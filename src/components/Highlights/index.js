@@ -15,6 +15,8 @@ import {
     HighlightsButton,
 } from './HighlightsElements';
 
+const Circle1 = require("../images/circles/Circle1.png");
+
 const Highlights = () => {
     const  [hover, setHover] = useState(false)
 
@@ -23,11 +25,14 @@ const Highlights = () => {
     }
     return (
         <HighlightsContainer id='highlights'>
-            <HighlightsH1>Highlights</HighlightsH1>
+            <img src={Circle1} className="highlights-img1 circle-svgs" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img2 circle-svgs" alt="circle-png"/>
+            <img src={Circle1} className="highlights-img3 circle-svgs" alt="circle-png"/>
+            <HighlightsH1>HIGHLIGHTS</HighlightsH1>
             <HighlightsWrapper>
                 <HighlightsCard>
                     <HighlightsIcon src={hackathon}/>
-                    <HighlightsH2>Hack For Change</HighlightsH2>
+                    <HighlightsH2>HACK FOR CHANGE</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 
@@ -42,7 +47,7 @@ const Highlights = () => {
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={concert}/>
-                    <HighlightsH2>Concert</HighlightsH2>
+                    <HighlightsH2>CONCERT</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>
                         <HighlightsButton 

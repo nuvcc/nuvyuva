@@ -16,8 +16,8 @@ import jaydev from "./images/jaydev.webp";
 import shivani from "./images/shivani.webp";
 import dhaval from "./images/dhaval.webp";
 import yogesh from "./images/yogesh.webp";
-import gaurav from "./images/gaurav.webp";
-
+import gaurav from "./images/gaurav2.webp";
+import anchal from "./images/anchal.webp";
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
 export const memberData = [
@@ -154,5 +154,12 @@ export const memberData = [
     imgSrc: yogesh,
     postion: "Technical Committee Convener",
     posId: 4,
+  },
+  {
+    id: 19,
+    name: "Aanchal Mantry",
+    imgSrc: anchal,
+    postion: "Decoration Head",
+    posId: 3,
   }
 ];
