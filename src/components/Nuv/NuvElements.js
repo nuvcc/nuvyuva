@@ -39,6 +39,25 @@ export const DescriptionRow = styled.div`
   grid-area: description;
   justify-content: center;
   padding: 10px;
+  position: relative;
+
+  .circle-svgs{
+      position: absolute;
+  }
+
+  .nuv-about-circle1{
+    top: -10%;
+    left: 5%;
+    width: 7rem;
+  }
+
+  @media screen and (max-width: 40rem) {
+    .nuv-about-circle1{
+      top: -7%;
+      left: 20%;
+      width: 5rem;
+    }
+  }
 `;
 
 export const Content = styled.p`
@@ -48,6 +67,8 @@ export const Content = styled.p`
   line-height: 30px;
   color: #f3f3f7;
   margin: auto;
+  position: relative;
+  z-index: 5;
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 20px;
@@ -58,7 +79,7 @@ export const Content = styled.p`
 export const Img = styled.img`
     grid-area: logo;
     width: 50%;
-    height: 50%:
+    /* height: 50%; */
 `;
 
 export const WebsiteButton = styled.div`
