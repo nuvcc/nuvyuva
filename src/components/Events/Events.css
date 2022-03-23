@@ -3,6 +3,7 @@
   min-height: 100vh;
   padding: 30px 0px 100px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .events-img1, .events-img2, .events-img3{
