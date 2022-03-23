@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import {useNavigate} from 'react-router-dom'
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
 import { memberData } from "./list";
 import "../../styles/style.css";
 import MemCard from "./MemCard";
+import {HeadRow, BackButton} from '../Nuv/NuvElements'
+import {BiArrowBack} from 'react-icons/bi';
 
 const Circle1 = require("../images/circles/Circle1.png");
 
@@ -76,10 +79,14 @@ export const styles = {
 };
 
 const Members = () => {
+  const navigate = useNavigate();
   const [Data, setData] = useState(memberData);
 
   return (
     <div style={styles.wholeComponent}>
+      <HeadRow>
+        <BackButton onClick={() => navigate(-1)}><BiArrowBack /></BackButton>
+      </HeadRow>
       <div style={styles.header}>
         <h2 style={styles.title}>
           <div style={{ position: 'relative', zIndex: 5}}>The Team</div>
