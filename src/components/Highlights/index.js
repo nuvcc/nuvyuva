@@ -69,8 +69,9 @@ const Highlights = () => {
                             to='mun' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
+                            onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/", "_self")}
                         >
-                            Coming Soon
+                            Register Now
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
