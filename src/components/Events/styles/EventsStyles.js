@@ -9,6 +9,7 @@ export const styles = {
     justifyContent: "center",
     alignItem: "center",
     padding: "5rem",
+    textalign: "center"
   },
   
   header: {
@@ -50,9 +51,8 @@ export const styles = {
   card_title: {
     display: "flex",
     justifyContent: "center",
-    alignItem: "center",
+    alignItems: "center",
     color: " #f3f3f7",
-    textTransform: "uppercase",
   },
 
   card_description: {

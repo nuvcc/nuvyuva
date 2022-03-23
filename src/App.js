@@ -8,6 +8,7 @@ import GamingEvents from "./components/Events/subpages/GamingEvents";
 import CulturalEvents from "./components/Events/subpages/CulturalEvents";
 import SportEvents from "./components/Events/subpages/SportEvents";
 import Nuv from "./components/Nuv";
+import Members from "./components/Members/Members";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/workshops" element={ <Workshops />} />
         <Route exact path="/technical" element={ <TechnicalEvents />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/team" element={<Members />} />
         <Route exact path="/nuv" element={<Nuv />} />
         <Route exact path="/" element={<Home />} />
       </Routes>

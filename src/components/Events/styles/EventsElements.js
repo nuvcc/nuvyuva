@@ -8,14 +8,14 @@ export const Wrapper = styled.div`
 
 export const Header = styled.header`
     background: #130634;
-    height: 80px;
-    margin-top: -80px;
+    height: 60px;
+    margin-top: -60px;
     padding: 2rem;
     margin-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 20px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -34,10 +34,11 @@ export const Heading = styled.h1`
     justify-content: center;
     color: White;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.4px;
     margin: 0;
     text-transform: uppercase;
+    letter-spacing: 6px;
 
     @media screen and (max-width: 960px) {
         font-size: 1.5rem;
@@ -54,10 +55,10 @@ export const BackButton = styled.div`
     justify-content: center;
     color: #a30a8d;
     border-radius: 1rem;
-    border: 0.2rem solid #a30a8d;
+    border: 0.1rem solid #a30a8d;
     background: #130634;
-    width: 4rem;
-    padding: 1rem;
+    width: 3rem;
+    padding: 0.5rem;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 

@@ -5,6 +5,12 @@ import "../../styles/style.css";
 import MemCard from "./MemCard";
 
 export const styles = {
+
+  wholeComponent:{
+    backgroundColor:"#000015",
+    paddingTop:"20px"
+  },
+
   box: {
     padding: "1rem 4rem ",
   },
@@ -13,7 +19,7 @@ export const styles = {
     display: "flex",
     justifyContent: "center",
     alignItem: "center",
-
+    margin:"1rem",
     padding: "0.8rem",
   },
   header: {
@@ -40,7 +46,8 @@ export const styles = {
     width: "21rem",
     borderBottomRightRadius: "16px",
     borderBottomLeftRadius: "16px",
-    backgroundColor: "#000000",
+    backgroundColor: "#130735",
+    boxShadow: "0 0 1rem 0 #d941c0",
     padding: "0rem",
   },
   card_title: {
@@ -62,7 +69,7 @@ const Members = () => {
   const [Data, setData] = useState(memberData);
 
   return (
-    <>
+    <div style={styles.wholeComponent}>
       <div style={styles.header}>
         <h2 style={styles.title}>The Team</h2>
       </div>
@@ -118,7 +125,7 @@ const Members = () => {
           })}
         </Row>
       </div>
-    </>
+    </div>
   );
 };
 
