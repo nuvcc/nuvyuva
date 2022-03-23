@@ -4,6 +4,8 @@ import { memberData } from "./list";
 import "../../styles/style.css";
 import MemCard from "./MemCard";
 
+const Circle1 = require("../images/circles/Circle1.png");
+
 export const styles = {
 
   wholeComponent:{
@@ -33,6 +35,8 @@ export const styles = {
     fontHeight: 700,
     letterSpacing: " 1.4px",
     textTransform: "uppercase",
+    position: "relative",
+    padding: "2rem"
   },
   subtitle: {
     color: " #f3f3f7",
@@ -63,6 +67,12 @@ export const styles = {
     alignItem: "center",
     color: " #f3f3f7",
   },
+  teamsSvgImg: {
+    position: 'absolute',
+    top: '1rem',
+    right: '1rem',
+    width: '6rem'
+  }
 };
 
 const Members = () => {
@@ -71,7 +81,10 @@ const Members = () => {
   return (
     <div style={styles.wholeComponent}>
       <div style={styles.header}>
-        <h2 style={styles.title}>The Team</h2>
+        <h2 style={styles.title}>
+          <div style={{ position: 'relative', zIndex: 5}}>The Team</div>
+          <img src={Circle1} className="circle-svgs" style={styles.teamsSvgImg} alt="circle-png"/>
+        </h2>
       </div>
       <div style={styles.box} className="team-cat">
         <div style={styles.header}>
