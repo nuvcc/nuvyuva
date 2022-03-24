@@ -41,7 +41,7 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             onClick={() => window.open("https://hack-for-change.devpost.com/", "_self")}
                         >
-                            Register Now
+                            REGISTER NOW
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
@@ -56,7 +56,7 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             onClick={() => window.open("https://forms.gle/mM92w2wrtnvWiA2c9", "_self")}
                         >
-                            Register Now
+                            REGISTER NOW
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
@@ -71,7 +71,7 @@ const Highlights = () => {
                             onMouseLeave={onHover}
                             onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/", "_self")}
                         >
-                            Register Now
+                            REGISTER NOW
                         </HighlightsButton>
                     </HighlightsBtnWrapper>
                 </HighlightsCard>

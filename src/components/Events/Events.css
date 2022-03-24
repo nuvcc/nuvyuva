@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width: 40rem){
+
+.event-heading{
+  font-size: 30px;
+}
   .events-img1{
     top: 0;
     left: 0rem;

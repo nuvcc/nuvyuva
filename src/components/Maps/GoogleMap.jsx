@@ -42,6 +42,7 @@ const GoogleMaps = () => {
           justifyItems: "center",
           alignItems: "center",
           flexDirection: "column",
+          background: "#000115",
         }}
       >
         <div style={{ display: "block", margin: "10px" }}>
@@ -58,7 +59,7 @@ const GoogleMaps = () => {
         <div style={{ display: "block" }}>
           <Button
             style={{
-              margin: "15px",
+              margin: "15px 15px 20px 15px",
               border: "none",
               background: "linear-gradient(90deg, #B40A98 0%, #570658 100%)",
             }}
@@ -68,7 +69,7 @@ const GoogleMaps = () => {
           </Button>
           <Button
             style={{
-              margin: "15px",
+              margin: "15px 15px 20px 15px",
               border: "none",
               background: "linear-gradient(90deg, #B40A98 0%, #570658 100%)",
             }}

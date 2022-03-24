@@ -8,7 +8,8 @@ export const HighlightsContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  // background: #010606;
+  z-index: 1;
+  background: #000115;
 
 .highlights-img1, .highlights-img2, .highlights-img3{
   position: absolute;
@@ -109,7 +110,7 @@ export const HighlightsH1 = styled.h1`
   positions: relative;
 
   @media screen and (max-width: 480px) {
-    font-size: 3rem;
+    font-size: 30px;
   }
 `;
 
@@ -154,7 +155,7 @@ export const HighlightsButton = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #d667c4;
-    color: #010606;
+    background: linear-gradient(90deg, #B40A98 0%, #570658 100%);
+    color: #fff;
   }
 `;
