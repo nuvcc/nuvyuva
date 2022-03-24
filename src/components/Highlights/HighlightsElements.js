@@ -10,6 +10,7 @@ export const HighlightsContainer = styled.div`
   position: relative;
   z-index: 1;
   background: #000115;
+  font-family: 'Playfair Display', serif;
 
 .highlights-img1, .highlights-img2, .highlights-img3{
   position: absolute;

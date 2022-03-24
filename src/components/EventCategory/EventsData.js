@@ -201,15 +201,15 @@ export const EventsData = [
                 "description" : "Either a six or wicket, but the watch shows time for Super-Over. (7-a-side)",
                 "price" : "1600",
                 "group" : "Group Event",
-                "size" : "Maximum people: 8"
+                "size" : "Maximum people: 9"
             },
             {
                 "image" : require("../images/webp/football.webp"),
                 "name" : "Yuva league",
-                "description" : "Some dream about goals-we make them (6-a-side)",
+                "description" : "Some dream about goals-we make them (7-a-side)",
                 "price" : "1400",
                 "group" : "Group Event",
-                "size" : "Maximum people: 7"
+                "size" : "Maximum people: 11"
             },
             {
                 "image" : require("../images/webp/basketball.webp"),
@@ -217,7 +217,7 @@ export const EventsData = [
                 "description" : "let's make a hoop for Kobe (5-a-side)",
                 "price" : "1200",
                 "group" : "Group Event",
-                "size" : "Maximum people: 6"
+                "size" : "Maximum people: 9"
             },
             {
                 "image" : require("../images/webp/chess.webp"),

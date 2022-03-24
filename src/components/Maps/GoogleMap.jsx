@@ -51,6 +51,7 @@ const GoogleMaps = () => {
               color: "#f3f3f7",
               letterSpacing: "6px",
               textAlign: "center",
+              fontFamily: 'Playfair Display',
             }}
           >
             LOCATIONS

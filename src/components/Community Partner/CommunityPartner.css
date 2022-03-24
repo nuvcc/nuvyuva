@@ -16,7 +16,7 @@
   margin-bottom: 20px;
   font-size: 40px;
   letter-spacing: 6px;
-  positions: relative;
+  font-family: 'Playfair Display', serif;
 
   @media screen and (max-width: 480px) {
     font-size: 30px;
