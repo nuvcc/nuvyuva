@@ -90,6 +90,7 @@
 }
 
 @media screen and (max-width: 50rem) {
+
     .about-info{
       font-size: 0.8rem;
       padding-left: 20px;
@@ -109,10 +110,10 @@
     padding-top: 2rem;
   }
   .img{
-    width: 130%;
+    width: 100%;
   }
   .about-img{
-    width: 45%;
+    width: 70%;
   }
   .about-content{
     text-align: center;
