@@ -5,16 +5,20 @@ import { styles } from '../styles/EventsStyles'
 import { Row, Col, Container, Card, Button } from "react-bootstrap"
 import { 
     Wrapper,
-    Header,
-    Heading, 
+    ButtonRow,
     BackButton,
+    Head,
+    TitleWrapper,
+    Title,    
 } from '../styles/EventsElements'
 import {BiArrowBack} from 'react-icons/bi';
+import '../styles/SvgStyles.css'
 
 
 const GamingEvents = () => {
 
     const navigate = useNavigate()
+    const zigzag = require("../../images/circles/Zigzag.png");
 
     return (
         <>
@@ -22,11 +26,16 @@ const GamingEvents = () => {
                 {EventsData.map(data => {
                     return (
                         <>
-                            <Header>
-                                    <BackButton onClick={() => navigate(-1)}><BiArrowBack size={30}/></BackButton>
-                                    <Heading>{data.name}</Heading>
-                            </Header>
-                            <Row md={2}>
+                            <ButtonRow>
+                                <BackButton onClick={() => navigate(-1)}><BiArrowBack /></BackButton>
+                            </ButtonRow>
+                            <Head> 
+                                <TitleWrapper>
+                                    <Title>Gaming</Title>
+                                </TitleWrapper>
+                                <img src={zigzag} className="gamingzigzag" alt="gaming-zigzag-png"/>
+                            </Head>
+                            <Row md={3}>
                             {data.events.map(event => {
                                 return (
                                         <Col style={styles.col_card}>
@@ -43,8 +52,8 @@ const GamingEvents = () => {
                                                     <Card.Subtitle style={styles.card_subtitle} className='card_subtitle'>
                                                         {event.price}
                                                     </Card.Subtitle>
-                                                    <Card.Text style={styles.card_description}>{event.group}</Card.Text>
-                                                    <Card.Text style={styles.card_description}>{event.size}</Card.Text>
+                                                    <Card.Text style={styles.card_criteria_1}>{event.group}</Card.Text>
+                                                    <Card.Text style={styles.card_criteria_2}>{event.size}</Card.Text>
                                                 </Card.Body>
                                                 <Button style={styles.card_button} onClick={() => window.open("https://www.nuv.ac.in/cpe-regn/", "_self")}>Register Now</Button>
                                             </Card>

@@ -18,6 +18,9 @@ import dhaval from "./images/dhaval.webp";
 import yogesh from "./images/yogesh.webp";
 import gaurav from "./images/gaurav2.webp";
 import anchal from "./images/anchal.webp";
+import arya from "./images/arya.webp";
+import rushit from './images/mediahead.webp';
+
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
 export const memberData = [
@@ -161,5 +164,19 @@ export const memberData = [
     imgSrc: anchal,
     postion: "Decoration Head",
     posId: 3,
-  }
+  },
+  // {
+  //   id: 20,
+  //   name: "Arya Shah",
+  //   imgSrc: arya,
+  //   postion: "Hackathon Head",
+  //   posId: 1,
+  // },
+  // {
+  //   id: 21,
+  //   name: "Rushit Patel",
+  //   imgSrc: rushit,
+  //   postion: "Media Head",
+  //   posId: 3,
+  // },
 ];

@@ -45,7 +45,7 @@ export const Heading = styled.h1`
     }
 `;
 
-export const BackButton = styled.div`
+export const Back = styled.div`
     display: block;
     position: absolute;
     top: 0.5rem;
@@ -72,4 +72,57 @@ export const BackButton = styled.div`
         background: #a30a8d;
         color: #130634;
     }
+`;
+
+export const Head = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const TitleWrapper = styled.h2`
+    color: #f3f3f7;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 2rem;
+
+    @media screen and (max-width: 960px) {
+        font-size: 2rem;
+        text-align: center;
+    }
+`;
+
+export const Title = styled.div`
+    position: relative;
+    z-index: 5;
+`;
+
+export const ButtonRow = styled.div`
+  display: flex;
+  justify-content: left;
+  height: 60px;
+`;
+
+export const BackButton = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #031d26;
+  border-radius: 30px;
+  background: #B40A98;
+  width: 50px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #d941c0;
+    color: #031d26;
+  }
 `;
