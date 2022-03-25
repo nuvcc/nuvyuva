@@ -1,5 +1,10 @@
 export const styles = {
 
+  wholeComponent: {
+    backgroundColor:"#000015",
+    paddingTop:"0px"
+  },
+
   box: {
     padding: "1rem 4rem ",
   },
@@ -9,13 +14,15 @@ export const styles = {
     justifyContent: "center",
     alignItem: "center",
     padding: "5rem",
-    textalign: "center"
+    textalign: "center",
+    textTransform: "uppercase",
   },
   
   header: {
     display: "flex",
     justifyContent: "center",
     alignItem: "center",
+    textTransform: "uppercase",
   },
   title: {
     color: " #f3f3f7",
@@ -70,6 +77,21 @@ export const styles = {
     justifyContent: "center",
     alignItem: "center",
     color: "#a30a8d",
+  },
+
+  card_criteria_1: {
+    display: "flex",
+    justifyContent: "center",
+    alignItem: "center",
+    color: " #f3f3f7",
+    margin: "0px",
+  },
+
+  card_criteria_2: {
+    display: "flex",
+    justifyContent: "center",
+    alignItem: "center",
+    color: " #f3f3f7",
   },
 
   card_button: {
