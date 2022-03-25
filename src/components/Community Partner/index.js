@@ -5,6 +5,7 @@ import CDS from "./images/Group 100.svg";
 import GDC from "./images/Group 99.svg";
 import MozNUV from "./images/Group 101.svg";
 import Gameroo from "./images/Group 102.svg";
+import logo from './images/Kanan.png';
 import { Container,row,col } from "react-bootstrap";
 import "./CommunityPartner.css";
 

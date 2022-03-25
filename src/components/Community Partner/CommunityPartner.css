@@ -24,6 +24,25 @@
   }
 }
 
+.title2{
+  font-size: 2rem;
+  color: #f3f3f7;
+  margin: 30px;
+  font-size: 40px;
+  letter-spacing: 6px;
+  font-family: 'Playfair Display', serif;
+
+  @media screen and (max-width: 480px) {
+    font-size: 30px;
+
+  }
+}
+
+.logo{
+  width: 20%;
+  margin: 0%;
+}
+
 @media screen and (max-width: 1200px){
     .col-sm-1, .col-md-4{
         padding: 15px;

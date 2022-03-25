@@ -8,22 +8,16 @@
   padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
-.container{
-  display: flex;
-    justify-content: center;
-    align-items: center;        /* for single line flex container */
-    align-content: center;  
-}
-
 .img{
   width: 30%;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
+  margin: 0%;
 }
 
 .about-img{
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 

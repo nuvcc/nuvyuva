@@ -188,6 +188,13 @@ export const EventsData = [
                 "description" : "Let the canvas do the talking",
                 "price" : "50 PP",
                 "group" : ""
+            },
+            {
+                "image" : require("../images/webp/talent.webp"),
+                "name" : "Yuva's Got Talent",
+                "description" : "Har kala anokhi hai",
+                "price" : "100 PP",
+                "group" : true
             }
         ]
     },
