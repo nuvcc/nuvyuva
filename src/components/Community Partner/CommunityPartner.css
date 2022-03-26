@@ -38,12 +38,20 @@
   }
 }
 
-.logo{
-  width: 20%;
-  margin: 0%;
+.kanan{
+  width: 800px;
+}
+
+.col-lg-12, .col-sm-12, .col-md-12{
+  padding: 15px 15px 0px 15px;
+  margin-bottom: -30px;
 }
 
 @media screen and (max-width: 1200px){
+
+  .kanan{
+    width: 300px;
+  }
     .col-sm-1, .col-md-4{
         padding: 15px;
     }

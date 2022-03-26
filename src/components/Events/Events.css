@@ -1,7 +1,7 @@
 .events {
   background-color: #000015;
   min-height: 100vh;
-  padding: 30px 0px 100px;
+  padding: 30px 0px 30px;
   position: relative;
   overflow-x: hidden;
 }
