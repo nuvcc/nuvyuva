@@ -54,7 +54,7 @@ const Highlights = () => {
                             to='concert' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            onClick={() => window.open("https://forms.gle/mM92w2wrtnvWiA2c9", "_self")}
+                            onClick={() => window.open("https://forms.gle/xtVtKNEP7MNKNeuu9", "_self")}
                         >
                             REGISTER NOW
                         </HighlightsButton>

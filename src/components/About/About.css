@@ -10,7 +10,7 @@
 
 .img{
   width: 30%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0%;
@@ -102,6 +102,7 @@
   .about{
     flex-direction: column;
     padding-top: 2rem;
+    height: 100%;
   }
   .img{
     width: 100%;
