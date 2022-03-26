@@ -8,16 +8,22 @@
   padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
+.container{
+  display: flex;
+    justify-content: center;
+    align-items: center;        /* for single line flex container */
+    align-content: center;  
+}
+
 .img{
   width: 30%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0%;
 }
 
 .about-img{
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -34,7 +40,6 @@
   margin-bottom: 10px;
   letter-spacing: 6px;
   position: relative;
-  font-family: 'Playfair Display', serif;
 }
 
 .about-heading div{
@@ -84,7 +89,6 @@
 }
 
 @media screen and (max-width: 50rem) {
-
     .about-info{
       font-size: 0.8rem;
       padding-left: 20px;
