@@ -63,6 +63,7 @@ const GoogleMaps = () => {
               margin: "15px 15px 20px 15px",
               border: "none",
               background: "linear-gradient(90deg, #B40A98 0%, #570658 100%)",
+              boxShadow: "none",
             }}
             onClick={() => setCenter(center)}
           >
@@ -73,6 +74,7 @@ const GoogleMaps = () => {
               margin: "15px 15px 20px 15px",
               border: "none",
               background: "linear-gradient(90deg, #B40A98 0%, #570658 100%)",
+              boxShadow: "none",
             }}
             onClick={() => setCenter(nuv)}
             variant="secondary"

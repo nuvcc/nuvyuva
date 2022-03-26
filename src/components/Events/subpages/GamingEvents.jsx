@@ -49,7 +49,7 @@ const GamingEvents = () => {
                                                 <Card.Body style={styles.card_body}>
                                                     <Card.Title style={styles.card_title}>{event.name}</Card.Title>
                                                     <Card.Text style={styles.card_description}>{event.description}</Card.Text>
-                                                    <Card.Subtitle style={styles.card_subtitle} className='card_subtitle'>
+                                                    <Card.Subtitle style={styles.card_subtitle} className='card_title'>
                                                         {event.price}
                                                     </Card.Subtitle>
                                                     <Card.Text style={styles.card_criteria_1}>{event.group}</Card.Text>
