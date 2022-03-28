@@ -165,18 +165,18 @@ export const memberData = [
     postion: "Decoration Head",
     posId: 3,
   },
+  {
+    id: 20,
+    name: "Rushit Patel",
+    imgSrc: rushit,
+    postion: "Media Head",
+    posId: 3,
+  },
   // {
-  //   id: 20,
+  //   id: 21,
   //   name: "Arya Shah",
   //   imgSrc: arya,
   //   postion: "Hackathon Head",
   //   posId: 1,
-  // },
-  // {
-  //   id: 21,
-  //   name: "Rushit Patel",
-  //   imgSrc: rushit,
-  //   postion: "Media Head",
-  //   posId: 3,
-  // },
+  // }
 ];
