@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.5e4b86d9.css",
-    "main.js": "/static/js/main.d7138431.js",
+    "main.js": "/static/js/main.85b6bf41.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/sports.webp": "/static/media/sports.daa6e87776393065ab24.webp",
+    "static/media/mediahead.webp": "/static/media/mediahead.2ca881c20263abc45ae7.webp",
     "static/media/jaydev.webp": "/static/media/jaydev.e7a07afcd711e4e3d3e2.webp",
-    "static/media/mediahead.webp": "/static/media/mediahead.0bf670f4f7f39af4650c.webp",
     "static/media/rocket.webp": "/static/media/rocket.21adb787911d8bf2f428.webp",
     "static/media/gaming.webp": "/static/media/gaming.827f9fcabb0ef265cc69.webp",
     "static/media/cultural.webp": "/static/media/cultural.e3291714b4c18ef5e600.webp",
@@ -79,10 +79,10 @@
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
     "main.5e4b86d9.css.map": "/static/css/main.5e4b86d9.css.map",
-    "main.d7138431.js.map": "/static/js/main.d7138431.js.map"
+    "main.85b6bf41.js.map": "/static/js/main.85b6bf41.js.map"
   },
   "entrypoints": [
     "static/css/main.5e4b86d9.css",
-    "static/js/main.d7138431.js"
+    "static/js/main.85b6bf41.js"
   ]
 }
