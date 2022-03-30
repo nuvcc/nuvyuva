@@ -16,10 +16,10 @@ import jaydev from "./images/jaydev.webp";
 import shivani from "./images/shivani.webp";
 import dhaval from "./images/dhaval.webp";
 import yogesh from "./images/yogesh.webp";
-import gaurav from "./images/gaurav2.webp";
+import gaurav from "./images/gaurav.webp";
 import anchal from "./images/anchal.webp";
 import arya from "./images/arya.webp";
-import rushit from './images/mediahead.webp';
+import rushit from './images/rushit.webp';
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
 
