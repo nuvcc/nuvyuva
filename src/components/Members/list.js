@@ -17,7 +17,7 @@ import shivani from "./images/shivani.webp";
 import dhaval from "./images/dhaval.webp";
 import yogesh from "./images/yogesh.webp";
 import gaurav from "./images/gaurav.webp";
-import anchal from "./images/anchal.webp";
+import aanchal from "./images/aanchal.webp";
 import arya from "./images/arya.webp";
 import rushit from './images/rushit.webp';
 
@@ -161,7 +161,7 @@ export const memberData = [
   {
     id: 19,
     name: "Aanchal Mantry",
-    imgSrc: anchal,
+    imgSrc: aanchal,
     postion: "Decoration Head",
     posId: 3,
   },
