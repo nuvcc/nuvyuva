@@ -221,8 +221,8 @@ export const EventsData = [
             {
                 "image" : require("../images/webp/basketball.webp"),
                 "name" : "Dribble",
-                "description" : "let's make a hoop for Kobe (5-a-side)",
-                "price" : "1200",
+                "description" : "let's make a hoop for Kobe (3-a-side)",
+                "price" : "1000",
                 "group" : "Group Event",
                 "size" : "Maximum people: 9"
             },
