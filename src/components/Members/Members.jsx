@@ -104,7 +104,7 @@ const Members = () => {
           {Data.filter((data) => data.posId === 2).map((val, index) => {
 
             return (
-              <MemCard data={val} />
+              <MemCard data={val} key={index}/>
             );
           })}
         </Row>
@@ -116,7 +116,7 @@ const Members = () => {
             const { id, name, imgSrc, postion } = val;
 
             return (
-              <MemCard data={val} />
+              <MemCard data={val} key={index}/>
 
             );
           })}
@@ -130,7 +130,7 @@ const Members = () => {
             const { id, name, imgSrc, postion } = val;
 
             return (
-              <MemCard data={val} />
+              <MemCard data={val} key={index}/>
 
             );
           })}
@@ -143,7 +143,7 @@ const Members = () => {
             const { id, name, imgSrc, postion } = val;
 
             return (
-              <MemCard data={val} />
+              <MemCard data={val} key={index}/>
             );
           })}
         </Row>
