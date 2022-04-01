@@ -130,7 +130,7 @@ export const EventsData = [
                 "image" : require("../images/webp/pubg.webp"),     
                 "name" : "Pubg Mobile",
                 "description" : "Winner Winner chicken dinner",
-                "price" : "100 PP",
+                "price" : "125 PP",
                 "group" : "Group Event",
                 "size": "Team Size: 4"
             }
