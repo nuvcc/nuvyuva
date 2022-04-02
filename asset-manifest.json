@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.861ef8de.css",
-    "main.js": "/static/js/main.9e533389.js",
+    "main.js": "/static/js/main.e35d89a2.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/sports.webp": "/static/media/sports.daa6e87776393065ab24.webp",
@@ -20,8 +20,10 @@
     "static/media/tug_of_war.webp": "/static/media/tug_of_war.0b2de57e591d3c22c6c5.webp",
     "static/media/rangoli.webp": "/static/media/rangoli.d0d38b5977900cc283da.webp",
     "static/media/sagar.webp": "/static/media/sagar.af07a9dbcd50cb53acb7.webp",
+    "static/media/rabichandra.webp": "/static/media/rabichandra.b35eac1aa2d49738ba75.webp",
     "static/media/rushit.webp": "/static/media/rushit.e20518fc30de0f3e8495.webp",
     "static/media/valorant.webp": "/static/media/valorant.cd1bbbddcebbb23a581f.webp",
+    "static/media/dinesh.webp": "/static/media/dinesh.133fa812384b184cc0bd.webp",
     "static/media/football.webp": "/static/media/football.0b14ff8bfb9130321b68.webp",
     "static/media/dance.webp": "/static/media/dance.b2576c5a20cc684aee90.webp",
     "static/media/aanchal.webp": "/static/media/aanchal.121564d982485f3a9f53.webp",
@@ -49,11 +51,13 @@
     "static/media/frisbee.webp": "/static/media/frisbee.cb143d68e384646003b3.webp",
     "static/media/Group 102.svg": "/static/media/Group 102.e20a5b08c328cb6ea34782e07900c21a.svg",
     "static/media/Circle1.png": "/static/media/Circle1.86461e795c5fd2812d00.png",
+    "static/media/lipi.webp": "/static/media/lipi.bd5439ddf86fd68520d5.webp",
     "static/media/make_your_meme.webp": "/static/media/make_your_meme.6414798d6c05ae0602c7.webp",
     "static/media/ad_mad_show.webp": "/static/media/ad_mad_show.883639f0ddc2409db7ec.webp",
     "static/media/naitik.webp": "/static/media/naitik.9e2067f232e0143aae31.webp",
     "static/media/gaurav.webp": "/static/media/gaurav.589125bc3d498abe4ca0.webp",
     "static/media/flutter.webp": "/static/media/flutter.55a83711ea6bfd518e86.webp",
+    "static/media/manisha.webp": "/static/media/manisha.aa64dd4ac8567790464b.webp",
     "static/media/discord.webp": "/static/media/discord.7e43fddb9e240e4c05f8.webp",
     "static/media/Crypto_Finance.webp": "/static/media/Crypto_Finance.6a9ba0ab1f45afbdfe45.webp",
     "static/media/Group 97.svg": "/static/media/Group 97.f3492ea156bf1d04d2ee788b69533644.svg",
@@ -73,16 +77,17 @@
     "static/media/Group 95.svg": "/static/media/Group 95.7429118514b326077d53dedc0bcd3823.svg",
     "static/media/Group 99.svg": "/static/media/Group 99.1f2de18cb9418da9bc8712e80e7e4446.svg",
     "static/media/rucha.webp": "/static/media/rucha.f6e98cecf1c0e04e8d6c.webp",
+    "static/media/pulak.webp": "/static/media/pulak.278cbc1c62c4392af433.webp",
     "static/media/fast_and_furious.webp": "/static/media/fast_and_furious.f0390e1cfdb33378d9eb.webp",
     "static/media/Group 100.svg": "/static/media/Group 100.24d55b79fd0a5cbfadc901e0ef0ed02b.svg",
     "static/media/shivam.webp": "/static/media/shivam.ab72da4ac44747776c85.webp",
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
     "main.861ef8de.css.map": "/static/css/main.861ef8de.css.map",
-    "main.9e533389.js.map": "/static/js/main.9e533389.js.map"
+    "main.e35d89a2.js.map": "/static/js/main.e35d89a2.js.map"
   },
   "entrypoints": [
     "static/css/main.861ef8de.css",
-    "static/js/main.9e533389.js"
+    "static/js/main.e35d89a2.js"
   ]
 }
