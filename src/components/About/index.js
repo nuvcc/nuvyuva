@@ -16,7 +16,7 @@ const About = () => {
               <img src={Circle1} className="about-circle-img1 circle-svgs" alt="circle-png"/>
             </div>
             <p className="about-info">
-            Traditionally, the purpose of college education has been to create individuals who know everything about something. Unfortunately, this methodology also results in individuals who know little about anything else, except their subject. At NUV, we aim to create T-shaped personalities. Our students have working knowledge about a wide range of subjects and deep domain knowledge in one area of specialisation. We enable this through three synergies - Synergy of Theory & Practice, Synergy of Faculty & Industry, and Synergy of Youth & Experience.
+            NUV-YUVA is an inter-college festival that encourages students from various institutions all over gujarat to demonstrate their ability and talents in various fields and events. The event aims to bring together cultural, technical and sports aspects and merge them together with knowledge and enjoyment. And for the first time we are organising MUN and Hackathon.
             </p>
             <a href={Brochure} download="Brochure" target='_blank' className="download-link">
             <btn className="about-btn">BROCHURE</btn>

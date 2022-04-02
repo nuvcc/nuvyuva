@@ -13,6 +13,7 @@ import Members from "./components/Members/Members";
 const App = () => {
   return (
     <>
+    <div>
       <Routes>
         <Route exact path="/sports" element={ <SportEvents />} />
         <Route exact path="/cultural" element={ <CulturalEvents />} />
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path="/nuv" element={<Nuv />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
+      </div>
     </>
   );
 };
