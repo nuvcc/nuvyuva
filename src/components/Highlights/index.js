@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import hackathon from '../images/highlights/hackathon_1.webp';
-import concert from '../images/highlights/concert_1.webp';
-import mun from '../images/highlights/mun_1.webp';
+import hackathon from '../images/highlights/hackathon.png';
+import concert from '../images/highlights/concert.jpeg';
+import mun from '../images/highlights/mun.jpeg';
 
 import {
     HighlightsContainer,
@@ -46,19 +46,9 @@ const Highlights = () => {
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
-                    <HighlightsIcon src={concert}/>
+                    <HighlightsIcon src={concert} style={{}}/>
                     <HighlightsH2>CONCERT</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
-                    <HighlightsBtnWrapper>
-                        <HighlightsButton 
-                            to='concert' 
-                            onMouseEnter={onHover} 
-                            onMouseLeave={onHover}
-                            onClick={() => window.open("https://forms.gle/xtVtKNEP7MNKNeuu9", "_self")}
-                        >
-                            REGISTER NOW
-                        </HighlightsButton>
-                    </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={mun}/>

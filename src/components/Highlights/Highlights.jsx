@@ -43,16 +43,6 @@ const Highlights = () => {
                     <HighlightsIcon src={concert}/>
                     <HighlightsH2>Concert</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
-                    <HighlightsBtnWrapper>
-                        <HighlightsButton 
-                            to='concert' 
-                            onMouseEnter={onHover} 
-                            onMouseLeave={onHover}
-                            onClick={() => window.open("https://forms.gle/mM92w2wrtnvWiA2c9", "_self")}
-                        >
-                            Register Now
-                        </HighlightsButton>
-                    </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
                     <HighlightsIcon src={mun}/>
