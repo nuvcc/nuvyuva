@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.861ef8de.css",
-    "main.js": "/static/js/main.e35d89a2.js",
+    "main.js": "/static/js/main.322c1b83.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
     "static/media/sports.webp": "/static/media/sports.daa6e87776393065ab24.webp",
@@ -44,9 +44,8 @@
     "static/media/Group 94.svg": "/static/media/Group 94.ab10a79465881f377919a0aa3d2ca9b7.svg",
     "static/media/line_follower.webp": "/static/media/line_follower.bc0272dd1f654ae8b71c.webp",
     "static/media/chess.webp": "/static/media/chess.6493dab5be2c65afce0f.webp",
-    "static/media/mun_1.webp": "/static/media/mun_1.d56de2189df18d767f0d.webp",
     "static/media/csgo.webp": "/static/media/csgo.0ae481204f05b73aa1c2.webp",
-    "static/media/concert_1.webp": "/static/media/concert_1.cffe80ea60eacfadc4c4.webp",
+    "static/media/concert.jpeg": "/static/media/concert.8e62f33c5e35fec68e34.jpeg",
     "static/media/jigar.webp": "/static/media/jigar.ace936140829db84ce94.webp",
     "static/media/frisbee.webp": "/static/media/frisbee.cb143d68e384646003b3.webp",
     "static/media/Group 102.svg": "/static/media/Group 102.e20a5b08c328cb6ea34782e07900c21a.svg",
@@ -54,7 +53,9 @@
     "static/media/lipi.webp": "/static/media/lipi.bd5439ddf86fd68520d5.webp",
     "static/media/make_your_meme.webp": "/static/media/make_your_meme.6414798d6c05ae0602c7.webp",
     "static/media/ad_mad_show.webp": "/static/media/ad_mad_show.883639f0ddc2409db7ec.webp",
+    "static/media/mun.jpeg": "/static/media/mun.5cc96baaf5a2cf1a2568.jpeg",
     "static/media/naitik.webp": "/static/media/naitik.9e2067f232e0143aae31.webp",
+    "static/media/hackathon.png": "/static/media/hackathon.bdf0f55c27a023452f76.png",
     "static/media/gaurav.webp": "/static/media/gaurav.589125bc3d498abe4ca0.webp",
     "static/media/flutter.webp": "/static/media/flutter.55a83711ea6bfd518e86.webp",
     "static/media/manisha.webp": "/static/media/manisha.aa64dd4ac8567790464b.webp",
@@ -69,7 +70,6 @@
     "static/media/samarth.webp": "/static/media/samarth.fab5f6e3329e1504ee73.webp",
     "static/media/Kanan.svg": "/static/media/Kanan.fe14b8595fcff682b8cf35507a7bf4cd.svg",
     "static/media/shivani.webp": "/static/media/shivani.ed7187b39f29f771b2fc.webp",
-    "static/media/hackathon_1.webp": "/static/media/hackathon_1.bac5c983ea001c10b5a6.webp",
     "static/media/Group 101.svg": "/static/media/Group 101.eb03f63cfa1efc8ed0d35e8f0c61c614.svg",
     "static/media/navrachana_university_logo.png": "/static/media/navrachana_university_logo.6e4f0a3c9d3094acaea7.png",
     "static/media/yogesh.webp": "/static/media/yogesh.3731074af0ef4e0ec95d.webp",
@@ -84,10 +84,10 @@
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
     "main.861ef8de.css.map": "/static/css/main.861ef8de.css.map",
-    "main.e35d89a2.js.map": "/static/js/main.e35d89a2.js.map"
+    "main.322c1b83.js.map": "/static/js/main.322c1b83.js.map"
   },
   "entrypoints": [
     "static/css/main.861ef8de.css",
-    "static/js/main.e35d89a2.js"
+    "static/js/main.322c1b83.js"
   ]
 }
