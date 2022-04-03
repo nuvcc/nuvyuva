@@ -54,6 +54,9 @@ const Navbar = ({ toggle }) => {
               </NavPageLink>
             </NavItem>
             <NavItem>
+              <NavPageLink to="sponsor">SPONSOR</NavPageLink>
+            </NavItem>
+            <NavItem>
               <NavPageLink
                 to="nuv"
                 smooth={true}

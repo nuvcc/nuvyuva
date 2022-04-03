@@ -32,6 +32,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarPageLink to='team' onClick={toggle}>
                         TEAM
                     </SidebarPageLink>
+                    <SidebarPageLink to='Sponsor' onClick={toggle}>
+                        SPONSOR
+                    </SidebarPageLink>
                     <SidebarPageLink to='nuv' onClick={toggle}>
                         NUV
                     </SidebarPageLink>

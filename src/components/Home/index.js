@@ -13,7 +13,6 @@ import Events from "../Events/Events";
 import About from "../About";
 import Nuv from "../Nuv";
 import ScrollToTop from "react-scroll-to-top";
-import CommunityPartner from "../Community Partner";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +29,6 @@ const Home = () => {
       {/* <EventCategory {...EventsData} /> */}
       <Events />
       <Highlights />
-      <CommunityPartner/>
       <GoogleMaps />
       <ScrollToTop
         smooth
