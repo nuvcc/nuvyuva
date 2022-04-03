@@ -24,7 +24,7 @@
 .title3 {
   font-size: 2rem;
   color: #f3f3f7;
-  margin: 20px 10px 60px 10px;
+  margin: 20px 10px 40px 10px;
   font-size: 40px;
   letter-spacing: 6px;
   font-family: "Playfair Display", serif;
@@ -73,19 +73,19 @@ img {
   width: 500px;
 }
 .submedia {
-  width: 300px;
+  width: 250px;
 }
 
 @media screen and (max-width: 1200px) {
   .kanan {
-    width: 300px;
+    width: 250px;
   }
   .col-sm-1,
   .col-md-4 {
     padding: 15px;
   }
   .image {
-    width: 50px;
+    width: 250px;
   }
   .media {
     width: 250px;
@@ -95,11 +95,14 @@ img {
 @media screen and (max-width: 640px) {
   .title2 {
     font-size: 25px;
+    letter-spacing: 2px;
   }
   .title {
     font-size: 25px;
+    letter-spacing: 2px;
   }
   .image {
     width: 250px;
+    letter-spacing: 2px;
   }
 }

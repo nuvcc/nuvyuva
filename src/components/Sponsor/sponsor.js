@@ -19,6 +19,9 @@ import sponsor5 from "./images/sponsor5.png";
 import sponsor6 from "./images/sponsor6.png";
 import sponsor7 from "./images/sponsor7.png";
 import sponsor8 from "./images/sponsor8.png";
+import sponsor9 from "./images/sponsor9.png";
+import sponsor10 from "./images/sponsor10.png";
+import sponsor11 from "./images/sponsor11.jpeg";
 import { zigzag } from "../images/circles/Zigzag.png";
 
 import { useNavigate } from "react-router-dom";
@@ -32,10 +35,9 @@ const Circle1 = require("../images/circles/Circle1.png");
 export const styles = {
   teamsSvgImg: {
     position: "absolute",
-    top: "0rem",
-    right: "37rem",
-    width: "6rem",
-    zIndex: "-1",
+    top: "0.1rem",
+    right: "1rem",
+    width: "5.5rem",
   },
 };
 
@@ -49,17 +51,17 @@ const Sponsor = () => {
           <BiArrowBack />
         </BackButton>
       </HeadRow>
-      <div class="title3" style={{ position: "relative", zIndex: 5 }}>
-        <div style={{ position: "relative"}}>
-          SPONSORS
-          <img
-            src={Circle1}
-            className="circle-svgs"
-            style={styles.teamsSvgImg}
-            alt="circle-png"
-          />
+      <div className="head">
+          <div class="title3" style={{ position: "relative", zIndex: 5 }}>
+            <div style={{ position: "relative", zIndex: 5 }}>SPONSORS</div>
+            <img
+              src={Circle1}
+              className="circle-svgs"
+              style={styles.teamsSvgImg}
+              alt="circle-png"
+            />
+          </div>
         </div>
-      </div>
       <div class="title2">
         <p>TITLE SPONSOR</p>
       </div>
@@ -72,7 +74,7 @@ const Sponsor = () => {
         <p>MEDIA PARTNERS</p>
       </div>
       <div class="row">
-        <div class="col-lg-12 col-md-4 col-sm-1">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <img className="media" src={media2} alt="Media2" />
         </div>
       </div>
@@ -80,31 +82,42 @@ const Sponsor = () => {
         <p>SPONSORS</p>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor1} alt="Sponsor1" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor2} alt="Sponsor2" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor3} alt="Sponsor3" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor4} alt="Sponsor4" />
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor5} alt="Sponsor5" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor6} alt="Sponsor6" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor7} alt="Sponsor7" />
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-1">
+        <div class="col-lg-3 col-md-6 col-sm-1">
           <img className="image" src={sponsor8} alt="Sponsor8" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img className="image" src={sponsor9} alt="Sponsor9" />
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img className="image" src={sponsor10} alt="Sponsor10" />
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-1">
+          <img className="image" src={sponsor11} alt="Sponsor11" />
         </div>
       </div>
       <div class="title">
