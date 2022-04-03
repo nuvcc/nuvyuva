@@ -27,6 +27,16 @@ import "./sponsor.css";
 import { BiArrowBack } from "react-icons/bi";
 
 import { HeadRow, BackButton } from "./sponsorElement";
+const Circle1 = require("../images/circles/Circle1.png");
+
+export const styles = {
+  teamsSvgImg: {
+    position: "absolute",
+    top: "0.1rem",
+    right: "1rem",
+    width: "5.5rem",
+  },
+};
 
 const Sponsor = () => {
   const navigate = useNavigate();
@@ -39,8 +49,14 @@ const Sponsor = () => {
         </BackButton>
       </HeadRow>
       <div className="head">
-        <div class="title3">
-          <h1>SPONSORS</h1>
+        <div class="title3" style={{ position: "relative", zIndex: 5 }}>
+          <div style={{ position: "relative", zIndex: 5 }}>SPONSORS</div>
+          <img
+            src={Circle1}
+            className="circle-svgs"
+            style={styles.teamsSvgImg}
+            alt="circle-png"
+          />
         </div>
       </div>
       <div class="title2">
