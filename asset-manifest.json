@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a8af148.css",
-    "main.js": "/static/js/main.304f16e3.js",
+    "main.css": "/static/css/main.8b1e3329.css",
+    "main.js": "/static/js/main.93e27504.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/media2.png": "/static/media/media2.a79425293ac0edb8d522.png",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
@@ -64,6 +64,8 @@
     "static/media/gaurav.webp": "/static/media/gaurav.589125bc3d498abe4ca0.webp",
     "static/media/sponsor7.png": "/static/media/sponsor7.1f9bfe84ccb066a34f3a.png",
     "static/media/flutter.webp": "/static/media/flutter.55a83711ea6bfd518e86.webp",
+    "static/media/sponsor10.png": "/static/media/sponsor10.2592c02a1fdead413b3f.png",
+    "static/media/sponsor9.png": "/static/media/sponsor9.56b724f43a271f682c4b.png",
     "static/media/sponsor5.png": "/static/media/sponsor5.5e5754227e20b985fc3b.png",
     "static/media/sponsor2.jpg": "/static/media/sponsor2.d66e9af99c31f6775f80.jpg",
     "static/media/manisha.webp": "/static/media/manisha.aa64dd4ac8567790464b.webp",
@@ -90,16 +92,17 @@
     "static/media/Group 99.svg": "/static/media/Group 99.1f2de18cb9418da9bc8712e80e7e4446.svg",
     "static/media/rucha.webp": "/static/media/rucha.f6e98cecf1c0e04e8d6c.webp",
     "static/media/pulak.webp": "/static/media/pulak.278cbc1c62c4392af433.webp",
+    "static/media/sponsor11.jpeg": "/static/media/sponsor11.f61cf96407f9666e65d4.jpeg",
     "static/media/fast_and_furious.webp": "/static/media/fast_and_furious.f0390e1cfdb33378d9eb.webp",
     "static/media/Group 100.svg": "/static/media/Group 100.24d55b79fd0a5cbfadc901e0ef0ed02b.svg",
     "static/media/shivam.webp": "/static/media/shivam.ab72da4ac44747776c85.webp",
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
-    "main.2a8af148.css.map": "/static/css/main.2a8af148.css.map",
-    "main.304f16e3.js.map": "/static/js/main.304f16e3.js.map"
+    "main.8b1e3329.css.map": "/static/css/main.8b1e3329.css.map",
+    "main.93e27504.js.map": "/static/js/main.93e27504.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a8af148.css",
-    "static/js/main.304f16e3.js"
+    "static/css/main.8b1e3329.css",
+    "static/js/main.93e27504.js"
   ]
 }
