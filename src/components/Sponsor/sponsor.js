@@ -32,9 +32,10 @@ const Circle1 = require("../images/circles/Circle1.png");
 export const styles = {
   teamsSvgImg: {
     position: "absolute",
-    top: "0.1rem",
-    right: "1rem",
-    width: "5.5rem",
+    top: "0rem",
+    right: "37rem",
+    width: "6rem",
+    zIndex: "-1",
   },
 };
 
@@ -48,9 +49,9 @@ const Sponsor = () => {
           <BiArrowBack />
         </BackButton>
       </HeadRow>
-      <div className="head">
-        <div class="title3" style={{ position: "relative", zIndex: 5 }}>
-          <div style={{ position: "relative", zIndex: 5 }}>SPONSORS</div>
+      <div class="title3" style={{ position: "relative", zIndex: 5 }}>
+        <div style={{ position: "relative"}}>
+          SPONSORS
           <img
             src={Circle1}
             className="circle-svgs"
