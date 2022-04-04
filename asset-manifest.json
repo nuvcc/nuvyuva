@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b1e3329.css",
-    "main.js": "/static/js/main.93e27504.js",
+    "main.css": "/static/css/main.e789c5f6.css",
+    "main.js": "/static/js/main.c073f1f9.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/media2.png": "/static/media/media2.a79425293ac0edb8d522.png",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
@@ -88,6 +88,7 @@
     "static/media/yogesh.webp": "/static/media/yogesh.3731074af0ef4e0ec95d.webp",
     "static/media/zaahiya.webp": "/static/media/zaahiya.c4fef1720f629acaa4e3.webp",
     "static/media/Group 95.svg": "/static/media/Group 95.7429118514b326077d53dedc0bcd3823.svg",
+    "static/media/finfun.png": "/static/media/finfun.67dcdccd2166a9d3cf44.png",
     "static/media/media4.png": "/static/media/media4.620c18c7df12c9e8b3cc.png",
     "static/media/Group 99.svg": "/static/media/Group 99.1f2de18cb9418da9bc8712e80e7e4446.svg",
     "static/media/rucha.webp": "/static/media/rucha.f6e98cecf1c0e04e8d6c.webp",
@@ -98,11 +99,11 @@
     "static/media/shivam.webp": "/static/media/shivam.ab72da4ac44747776c85.webp",
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
-    "main.8b1e3329.css.map": "/static/css/main.8b1e3329.css.map",
-    "main.93e27504.js.map": "/static/js/main.93e27504.js.map"
+    "main.e789c5f6.css.map": "/static/css/main.e789c5f6.css.map",
+    "main.c073f1f9.js.map": "/static/js/main.c073f1f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1e3329.css",
-    "static/js/main.93e27504.js"
+    "static/css/main.e789c5f6.css",
+    "static/js/main.c073f1f9.js"
   ]
 }
