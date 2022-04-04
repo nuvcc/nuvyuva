@@ -6,6 +6,7 @@ import GDC from "./images/Group 99.svg";
 import MozNUV from "./images/Group 101.svg";
 import Gameroo from "./images/Group 102.svg";
 import Kanan from "./images/Kanan.svg";
+import finfun from "./images/finfun.png";
 import media1 from "./images/media1.png";
 import media2 from "./images/media2.png";
 import media3 from "./images/media3.png";
@@ -124,23 +125,28 @@ const Sponsor = () => {
         <p>COMMUNITY PARTNERS</p>
       </div>
       <div class="row">
-        <div class="col-lg-2 col-md-4 col-sm-1">
-          <img src={SparkAR} alt="Spark AR" />
+        <div class="col-lg-3 col-md-4 col-sm-1">
+          <img className="club" src={SparkAR} alt="Spark AR" />
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-1">
-          <img src={CDS} alt="Community of Data Science" />
+        <div class="col-lg-3 col-md-4 col-sm-1">
+          <img className="club" src={CDS} alt="Community of Data Science" />
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-1">
-          <img src={GDC} alt="Google Developer Club" />
+        <div class="col-lg-3 col-md-4 col-sm-1">
+          <img className="club" src={GDC} alt="Google Developer Club" />
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-1">
-          <img src={MozNUV} alt="Mozilla" />
+        <div class="col-lg-3 col-md-4 col-sm-1">
+          <img className="club" src={MozNUV} alt="Mozilla" />
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-1">
+      </div>
+      <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-1">
           <img src={Gameroo} alt="Mozilla" />
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-1">
-          <img src={Hackclub} alt="Hackclub" />
+        <div class="col-lg-4 col-md-4 col-sm-1">
+          <img className="club" src={Hackclub} alt="Hackclub" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-1">
+          <img src={finfun} alt="FinFun"/>
         </div>
       </div>
     </div>
