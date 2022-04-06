@@ -36,13 +36,7 @@ export const memberData = [
     postion: "Cultural event head",
     posId: 1,
   },
-  {
-    id: 2,
-    name: "Meet",
-    imgSrc: meet,
-    postion: "Treasurer",
-    posId: 3,
-  },
+
 
   {
     id: 3,
