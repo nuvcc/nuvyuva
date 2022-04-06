@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e789c5f6.css",
-    "main.js": "/static/js/main.c073f1f9.js",
+    "main.js": "/static/js/main.768b760f.js",
     "static/media/brochure.pdf": "/static/media/brochure.98967353501c66f964b9.pdf",
     "static/media/media2.png": "/static/media/media2.a79425293ac0edb8d522.png",
     "static/media/uncharted.webp": "/static/media/uncharted.baec67aa83beb35ba643.webp",
@@ -44,7 +44,7 @@
     "static/media/sachin.webp": "/static/media/sachin.6259759e5d8f70c8ecfb.webp",
     "static/media/make_a_bot.webp": "/static/media/make_a_bot.5d3507c2c074ccd2a10b.webp",
     "static/media/dhaval.webp": "/static/media/dhaval.b1bd51918ac73c79d51c.webp",
-    "static/media/Group 94.svg": "/static/media/Group 94.ab10a79465881f377919a0aa3d2ca9b7.svg",
+    "static/media/Group 94.svg": "/static/media/Group 94.0528e0637febad2ae744f2fb6d10a17c.svg",
     "static/media/line_follower.webp": "/static/media/line_follower.bc0272dd1f654ae8b71c.webp",
     "static/media/chess.webp": "/static/media/chess.6493dab5be2c65afce0f.webp",
     "static/media/csgo.webp": "/static/media/csgo.0ae481204f05b73aa1c2.webp",
@@ -52,7 +52,7 @@
     "static/media/jigar.webp": "/static/media/jigar.ace936140829db84ce94.webp",
     "static/media/frisbee.webp": "/static/media/frisbee.cb143d68e384646003b3.webp",
     "static/media/sponsor1.png": "/static/media/sponsor1.216ab0054fb568d3c3b3.png",
-    "static/media/Group 102.svg": "/static/media/Group 102.e20a5b08c328cb6ea34782e07900c21a.svg",
+    "static/media/Group 102.svg": "/static/media/Group 102.8b5d6c9647daf8fdb293151742c4c680.svg",
     "static/media/media1.png": "/static/media/media1.942ae033e34b9d59bc05.png",
     "static/media/Circle1.png": "/static/media/Circle1.86461e795c5fd2812d00.png",
     "static/media/lipi.webp": "/static/media/lipi.bd5439ddf86fd68520d5.webp",
@@ -72,7 +72,7 @@
     "static/media/sponsor4.jpeg": "/static/media/sponsor4.7ac5b768ba2692261654.jpeg",
     "static/media/discord.webp": "/static/media/discord.7e43fddb9e240e4c05f8.webp",
     "static/media/Crypto_Finance.webp": "/static/media/Crypto_Finance.6a9ba0ab1f45afbdfe45.webp",
-    "static/media/Group 97.svg": "/static/media/Group 97.f3492ea156bf1d04d2ee788b69533644.svg",
+    "static/media/Group 97.svg": "/static/media/Group 97.511d8bc4de73e181833409450d4c704a.svg",
     "static/media/media3.png": "/static/media/media3.8933c86a6ba37477ba90.png",
     "static/media/hardik.webp": "/static/media/hardik.75f380361a1539ad991f.webp",
     "static/media/nvidia.webp": "/static/media/nvidia.105a9534a0b765a3f7ed.webp",
@@ -83,27 +83,27 @@
     "static/media/Kanan.svg": "/static/media/Kanan.fe14b8595fcff682b8cf35507a7bf4cd.svg",
     "static/media/shivani.webp": "/static/media/shivani.ed7187b39f29f771b2fc.webp",
     "static/media/sponsor3.jpg": "/static/media/sponsor3.eb13a450cf963a3e85df.jpg",
-    "static/media/Group 101.svg": "/static/media/Group 101.eb03f63cfa1efc8ed0d35e8f0c61c614.svg",
+    "static/media/Group 101.svg": "/static/media/Group 101.55766d51f8bcc7d58a51d3f646265561.svg",
     "static/media/navrachana_university_logo.png": "/static/media/navrachana_university_logo.6e4f0a3c9d3094acaea7.png",
     "static/media/yogesh.webp": "/static/media/yogesh.3731074af0ef4e0ec95d.webp",
     "static/media/zaahiya.webp": "/static/media/zaahiya.c4fef1720f629acaa4e3.webp",
-    "static/media/Group 95.svg": "/static/media/Group 95.7429118514b326077d53dedc0bcd3823.svg",
+    "static/media/Group 95.svg": "/static/media/Group 95.462624008f2e0b20ee1547ae9265f278.svg",
     "static/media/finfun.png": "/static/media/finfun.67dcdccd2166a9d3cf44.png",
     "static/media/media4.png": "/static/media/media4.620c18c7df12c9e8b3cc.png",
-    "static/media/Group 99.svg": "/static/media/Group 99.1f2de18cb9418da9bc8712e80e7e4446.svg",
+    "static/media/Group 99.svg": "/static/media/Group 99.b4f50b7fcedd6e8f01764ef994ca1374.svg",
     "static/media/rucha.webp": "/static/media/rucha.f6e98cecf1c0e04e8d6c.webp",
     "static/media/pulak.webp": "/static/media/pulak.278cbc1c62c4392af433.webp",
     "static/media/sponsor11.jpeg": "/static/media/sponsor11.f61cf96407f9666e65d4.jpeg",
     "static/media/fast_and_furious.webp": "/static/media/fast_and_furious.f0390e1cfdb33378d9eb.webp",
-    "static/media/Group 100.svg": "/static/media/Group 100.24d55b79fd0a5cbfadc901e0ef0ed02b.svg",
+    "static/media/Group 100.svg": "/static/media/Group 100.50a2c9086bf5c6172080abdb04cfbfc0.svg",
     "static/media/shivam.webp": "/static/media/shivam.ab72da4ac44747776c85.webp",
     "static/media/arya.webp": "/static/media/arya.83330165c0a06b88af41.webp",
     "index.html": "/index.html",
     "main.e789c5f6.css.map": "/static/css/main.e789c5f6.css.map",
-    "main.c073f1f9.js.map": "/static/js/main.c073f1f9.js.map"
+    "main.768b760f.js.map": "/static/js/main.768b760f.js.map"
   },
   "entrypoints": [
     "static/css/main.e789c5f6.css",
-    "static/js/main.c073f1f9.js"
+    "static/js/main.768b760f.js"
   ]
 }
