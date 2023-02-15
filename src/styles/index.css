@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap");
+
+html {
+  background-color: #060919;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  background: rgb(233, 100, 81);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 100, 81, 0.2399553571428571) 0%,
+    rgba(6, 9, 25, 1) 35%,
+    rgba(6, 9, 25, 1) 70%,
+    rgba(108, 196, 149, 0.217546393557423) 100%
+  );
+  min-height: 100vh;
+  /* height: 500vh; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e96451 !important;
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #e96451 !important;
+  opacity: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-pagination-bullet {
+    background: #fff !important;
+    opacity: 0.5;
+    font-size: 0.8rem !important;
+    height: 0.8rem !important;
+    width: 0.8rem !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #e96451 !important;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+    
+  }
+}
