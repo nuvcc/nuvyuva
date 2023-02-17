@@ -44,16 +44,14 @@ const Home = () => {
     <div className="">
       {/* ---- hero section ----  */}
 
-      <ImgBG ref={myRef}>
-        <div className="logo-counter ">
+      <ImgBG id="home" ref={myRef}>
+      
+        <div  className="logo-counter md:mt-5">
           <img src={"/images/yuva-logo.webp"} alt="nuvyuva-logo" />
         <div className="">
-
           <Counter />
         </div>
-        </div>
-        <div className="banner">
-          <Banner />
+        
         </div>
       </ImgBG>
 
@@ -62,19 +60,19 @@ const Home = () => {
 
       {/* ---- About us ----  */}
 
-      <div id="aboutus" className="mt-32  pt-12">
+      <div id="aboutus" className=" pt-12">
         <Container className="">
           <AboutUs />
         </Container>
       </div>
 
       {/* ---- Events ---- */}
-      <div className="  pt-12">
+      <div className="pt-12">
         <EventHome />
       </div>
 
       {/* ---- Highlights ----  */}
-      <div className="  pt-12">
+      <div className="pt-12">
         <HighLights />
       </div>
 
@@ -90,10 +88,6 @@ const Home = () => {
       {/* <PastMemories /> */}
       <div className=" mt-12  pt-12">
         <Memories />
-      </div>
-
-      <div className="mt-20">
-        <Banner />
       </div>
 
       {/* ---- Location ----  */}

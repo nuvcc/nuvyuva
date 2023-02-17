@@ -26,9 +26,9 @@ const NavBar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="/" duration={500} exact="true">
+              <NavLinkScroll to="/#home" smooth={true} duration={500} exact="true">
                 Home
-              </NavLinks>
+              </NavLinkScroll>
             </NavItem>
             <NavItem>
               <NavLinkScroll to="/#aboutus" smooth={true} duration={500} exact="true">

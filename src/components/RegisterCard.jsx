@@ -16,14 +16,12 @@ let bgColor = [
 ];
 let index = 0;
 
-const RegisterCard = ({ title, description, image ,registerBgCode}) => {
- 
+const RegisterCard = ({ title, description, image, registerBgCode }) => {
   function getNextColor() {
     let color = bgColor[index];
     index = (index + 1) % bgColor.length;
     return color;
   }
-  
 
   return (
     <>
@@ -36,11 +34,10 @@ const RegisterCard = ({ title, description, image ,registerBgCode}) => {
 
           <CardDesc>{description}</CardDesc>
 
-          <ResgisterBody>
+          <ResgisterBody >
             <PriceValue className="border">Free</PriceValue>
-            <MultiColorButton bg={getNextColor()}>
-              <RegisterText>Register </RegisterText>
-            </MultiColorButton>
+
+              <RegisterText className="border" bg={getNextColor()}>Register</RegisterText>
           </ResgisterBody>
         </div>
       </CardBody>

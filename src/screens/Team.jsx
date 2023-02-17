@@ -36,9 +36,7 @@ const Team = () => {
                   src="/images/star-4.png"
                   className=" stars relative right-2/4"
                 />
-                <div>
-                  <img />
-                </div>
+               
                 <img src={"/images/teamMember.png"} alt="person-name" />
                 <img
                   src="/images/star-2.png"
@@ -46,7 +44,7 @@ const Team = () => {
                 />
                 <div className="relative bottom-8">
                   <CardTitle className="text-center">{member.name}</CardTitle>
-                  <h4 className="card-Desc text-center">{member.quote}</h4>
+                  <h6 className="card-Desc text-center">{member.quote}</h6>
                 </div>
               </TeamCard>
             ))}

@@ -43,10 +43,8 @@ export const LabelBody = styled.div`
   /* bottom: 8rem; */
 `;
 
-export const MultiColorButton = styled.button`
+export const MultiColorButton = styled.div`
   /* padding:1rem; */
-  border: none;
-  outline: none;
   background: ${(props) => props.bg};
   width: 50%;
 

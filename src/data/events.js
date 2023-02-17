@@ -1,12 +1,12 @@
 export const events = [
   {
     title: "Highlight Events",
-    description: "",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "",
     events: [
       {
         title: "CONCERT NIGHT",
-        description: "",
+        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
         image: "",
       },
       ,
@@ -18,14 +18,14 @@ export const events = [
       },
       {
         title: "NUV MUN",
-        description: "",
+        description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
         image: "",
       },
     ],
   },
   {
     title: "Cultural Events",
-    description: "to embed fun and rich-cultural taste in the event",
+    description: "To embed fun and rich-cultural taste in the event",
     image: "",
     events: [
       {
@@ -72,7 +72,7 @@ export const events = [
   },
   {
     title: "Tech Events",
-    description: "",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "",
     events: [
       {
@@ -85,7 +85,7 @@ export const events = [
   },
   {
     title: "Gaming Events",
-    description: "",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "",
     events: [
       {
@@ -113,7 +113,7 @@ export const events = [
   },
   {
     title: "Sports Events",
-    description: "",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "",
     events: [
       {
