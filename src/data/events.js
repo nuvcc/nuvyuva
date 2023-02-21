@@ -37,7 +37,7 @@ export const events = [
         participation_type: "Group/Solo",
         duration:"",
         place:"",
-        price: "100 Per Person",
+        price: "100 PP",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const events = [
         participation_type: "Group/Solo",
         duration:"2.5-5 minutes ",
         place:"Amphitheater",
-        price: "100 Per Person",
+        price: "100 PP",
       },
       {
         title: "Yuva Studio",
@@ -64,7 +64,7 @@ export const events = [
         participation_type: "Group / Solo",
         duration:"2.5-5 minutes ",
         place:"Amphitheater",
-        price: "100 Per Person",
+        price: "100 PP",
       },
       {
         title: "Rango Ki Mehfil",
@@ -74,7 +74,7 @@ export const events = [
         participation_type: "Group(Max 4) / Solo",
         duration:"2 hour",
         place:"Amphitheater ",
-        price: "100 Per Person",
+        price: "100 PP",
       },
       {
         title: "Yuva’s Got Talent",
@@ -84,7 +84,7 @@ export const events = [
         participation_type: "Group / Solo ",
         duration:"3-5 minutes ",
         place:"Amphitheater",
-        price: "100 Per person",
+        price: "100 PP",
       },
 
       {
@@ -95,7 +95,7 @@ export const events = [
         participation_type: "Group / Solo",
         duration:"",
         place:"Amphitheater",
-        price: "100 Per Person",
+        price: "100 PP",
       },
 
       {
@@ -106,7 +106,7 @@ export const events = [
         participation_type: "Solo",
         duration:"",
         place:"Amphitheater",
-        price: "100 Per Person",
+        price: "100 PP",
       },
 
       {
@@ -117,7 +117,7 @@ export const events = [
         participation_type: "Solo",
         duration:"",
         place:"",
-        price: "100 Per Person",
+        price: "100 PP",
       },
       {
         title: "Treasure Hunt ",
@@ -155,7 +155,7 @@ export const events = [
         participation_type: "",
         duration:"",
         place:"",
-        price: "150 Per Person",
+        price: "150 PP",
       },
       {
         title: "DERBY RACE",
@@ -165,7 +165,7 @@ export const events = [
         participation_type: "",
         duration:"",
         place:"",
-        price: "200 Per Person (kit included)",
+        price: "200 PP (kit included)",
       },
       {
         title: "TECH TALKS by Neofolks",
@@ -187,7 +187,7 @@ export const events = [
         participation_type: "",
         duration:"",
         place:"",
-        price: "150 Per Person",
+        price: "150 PP",
       },
     ],
   },
@@ -276,7 +276,7 @@ export const events = [
         participation_type: "Solo",
         duration:"",
         place:"",
-        price: "100 per person",
+        price: "100 PP",
       },
       {
         title: "Flick",
@@ -286,7 +286,7 @@ export const events = [
         participation_type: "Solo",
         duration:"",
         place:"",
-        price: "100 per person",
+        price: "100 PP",
       },
       {
         title: "Ping Pong",
@@ -296,7 +296,7 @@ export const events = [
         participation_type: "Solo",
         duration:"",
         place:"",
-        price: "150 per person",
+        price: "150 PP",
       },
       {
         title: "Volleyball",

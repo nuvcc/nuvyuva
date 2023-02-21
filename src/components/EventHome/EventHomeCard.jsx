@@ -18,7 +18,6 @@ let bgColor = [
 ];
 let index = 0;
 const EventHomeCard = ({ title, description, image, count }) => {
-
   function getNextColor() {
     let color = bgColor[index];
     index = (index + 1) % bgColor.length;
