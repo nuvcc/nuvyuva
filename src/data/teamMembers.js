@@ -67,19 +67,19 @@ export const teamMembers = [
         quote: "Tech Head",
       },
       {
-        name: "Krish",
+        name: "Krish Savani",
         quote: "Tech Head",
       },
       {
-        name: "Pruthvi",
+        name: "Pruthvi Patel",
         quote: "Web Developer",
       },
       {
-        name: "Jeet",
+        name: "Jeet Shah",
         quote: "Web Developer",
       },
       {
-        name: "Nimit",
+        name: "Nimit Savant",
         quote: "Technical Advisory",
       },
     ],
