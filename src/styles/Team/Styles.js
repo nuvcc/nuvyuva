@@ -36,6 +36,14 @@ export const TeamCard = styled.div`
     }
   }
 
+  .team-member {
+    /* width: auto; */
+    height: 25rem;
+    @media(max-width: 768px) {
+      height: auto;
+    }
+  }
+
   
   @media (max-width: 768px) {
       margin-top: 0rem;

@@ -37,7 +37,7 @@ const Team = () => {
                   className=" stars relative right-52 md:right-2/4"
                 />
                
-                <img style={{height: "17rem"}} src={member.img?.length > 0 ? member.img :"/images/teamMember.png"} alt="person-name" />
+                <img className="team-member" src={member.img?.length > 0 ? member.img :"/images/teamMember.png"} alt="person-name" />
                 <img
                   src="/images/star-2.png"
                   className=" stars relative left-52 md:left-2/4"
