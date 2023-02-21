@@ -3,12 +3,12 @@ export const teamMembers = [
     category: "Presidents",
     members: [
       {
-        name: "Tej",
+        name: "Tej Gandhi",
         quote: "President",
         img: "",
       },
       {
-        name: "Zaahiya",
+        name: "Zaahiya Kachwala",
         quote: "Secretary",
         img: "images/team/ZaahiyaKachwala.jpg",
       },
@@ -18,9 +18,9 @@ export const teamMembers = [
     category: "Secretaries",
     members: [
       {
-        name: "RUCHA",
+        name: "Pratham Dalvi",
         quote: "President",
-        img: ""
+        img: "images/team/PrathamDalvi.jpeg"
       },
       {
         name: "Jashit Kandhari",
@@ -30,7 +30,7 @@ export const teamMembers = [
       {
         name: "Rucha Soni",
         quote: "Secretary",
-        img: ""
+        img: "images/team/RuchaSoni.jpeg",
       },
     ],
   },
