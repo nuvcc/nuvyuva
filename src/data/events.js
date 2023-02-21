@@ -52,8 +52,8 @@ export const events = [
         image: "/images/events/cultural/ajanachle.svg",
         event_date: "28th March 2023",
         participation_type: "Group/Solo",
-        duration:"",
-        place:"",
+        duration:"2.5-5 minutes ",
+        place:"Amphitheater",
         price: "100 Per Person",
       },
       {
@@ -62,8 +62,8 @@ export const events = [
         image: "/images/events/cultural/YuvaStudio.svg",
         event_date: "29th March 2023",
         participation_type: "Group / Solo",
-        duration:"",
-        place:"",
+        duration:"2.5-5 minutes ",
+        place:"Amphitheater",
         price: "100 Per Person",
       },
       {
@@ -72,8 +72,8 @@ export const events = [
         image: "/images/events/cultural/RangoliCompetition.svg",
         event_date: "29th March 2023",
         participation_type: "Group(Max 4) / Solo",
-        duration:"",
-        place:"",
+        duration:"2 hour",
+        place:"Amphitheater ",
         price: "100 Per Person",
       },
       {
@@ -82,8 +82,8 @@ export const events = [
         image: "/images/events/cultural/Yuvagottalent.svg",
         event_date: "30th March 2023",
         participation_type: "Group / Solo ",
-        duration:"",
-        place:"",
+        duration:"3-5 minutes ",
+        place:"Amphitheater",
         price: "100 Per person",
       },
 
@@ -94,7 +94,7 @@ export const events = [
         event_date: "30th March 2023",
         participation_type: "Group / Solo",
         duration:"",
-        place:"",
+        place:"Amphitheater",
         price: "100 Per Person",
       },
 
@@ -105,7 +105,7 @@ export const events = [
         event_date: "30th March 2023",
         participation_type: "Solo",
         duration:"",
-        place:"",
+        place:"Amphitheater",
         price: "100 Per Person",
       },
 
