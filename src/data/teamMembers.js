@@ -5,10 +5,12 @@ export const teamMembers = [
       {
         name: "Tej",
         quote: "President",
+        img: "",
       },
       {
         name: "Zaahiya",
         quote: "Secretary",
+        img: "images/team/ZaahiyaKachwala.jpg",
       },
     ],
   },
@@ -18,14 +20,17 @@ export const teamMembers = [
       {
         name: "RUCHA",
         quote: "President",
+        img: ""
       },
       {
         name: "Jashit Kandhari",
         quote: "Secretary",
+        img: "images/team/JashitKandhari.jpeg",
       },
       {
         name: "Rucha Soni",
         quote: "Secretary",
+        img: ""
       },
     ],
   },
@@ -35,10 +40,12 @@ export const teamMembers = [
       {
         name: "Jaimin Mevada",
         quote: "Treasurer",
+        img: ""
       },
       {
-        name: "Ishan Agrawal",
+        name: "Ishaan Agrawal",
         quote: "Co Treasurer",
+        img: "images/team/Ishaanagrawal.jpeg",
       },
     ],
   },
@@ -48,6 +55,7 @@ export const teamMembers = [
       {
         name: "Kush Rana",
         quote: "OUT REACH & SPONSER",
+        img: "images/team/KUSHRANA.jpg",
       },
     ],
   },
@@ -80,16 +88,19 @@ export const teamMembers = [
     category: "Decoration Team",
     members: [
       {
-        name: "Fatima Kapasi",
+        name: "Fatema Kapasi",
         quote: "Head",
+        img: "images/team/FatemaKapasi.jpg",
       },
       {
         name: "Hitakshi Agarwal",
         quote: "Decoration",
+        img: "images/team/HitakshiAgarwal.jpeg"
       },
       {
         name: "Yesha Barot",
         quote: "Co Head",
+        img: "images/team/YeshaBarot.jpg"
       },
     ],
   },
@@ -99,10 +110,12 @@ export const teamMembers = [
       {
         name: "Sanjana Nathani",
         quote: "Head",
+        img: ""
       },
       {
         name: "Dev Soni",
         quote: "Co-Head",
+        img: ""
       },
     ],
   },
@@ -122,6 +135,7 @@ export const teamMembers = [
       {
         name: "Mansi Thakkar",
         quote: "Head",
+        img: "images/team/MansiThakkar.jpeg"
       },
     ],
   },
@@ -131,10 +145,12 @@ export const teamMembers = [
       {
         name: "Naitik",
         quote: "Head",
+        img: ""
       },
       {
         name: "Pratham Vajifdar",
         quote: "Co-Head",
+        img: "images/team/PrathamDalvi.jpeg"
       },
     ],
   },
@@ -170,26 +186,32 @@ export const teamMembers = [
       {
         name: "Sachin",
         quote: "",
+        img: ""
       },
       {
         name: "Shivam",
         quote: "",
+        img: ""
       },
       {
         name: "Jai Dev",
         quote: "",
+        img: ""
       },
       {
         name: "Meet",
         quote: "",
+        img: ""
       },
       {
         name: "Hardik",
         quote: "",
+        img: "images/team/HARDIK.jpg"
       },
       {
         name: "Nimit",
         quote: "",
+        img: ""
       },
     ],
   },
