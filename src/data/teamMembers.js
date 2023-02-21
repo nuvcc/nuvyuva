@@ -5,7 +5,7 @@ export const teamMembers = [
       {
         name: "Tej Gandhi",
         quote: "President",
-        img: "",
+        img: "images/team/TejGandhi.png",
       },
       {
         name: "Zaahiya Kachwala",
@@ -65,22 +65,27 @@ export const teamMembers = [
       {
         name: "Dhaval Fatani",
         quote: "Tech Head",
+        img: "",
       },
       {
-        name: "Krish",
+        name: "Krish Savani",
         quote: "Tech Head",
+        img: "images/team/KrishSavani.jpg",
       },
       {
-        name: "Pruthvi",
+        name: "Pruthvi Patel",
         quote: "Web Developer",
+        img: "images/team/PruthviPatel.jpg",
       },
       {
-        name: "Jeet",
+        name: "Jeet Shah",
         quote: "Web Developer",
+        img: "images/team/JeetShah.jpg",
       },
       {
-        name: "Nimit",
+        name: "Nimit Savant",
         quote: "Technical Advisory",
+        img: "",
       },
     ],
   },
@@ -110,12 +115,12 @@ export const teamMembers = [
       {
         name: "Sanjana Nathani",
         quote: "Head",
-        img: ""
+        img: "images/team/SanjanaNathani.jpeg",
       },
       {
         name: "Dev Soni",
         quote: "Co-Head",
-        img: ""
+        img: "images/team/DevSoni.jpg",
       },
     ],
   },
