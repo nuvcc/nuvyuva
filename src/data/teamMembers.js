@@ -65,22 +65,27 @@ export const teamMembers = [
       {
         name: "Dhaval Fatani",
         quote: "Tech Head",
+        img: "",
       },
       {
         name: "Krish Savani",
         quote: "Tech Head",
+        img: "",
       },
       {
         name: "Pruthvi Patel",
         quote: "Web Developer",
+        img: "images/team/PruthviPatel.jpg",
       },
       {
         name: "Jeet Shah",
         quote: "Web Developer",
+        img: "images/team/JeetShah.jpg",
       },
       {
         name: "Nimit Savant",
         quote: "Technical Advisory",
+        img: "",
       },
     ],
   },
