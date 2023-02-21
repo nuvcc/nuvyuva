@@ -31,20 +31,20 @@ const Team = () => {
           </HeadingTitle>
           <TeamBody className=" grid md:grid-cols-3 sm:grid-cols-1  gap-8 md:gap-12">
             {teams.members.map((member) => (
-              <TeamCard className="    flex flex-col items-center">
+              <TeamCard className="flex flex-col items-center">
                 <img
                   src="/images/star-4.png"
-                  className=" stars relative right-2/4"
+                  className=" stars relative right-1/4 md:right-2/4"
                 />
                
                 <img style={{height: "17rem"}} src={member.img?.length > 0 ? member.img :"/images/teamMember.png"} alt="person-name" />
                 <img
                   src="/images/star-2.png"
-                  className=" stars relative  left-2/4"
+                  className=" stars relative left-1/4  md:left-2/4"
                 />
                 <div className="relative bottom-8">
                   <CardTitle className="text-center">{member.name}</CardTitle>
-                  <h6 className="card-Desc text-center">{member.quote}</h6>
+                  <h6 className="text-sm card-Desc text-center">{member.quote}</h6>
                 </div>
               </TeamCard>
             ))}

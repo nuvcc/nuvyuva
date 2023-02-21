@@ -7,11 +7,11 @@ export const TeamHeading = styled.div`
   padding: 3rem;
 `;
 export const CardTitle = styled.h4`
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: ${({ theme }) => theme.fontColor.primary};
   font-family: "Space Grotesk", sans-serif;
   @media (max-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 `;
 export const TeamHeadingDesc = styled.h4`
@@ -28,11 +28,11 @@ export const TeamBody = styled.div`
 export const TeamCard = styled.div`
 
   .card-Desc {
-    font-size: 2.3rem;
+    font-size: 1.2rem;
     color: ${({ theme }) => theme.fontColor.primary};
     font-family: "Space Grotesk", sans-serif;
     @media (max-width: 768px) {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
   }
 
