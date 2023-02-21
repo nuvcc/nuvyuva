@@ -32,7 +32,7 @@ export const events = [
         title: "NUV MUN",
         description:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-        image: "/images/events/cultural/mun.svg ",
+        image: "/images/events/cultural/mun.png ",
         event_date: "27th and 28th March 2023",
         participation_type: "Group/Solo",
         duration:"",
@@ -49,7 +49,7 @@ export const events = [
       {
         title: "Aaja Nachle",
         description: "It’s the time to Disco! (Dancing competition)",
-        image: "/images/events/cultural/ajanachle.svg",
+        image: "/images/events/cultural/ajanachle.png",
         event_date: "28th March 2023",
         participation_type: "Group/Solo",
         duration:"2.5-5 minutes ",
@@ -59,7 +59,7 @@ export const events = [
       {
         title: "Yuva Studio",
         description: "Bless us with your lovely tone! (Singing competition)",
-        image: "/images/events/cultural/YuvaStudio.svg",
+        image: "/images/events/cultural/YuvaStudio.png",
         event_date: "29th March 2023",
         participation_type: "Group / Solo",
         duration:"2.5-5 minutes ",
@@ -69,7 +69,7 @@ export const events = [
       {
         title: "Rango Ki Mehfil",
         description: "Kuch rang apne hunar ke! (Rangoli competition)",
-        image: "/images/events/cultural/RangoliCompetition.svg",
+        image: "/images/events/cultural/RangoliCompetition.png",
         event_date: "29th March 2023",
         participation_type: "Group(Max 4) / Solo",
         duration:"2 hour",
@@ -79,7 +79,7 @@ export const events = [
       {
         title: "Yuva’s Got Talent",
         description: "Har kala anokhi hai! (Stand up, Beat boxing, etc)",
-        image: "/images/events/cultural/Yuvagottalent.svg",
+        image: "/images/events/cultural/Yuvagottalent.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo ",
         duration:"3-5 minutes ",
@@ -90,7 +90,7 @@ export const events = [
       {
         title: "Rock With Band",
         description: "So who are the next backstreet boys! (Band show)",
-        image: "/images/events/cultural/RockwithBand.svg",
+        image: "/images/events/cultural/RockwithBand.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo",
         duration:"",
@@ -101,7 +101,7 @@ export const events = [
       {
         title: "Yuva’s Ramp Show",
         description: "Fashion ka hai ye jalwa! (Fashion show)",
-        image: "/images/events/cultural/RampShow.svg",
+        image: "/images/events/cultural/RampShow.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
         duration:"",
@@ -112,7 +112,7 @@ export const events = [
       {
         title: "Painter’s Den",
         description: "Let the canvas do the talking! (Painting competition)",
-        image: "/images/events/cultural/PaintingCompetition.svg",
+        image: "/images/events/cultural/PaintingCompetition.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
         duration:"",
@@ -165,7 +165,7 @@ export const events = [
         participation_type: "",
         duration:"",
         place:"",
-        price: "200 PP (kit included)",
+        price: "200 PP",
       },
       {
         title: "TECH TALKS by Neofolks",
@@ -176,7 +176,7 @@ export const events = [
         participation_type: "",
         duration:"",
         place:"",
-        price: "Free"
+        price: ""
       },
       {
         title: "Tinkerthon",
@@ -201,32 +201,32 @@ export const events = [
       {
         title: "BGMI",
         description: "BGMI MOBILE, (max 4 players)",
-        image: "/images/events/esports/bgmi.svg",
+        image: "/images/events/esports/bgmi.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "400 per group ",
+        price: "400 /Group ",
       },
       {
         title: "COD MOBILE",
         description: "COD MOBILE. (max 4 players)",
-        image: "/images/events/esports/cod.svg",
+        image: "/images/events/esports/cod.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "400 per group",
+        price: "400 /Group",
       },
       {
         title: "VALORANT",
         description: "SHEEESHH! NEON'S GONNA GET' EM ALL!... OMG LAG!!  (max 4 players)",
-        image: "/images/events/esports/Valorant.svg",
+        image: "/images/events/esports/Valorant.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "1000 per group.",
+        price: "1000 /Group",
       }
     ],
   },
@@ -240,38 +240,38 @@ export const events = [
         title: "Box Cricket",
         description:
           "Either a six or wicket, but the watch shows time for Super-Over.7 a side (10 total player)",
-        image: "/images/events/sports/BoxCricket.svg",
+        image: "/images/events/sports/BoxCricket.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "2000 per team",
+        price: "2000 /Team",
       },
       {
         title: "Yuva League",
         description:
           " Some dream about goals-we make them! 6 aside (Max 9 players) (Football) ",
-        image: "/images/events/sports/Football.svg",
+        image: "/images/events/sports/Football.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "1600 per team "
+        price: "1600 /Team "
       },
       {
         title: "Dribble",
         description: "let's make a hoop for Kobe! 3 a side (Max 5 player) (Basketball)",
-        image: "/images/events/sports/Basketball.svg",
+        image: "/images/events/sports/Basketball.png",
         event_date: "Group",
         participation_type: "",
         duration:"",
         place:"",
-        price: "800 per team",
+        price: "800 /Team",
       },
       {
         title: "Game of Thrones",
         description: "Don't let the king die! (Chess)",
-        image: "/images/events/sports/Chess.svg",
+        image: "/images/events/sports/Chess.png",
         event_date: "",
         participation_type: "Solo",
         duration:"",
@@ -281,7 +281,7 @@ export const events = [
       {
         title: "Flick",
         description: "Rani toh Pappa ni j! (Carrom)",
-        image: "/images/events/sports/Carrom.svg",
+        image: "/images/events/sports/Carrom.png",
         event_date: "",
         participation_type: "Solo",
         duration:"",
@@ -291,7 +291,7 @@ export const events = [
       {
         title: "Ping Pong",
         description: "Eat. Sleep. Ping Pong! (Table Tennis) ",
-        image: "/images/events/sports/TableTennis.svg",
+        image: "/images/events/sports/TableTennis.png",
         event_date: "",
         participation_type: "Solo",
         duration:"",
@@ -301,12 +301,12 @@ export const events = [
       {
         title: "Volleyball",
         description: " 6 aside (max7) ",
-        image: "/images/events/sports/Volleyball.svg",
+        image: "/images/events/sports/Volleyball.png",
         event_date: "",
         participation_type: "Group",
         duration:"",
         place:"",
-        price: "1000 per team",
+        price: "1000 /Team",
       },
 
 

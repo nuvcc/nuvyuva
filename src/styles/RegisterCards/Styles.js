@@ -65,6 +65,11 @@ export const CardDesc = styled.h4`
   font-size: 1rem;
   color: ${({ theme }) => theme.fontColor.primary};
   font-family: "Space Grotesk", sans-serif;
+
+  @media only screen and (max-width: 768px) {
+    min-height: 4rem;
+
+  }
 `;
 
 export const ResgisterBody = styled.button`
