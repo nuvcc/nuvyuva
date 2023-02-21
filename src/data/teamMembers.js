@@ -1,6 +1,6 @@
 export const teamMembers = [
   {
-    category: "Heads",
+    category: "Presidents",
     members: [
       {
         name: "Tej",
@@ -20,11 +20,11 @@ export const teamMembers = [
         quote: "President",
       },
       {
-        name: "JASHIT",
+        name: "Jashit Kandhari",
         quote: "Secretary",
       },
       {
-        name: "Pratham",
+        name: "Rucha Soni",
         quote: "Secretary",
       },
     ],
@@ -33,11 +33,11 @@ export const teamMembers = [
     category: "Treasurer",
     members: [
       {
-        name: "Jaimin",
+        name: "Jaimin Mevada",
         quote: "Treasurer",
       },
       {
-        name: "Ishan",
+        name: "Ishan Agrawal",
         quote: "Co Treasurer",
       },
     ],
@@ -46,25 +46,21 @@ export const teamMembers = [
     category: "OUT REACH & SPONSER",
     members: [
       {
-        name: "Kush",
-        quote: "",
-      },
-      {
-        name: "Jashit",
-        quote: "",
+        name: "Kush Rana",
+        quote: "OUT REACH & SPONSER",
       },
     ],
   },
   {
-    category: "Technical",
+    category: "Technical Team",
     members: [
       {
-        name: "Dhaval",
-        quote: "Technical",
+        name: "Dhaval Fatani",
+        quote: "Tech Head",
       },
       {
         name: "Krish",
-        quote: "Co Technical",
+        quote: "Tech Head",
       },
       {
         name: "Pruthvi",
@@ -76,36 +72,98 @@ export const teamMembers = [
       },
       {
         name: "Nimit",
-        quote: "Technical Advisor",
+        quote: "Technical Advisory",
       },
     ],
   },
   {
-    category: "Decoration",
+    category: "Decoration Team",
     members: [
       {
-        name: "Fatima",
+        name: "Fatima Kapasi",
         quote: "Head",
       },
       {
-        name: "Hitashi",
+        name: "Hitakshi Agarwal",
         quote: "Decoration",
       },
       {
-        name: "Yesha",
+        name: "Yesha Barot",
         quote: "Co Head",
       },
     ],
   },
   {
-    category: "DESIGN & PRINTING",
+    category: "DESIGN & PRINTING Team",
     members: [
       {
-        name: "Sanjana",
-        quote: "Design and Printing Head",
+        name: "Sanjana Nathani",
+        quote: "Head",
+      },
+      {
+        name: "Dev Soni",
+        quote: "Co-Head",
       },
     ],
   },
+
+  {
+    category: "Social Media & Media Team",
+    members: [
+      {
+        name: "Devansh Bhrambhatt",
+        quote: "",
+      },
+    ],
+  },
+  {
+    category: "Cultural Team",
+    members: [
+      {
+        name: "Mansi Thakkar",
+        quote: "Head",
+      },
+    ],
+  },
+  {
+    category: "Sports Team",
+    members: [
+      {
+        name: "Naitik",
+        quote: "Head",
+      },
+      {
+        name: "Pratham Vajifdar",
+        quote: "Co-Head",
+      },
+    ],
+  },
+
+  // {
+  //   category: "SPORTS ",
+  //   members: [
+  //     {
+  //       name: "Tej Gandhi",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "Gaurav sir",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "JIgar sir",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "Rucha",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "Pratham",
+  //       quote: "E Sports",
+  //     },
+  //   ],
+  // },
   {
     category: "ADIVSORY",
     members: [
@@ -135,76 +193,21 @@ export const teamMembers = [
       },
     ],
   },
-  {
-    category: "MEDIA ",
-    members: [
-      {
-        name: "Devansh",
-        quote: "",
-      },
-      {
-        name: "Pratham",
-        quote: "",
-      },
-    ],
-  },
-  {
-    category: "CULTURAL & FC ",
-    members: [
-      {
-        name: "Mansi",
-        quote: "",
-      },
-      {
-        name: "Isha",
-        quote: "",
-      },
-      {
-        name: "Parth",
-        quote: "",
-      },
-    ],
-  },
-  {
-    category: "SPORTS & FC",
-    members: [
-      {
-        name: "Tej Gandhi",
-        quote: "",
-      },
-      {
-        name: "Gaurav sir",
-        quote: "",
-      },
-      {
-        name: "JIgar sir",
-        quote: "",
-      },
-      {
-        name: "Rucha",
-        quote: "",
-      },
-      {
-        name: "Pratham",
-        quote: "E Sports",
-      },
-    ],
-  },
-  {
-    category: "OVER ALL PLANING",
-    members: [
-      {
-        name: "Hardik",
-        quote: "",
-      },
-      {
-        name: "Tej Gandhi",
-        quote: "",
-      },
-      {
-        name: "Zaahiya",
-        quote: "",
-      },
-    ],
-  },
+  // {
+  //   category: "OVER ALL PLANING",
+  //   members: [
+  //     {
+  //       name: "Hardik",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "Tej Gandhi",
+  //       quote: "",
+  //     },
+  //     {
+  //       name: "Zaahiya",
+  //       quote: "",
+  //     },
+  //   ],
+  // },
 ];

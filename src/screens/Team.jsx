@@ -29,9 +29,9 @@ const Team = () => {
           <HeadingTitle className="text-center decoration-white">
             {teams.category}
           </HeadingTitle>
-          <TeamBody className="grid md:grid-cols-3 sm:grid-cols-1  gap-8 md:gap-12">
+          <TeamBody className="grid md:grid-cols-3 sm:grid-cols-1  gap-8 md:gap-12 ">
             {teams.members.map((member) => (
-              <TeamCard className="  flex flex-col items-center">
+              <TeamCard className="flex flex-col items-center">
                 <img
                   src="/images/star-4.png"
                   className=" stars relative right-2/4"
