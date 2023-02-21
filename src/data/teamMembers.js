@@ -5,7 +5,7 @@ export const teamMembers = [
       {
         name: "Tej Gandhi",
         quote: "President",
-        img: "",
+        img: "images/team/TejGandhi.png",
       },
       {
         name: "Zaahiya Kachwala",
@@ -70,7 +70,7 @@ export const teamMembers = [
       {
         name: "Krish Savani",
         quote: "Tech Head",
-        img: "",
+        img: "images/team/KrishSavani.jpg",
       },
       {
         name: "Pruthvi Patel",
@@ -115,12 +115,12 @@ export const teamMembers = [
       {
         name: "Sanjana Nathani",
         quote: "Head",
-        img: ""
+        img: "images/team/SanjanaNathani.jpeg",
       },
       {
         name: "Dev Soni",
         quote: "Co-Head",
-        img: ""
+        img: "images/team/DevSoni.jpg",
       },
     ],
   },
