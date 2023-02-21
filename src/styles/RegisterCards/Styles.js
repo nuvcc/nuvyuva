@@ -45,6 +45,21 @@ export const CardTitle = styled.h1`
   }
 `;
 
+export const SubTitleContainer = styled.h2`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:1rem ;
+`;
+
+export const SubTitle = styled.h2`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: ${({ theme }) => theme.fontColor.primary};
+
+`;
+
 export const CardDesc = styled.h4`
   min-height: 10rem;
   font-size: 1rem;

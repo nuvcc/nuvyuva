@@ -15,49 +15,58 @@ const Events = () => {
     : events;
   return (
     <Container>
-      <EventContainer >
-
-      {queryEvents.map((val, i) => {
-        const { title, events } = val;
-        return (
-          <div key={title}>
-            <div className="text-center ">
-              <ElementCenter>
+      <EventContainer>
+        {queryEvents.map((val, i) => {
+          const { title, events } = val;
+          return (
+            <div key={title}>
+              <div className="text-center ">
+                <ElementCenter>
+                  <img
+                    src="/images/star-3.png"
+                    className=" stars relative top-10 right-36"
+                    alt="polygonimg"
+                  />
+                  <HeadingTitle className="mt-20">{title}</HeadingTitle>
+                </ElementCenter>
+              </div>
+              <div className="px-20 ml-24"></div>
+              <div className=" px-20 flex flex-row-reverse">
                 <img
-                  src="/images/star-3.png"
-                  className=" stars relative top-10 right-36"
+                  src="/images/star-2.png"
+                  className="stars relative right-16"
                   alt="polygonimg"
                 />
-                <HeadingTitle className="mt-20">{title}</HeadingTitle>
-              </ElementCenter>
+              </div>
+
+              {events.map((val, i) => {
+                const {
+                  title,
+                  event_date,
+                  participation_type,
+                  description,
+                  image,
+                  registerBgCode,
+                  price,
+                } = val;
+
+                return (
+                  <div key={i}>
+                    <RegisterCard
+                      title={title}
+                      description={description}
+                      image={image}
+                      registerBgCode={registerBgCode}
+                      EventDate={event_date}
+                      ParticipationType={participation_type}
+                      Price={price}
+                    />
+                  </div>
+                );
+              })}
             </div>
-            <div className="px-20 ml-24"></div>
-            <div className=" px-20 flex flex-row-reverse">
-              <img
-                src="/images/star-2.png"
-                className="stars relative right-16"
-                alt="polygonimg"
-              />
-            </div>
-
-            {events.map((val, i) => {
-              const { title, description, image, registerBgCode } = val;
-
-              return (
-                <div key={i}>
-                  <RegisterCard
-                    title={title}
-                    description={description}
-                    image={image}
-                    registerBgCode={registerBgCode}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        );
-      })}
-
+          );
+        })}
       </EventContainer>
     </Container>
   );
