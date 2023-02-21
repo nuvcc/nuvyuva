@@ -40,7 +40,7 @@ export const teamMembers = [
       {
         name: "Jaimin Mevada",
         quote: "Treasurer",
-        img: ""
+        img: "images/team/jaimin.webp"
       },
       {
         name: "Ishaan Agrawal",
@@ -72,11 +72,11 @@ export const teamMembers = [
       },
       {
         name: "Pruthvi",
-        quote: "Web Development",
+        quote: "Web Developer",
       },
       {
         name: "Jeet",
-        quote: "Web Development",
+        quote: "Web Developer",
       },
       {
         name: "Nimit",
