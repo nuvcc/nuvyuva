@@ -30,7 +30,7 @@ export const teamMembers = [
       {
         name: "Rucha Soni",
         quote: "Secretary",
-        img: "images/team/RuchaSoni.jpeg",
+        img: "images/team/RuchaSoni.jpg",
       },
     ],
   },
