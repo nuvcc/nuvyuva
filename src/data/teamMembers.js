@@ -150,7 +150,7 @@ export const teamMembers = [
       {
         name: "Pratham Vajifdar",
         quote: "Co-Head",
-        img: "images/team/PrathamDalvi.jpeg"
+        img: ""
       },
     ],
   },
