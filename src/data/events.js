@@ -9,7 +9,7 @@ export const events = [
         title: "CONCERT NIGHT",
         description:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
         duration:"",
@@ -21,7 +21,7 @@ export const events = [
         title: "Tinkerthon",
         description:
           "Hackathon is a 24-hour event where students from all over the world come together to create something new. It is a great opportunity to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun.",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
         duration:"",
@@ -122,7 +122,7 @@ export const events = [
       {
         title: "Treasure Hunt ",
         description: "Let the canvas do the talking! (Painting competition)",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "30th March 2023",
         participation_type: "",
         duration:"",
@@ -132,7 +132,7 @@ export const events = [
       {
         title: "Ek se bhalae teen ",
         description: " Teams of two need to complete three rounds in order to win the game and become the ultimate winner of triathlon",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "30th March 2023",
         participation_type: "",
         duration:"",
@@ -150,7 +150,7 @@ export const events = [
       {
         title: "CAD CHAOS",
         description:"'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.", 
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "23rd March 2023",
         participation_type: "",
         duration:"",
@@ -160,7 +160,7 @@ export const events = [
       {
         title: "DERBY RACE",
         description:"Join our Derby Race event and create a four-wheeled vehicle using only wood, nails, and wheels.",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "28th March 2023",
         participation_type: "",
         duration:"",
@@ -171,7 +171,7 @@ export const events = [
         title: "TECH TALKS by Neofolks",
         description:"A series of technical talks focused on different interesting domains of technology and design hosted by Neofolks",
          
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "29th March 2023",
         participation_type: "",
         duration:"",
@@ -182,7 +182,7 @@ export const events = [
         title: "Tinkerthon",
         description:
           "Tinkerthon is a 36 hours competition for incubation startups ideas around the given theme and problem statements.",
-        image: "/images/events/reveal.svg",
+        image: "/images/events/reveal.png",
         event_date: "23rd March 2023",
         participation_type: "",
         duration:"",
