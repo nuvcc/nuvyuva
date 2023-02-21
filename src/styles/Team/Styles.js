@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TeamHeading = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 3rem;
 `;
@@ -39,6 +39,7 @@ export const TeamCard = styled.div`
   .team-member {
     /* width: auto; */
     height: 25rem;
+    border-radius:16px;
     @media(max-width: 768px) {
       height: auto;
     }

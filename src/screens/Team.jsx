@@ -18,11 +18,7 @@ const Team = () => {
   return (
     <Container>
       <TeamHeading>
-        <HeadingTitle className="  w-4/5">Let's Meet Our Team</HeadingTitle>
-        <TeamHeadingDesc className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          cupiditate consequuntur quis.
-        </TeamHeadingDesc>
+        <HeadingTitle className=" text-center">Let's Meet Our Team</HeadingTitle>
       </TeamHeading>
       {teamMembers.map((teams) => (
         <div>
@@ -34,17 +30,17 @@ const Team = () => {
               <TeamCard className="flex flex-col items-center">
                 <img
                   src="/images/star-4.png"
-                  className=" stars relative right-2/4 md:right-2/4"
+                  className=" stars relative right-2/4"
                 />
                
                 <img className="team-member" src={member.img?.length > 0 ? member.img :"/images/teamMember.png"} alt="person-name" />
                 <img
                   src="/images/star-2.png"
-                  className=" stars relative left-52 md:left-2/4"
+                  className=" stars relative left-2/4"
                 />
                 <div className="relative bottom-8">
                   <CardTitle className="text-center">{member.name}</CardTitle>
-                  <h6 className="text-sm card-Desc text-center">{member.quote}</h6>
+                  <h6 className="mt-6 md:mt-1 text-sm card-Desc text-center">{member.quote}</h6>
                 </div>
               </TeamCard>
             ))}
