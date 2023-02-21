@@ -40,7 +40,7 @@ export const teamMembers = [
       {
         name: "Jaimin Mevada",
         quote: "Treasurer",
-        img: ""
+        img: "",
       },
       {
         name: "Ishaan Agrawal",
@@ -150,7 +150,7 @@ export const teamMembers = [
       {
         name: "Pratham Vajifdar",
         quote: "Co-Head",
-        img: "images/team/PrathamDalvi.jpeg"
+        img: ""
       },
     ],
   },
