@@ -18,28 +18,23 @@ const Home = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
 
   const myRef = useRef(null);
-  const startVanta = () => {
-    setVantaEffect(
-      BIRDS({
-        el: myRef.current,
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        wingSpan: 17.0,
-      })
-    );
-  };
-  useEffect(() => {
-    // if (!vantaEffect) {
-    // setTimeout(() => {
 
-    window.onload = startVanta;
-    // }, 1000);
-    // }
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: myRef.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          wingSpan: 17.0,
+        })
+      );
+    }
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     };
@@ -50,11 +45,13 @@ const Home = () => {
       {/* ---- hero section ----  */}
 
       <ImgBG id="home" ref={myRef}>
-        <div className="logo-counter md:mt-5">
+      
+        <div  className="logo-counter md:mt-5">
           <img src={"/images/yuva-logo.webp"} alt="nuvyuva-logo" />
-          <div className="">
-            <Counter />
-          </div>
+        <div className="">
+          <Counter />
+        </div>
+        
         </div>
       </ImgBG>
 

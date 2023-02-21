@@ -18,8 +18,8 @@ const Memories = () => {
         <HeadingTitle className="mt-20">Past Memories</HeadingTitle>
       </ElementCenter>
       <div className="grid mt-12 md:grid-cols-3 sm:grid-cols-1 gap-8">
-        {memoryData.map((memory) => (
-          <div className=" flex justify-center">
+        {memoryData.map((memory,i) => (
+          <div key={i} className=" flex justify-center">
             <MemoryCard className="" {...memory}  />
           </div>
         ))}
