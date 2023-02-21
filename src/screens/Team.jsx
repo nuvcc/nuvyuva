@@ -40,7 +40,7 @@ const Team = () => {
                 />
                 <div className="relative bottom-8">
                   <CardTitle className="text-center">{member.name}</CardTitle>
-                  <h6 className="mt-6 md:mt-1 text-sm card-Desc text-center">{member.quote}</h6>
+                  <h6 className="mt-4 md:mt-1 text-sm card-Desc text-center">{member.quote}</h6>
                 </div>
               </TeamCard>
             ))}

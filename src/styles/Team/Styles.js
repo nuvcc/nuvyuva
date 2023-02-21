@@ -37,7 +37,7 @@ export const TeamCard = styled.div`
 
   .team-member {
     /* width: auto; */
-    height: 25rem;
+    height: 22rem;
     width: 18rem;
     border-radius: 16px;
     @media (max-width: 768px) {
