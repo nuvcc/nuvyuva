@@ -26,7 +26,6 @@ export const TeamBody = styled.div`
 `;
 
 export const TeamCard = styled.div`
-  margin-top: 4rem;
 
   .card-Desc {
     font-size: 2.3rem;
