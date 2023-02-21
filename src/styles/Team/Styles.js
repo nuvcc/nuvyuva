@@ -53,11 +53,11 @@ export const TeamCard = styled.div`
       }
   }
 
-  @media(min-width: 768px) and (max-width: 1024px){
+  @media(min-width: 768px) {
     margin-top: 0rem;
       .stars{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2.5rem;
       }
   }
 `;

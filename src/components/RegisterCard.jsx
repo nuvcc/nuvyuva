@@ -48,7 +48,7 @@ const RegisterCard = ({
 
           <ResgisterBody>
             <PriceValue className="border">
-              {Price ? Price : "Soon to Declare..."}
+              {Price ? `Rs. ${Price}`  : "Soon to Declare..."}
             </PriceValue>
 
             <RegisterText className="border" bg={getNextColor()}>
