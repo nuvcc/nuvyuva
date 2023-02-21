@@ -22,8 +22,6 @@ const RegisterCard = ({
   title,
   description,
   image,
-  registerBgCode,
-  EventDate,
   Price,
   ParticipationType,
 }) => {
@@ -44,12 +42,6 @@ const RegisterCard = ({
 
           <SubTitleContainer>
             <SubTitle>Participation-Type : {ParticipationType}</SubTitle>
-            <SubTitle>Event Date : {EventDate}</SubTitle>
-          </SubTitleContainer>
-
-          <SubTitleContainer>
-            <SubTitle>Duration : {ParticipationType}</SubTitle>
-            <SubTitle>Place: {EventDate}</SubTitle>
           </SubTitleContainer>
 
           <CardDesc>{description}</CardDesc>

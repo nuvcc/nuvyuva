@@ -57,7 +57,7 @@ const Events = () => {
                       description={description}
                       image={image}
                       registerBgCode={registerBgCode}
-                      EventDate={event_date}
+                    
                       ParticipationType={participation_type}
                       Price={price}
                     />
