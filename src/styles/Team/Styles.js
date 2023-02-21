@@ -26,7 +26,6 @@ export const TeamBody = styled.div`
 `;
 
 export const TeamCard = styled.div`
-
   .card-Desc {
     font-size: 1.2rem;
     color: ${({ theme }) => theme.fontColor.primary};
@@ -39,31 +38,31 @@ export const TeamCard = styled.div`
   .team-member {
     /* width: auto; */
     height: 25rem;
-    border-radius:16px;
-    @media(max-width: 768px) {
+    width: 18rem;
+    border-radius: 16px;
+    @media (max-width: 768px) {
       height: auto;
+      height: 42rem;
+      width: 90%;
     }
   }
 
-  
   @media (max-width: 768px) {
-      margin-top: 0rem;
-      .stars{
-        width: 2rem;
-        height: 2rem;
-      }
+    margin-top: 0rem;
+    .stars {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     margin-top: 0rem;
-      .stars{
-        width: 2rem;
-        height: 2.5rem;
-      }
+    .stars {
+      width: 2rem;
+      height: 2.5rem;
+    }
   }
 `;
-
-
 
 export const PersonImg = styled.img``;
 
