@@ -15,7 +15,7 @@ const Memories = () => {
   return (
     <MemoryBody>
       <ElementCenter>
-        <HeadingTitle>Past Memories</HeadingTitle>
+        <HeadingTitle className="mt-20">Past Memories</HeadingTitle>
       </ElementCenter>
       <div className="grid mt-12 md:grid-cols-3 sm:grid-cols-1 gap-8">
         {memoryData.map((memory) => (

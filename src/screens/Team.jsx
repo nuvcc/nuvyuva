@@ -17,7 +17,7 @@ import { teamMembers } from "../data/teamMembers";
 const Team = () => {
   return (
     <Container>
-      <TeamHeading>
+      <TeamHeading >
         <HeadingTitle className=" text-center">
           Let's Meet Our Team
         </HeadingTitle>

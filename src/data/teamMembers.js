@@ -5,7 +5,7 @@ export const teamMembers = [
       {
         name: "Tej Gandhi",
         quote: "President",
-        img: "images/team/TejGandhi.png",
+        img: "images/team/TejGandhi.PNG",
       },
       {
         name: "Zaahiya Kachwala",
