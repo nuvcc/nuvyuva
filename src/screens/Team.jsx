@@ -34,7 +34,7 @@ const Team = () => {
               <TeamCard className="flex flex-col items-center">
                 <img
                   src="/images/star-4.png"
-                  className=" stars relative right-52 md:right-2/4"
+                  className=" stars relative right-2/4 md:right-2/4"
                 />
                
                 <img className="team-member" src={member.img?.length > 0 ? member.img :"/images/teamMember.png"} alt="person-name" />
