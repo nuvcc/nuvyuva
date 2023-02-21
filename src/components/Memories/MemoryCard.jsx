@@ -2,15 +2,13 @@ import React from "react";
 import { MCard, MCardHeading, MCardText } from "../../styles/Memories/Styles";
 import memoryImg from "../../images/Memory.png";
 import { CardDesc, CardTitle } from "../../styles/RegisterCards/Styles";
-const MemoryCard = () => {
+const MemoryCard = ({ title, description, image }) => {
   return (
     <MCard className="">
-      <img src={memoryImg} alt="Memory" />
+      <img src={image?.length > 0 ? image : memoryImg} alt="Memory" />
       <div className="text-center mt-4">
-        <CardTitle>NUV - Deep</CardTitle>
-        <CardDesc>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        </CardDesc>
+        <CardTitle>{title}</CardTitle>
+        <CardDesc>{description}</CardDesc>
       </div>
     </MCard>
   );
