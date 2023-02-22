@@ -181,7 +181,7 @@ export const teamMembers = [
   //   ],
   // },
   {
-    category: 'ADIVSORY',
+    category: 'Mentors',
     members: [
       // {
       //   name: 'Sachin',
