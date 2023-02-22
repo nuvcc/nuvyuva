@@ -21,11 +21,11 @@ function App() {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoaded(true);
-    }, 100);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoaded(true);
+  //   }, 100);
+  // }, []);
 
   return (
     <ThemeProvider theme={theme}>
