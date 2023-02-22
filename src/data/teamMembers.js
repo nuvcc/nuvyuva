@@ -9,7 +9,7 @@ export const teamMembers = [
       },
       {
         name: "Zaahiya Kachwala",
-        quote: "Secretary",
+        quote: "Vice President",
         img: "images/team/ZaahiyaKachwala.jpg",
       },
     ],
@@ -40,7 +40,7 @@ export const teamMembers = [
       {
         name: "Jaimin Mevada",
         quote: "Treasurer",
-        img: "images/team/jaimin.webp"
+        img: "images/team/JaiminMevada.jpg"
       },
       {
         name: "Ishaan Agrawal",
@@ -93,14 +93,14 @@ export const teamMembers = [
     category: "Decoration Team",
     members: [
       {
+        name: "Hitakshi Agarwal",
+        quote: "Co Head",
+        img: "images/team/HitakshiAgarwal.jpeg"
+      },
+      {
         name: "Fatema Kapasi",
         quote: "Head",
         img: "images/team/FatemaKapasi.jpg",
-      },
-      {
-        name: "Hitakshi Agarwal",
-        quote: "Decoration",
-        img: "images/team/HitakshiAgarwal.jpeg"
       },
       {
         name: "Yesha Barot",
@@ -130,7 +130,7 @@ export const teamMembers = [
     members: [
       {
         name: "Devansh Bhrambhatt",
-        quote: "",
+        quote: "Head",
       },
     ],
   },
