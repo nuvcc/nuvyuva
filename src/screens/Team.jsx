@@ -22,8 +22,8 @@ const Team = () => {
           Let's Meet Our Team
         </HeadingTitle>
       </TeamHeading>
-      {teamMembers.map((teams) => (
-        <div>
+      {teamMembers.map((teams, i) => (
+        <div key={i}>
           <HeadingTitle className="text-center decoration-white">
             {teams.category}
           </HeadingTitle>
@@ -37,13 +37,12 @@ const Team = () => {
                 // : "md:grid-cols-3 justify-start"
             }`}
           >
-            {teams.members.map((member) => (
-              <TeamCard className="flex flex-col items-center">
+            {teams.members.map((member, index) => (
+              <TeamCard className="flex flex-col items-center" key={index}>
                 <img
                   src="/images/star-4.png"
                   className=" stars relative right-2/4"
                 />
-
                 <img
                   className="team-member"
                   src={
@@ -58,9 +57,9 @@ const Team = () => {
                   className=" stars relative left-2/4"
                 />
                 <div className="relative bottom-8">
-                  <CardTitle className="text-center">{member.name}</CardTitle>
+                  <CardTitle className="text-center">{member.name?.toUpperCase()}</CardTitle>
                   <h6 className="mt-4 md:mt-1 text-sm card-Desc text-center">
-                    {member.quote}
+                    {member.quote?.toUpperCase()}
                   </h6>
                 </div>
               </TeamCard>
