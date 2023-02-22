@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/nuvyuva/static/css/main.1d286ab8.css",
-    "main.js": "/nuvyuva/static/js/main.68df5ca8.js",
-    "static/media/Memory.png": "/nuvyuva/static/media/Memory.601684ef7c86d81f3fc3.png",
+    "main.js": "/nuvyuva/static/js/main.28ad651c.js",
     "index.html": "/nuvyuva/index.html",
     "main.1d286ab8.css.map": "/nuvyuva/static/css/main.1d286ab8.css.map",
-    "main.68df5ca8.js.map": "/nuvyuva/static/js/main.68df5ca8.js.map"
+    "main.28ad651c.js.map": "/nuvyuva/static/js/main.28ad651c.js.map"
   },
   "entrypoints": [
     "static/css/main.1d286ab8.css",
-    "static/js/main.68df5ca8.js"
+    "static/js/main.28ad651c.js"
   ]
 }
