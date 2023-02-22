@@ -50,7 +50,7 @@ const RegisterCard = ({
             <PriceValue className="border">
               {Price ? `Rs. ${Price}` : "Soon..."}
             </PriceValue>
-            <RegisterText className="border" bg={getNextColor()}>
+            <RegisterText className="border" onClick={() => Price && window.open("https://form.typeform.com/to/IW6973EO", "_blank")} bg={getNextColor()}>
               Register
             </RegisterText>
           </ResgisterBody>

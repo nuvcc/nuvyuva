@@ -29,6 +29,7 @@ const Home = () => {
           gyroControls: false,
           minHeight: 200.0,
           minWidth: 200.0,
+          outerWidth: 0.5,
           scale: 1.0,
           scaleMobile: 1.0,
           wingSpan: 17.0,
