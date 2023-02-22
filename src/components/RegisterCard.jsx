@@ -6,6 +6,8 @@ import {
   PriceValue,
   RegisterText,
   ResgisterBody,
+  SubTitle,
+  SubTitleContainer,
 } from "../styles/RegisterCards/Styles";
 import { HeadingTitle, MultiColorButton } from "../styles/globalStyles";
 
@@ -16,31 +18,41 @@ let bgColor = [
 ];
 let index = 0;
 
-const RegisterCard = ({ title, description, image ,registerBgCode}) => {
- 
+const RegisterCard = ({
+  title,
+  description,
+  image,
+  Price,
+  ParticipationType,
+}) => {
   function getNextColor() {
     let color = bgColor[index];
     index = (index + 1) % bgColor.length;
     return color;
   }
-  
 
   return (
     <>
       <CardBody>
         <div className="right-side">
-          <img className="res-img" src={"/images/event.png"} alt="card-img" />
+          <img className="res-img" src={image} alt="card-img" />
         </div>
         <div className="left-side">
           <CardTitle>{title}</CardTitle>
 
+          <SubTitleContainer>
+            <SubTitle>Participation-Type : {ParticipationType}</SubTitle>
+          </SubTitleContainer>
+
           <CardDesc>{description}</CardDesc>
 
           <ResgisterBody>
-            <PriceValue className="border">Free</PriceValue>
-            <MultiColorButton bg={getNextColor()}>
-              <RegisterText>Register </RegisterText>
-            </MultiColorButton>
+            <PriceValue className="border">
+              {Price ? `Rs. ${Price}` : "Soon..."}
+            </PriceValue>
+            <RegisterText className="border" onClick={() => Price && window.open("https://form.typeform.com/to/IW6973EO", "_blank")} bg={getNextColor()}>
+              Register
+            </RegisterText>
           </ResgisterBody>
         </div>
       </CardBody>

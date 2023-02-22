@@ -8,31 +8,22 @@ import {
   BannerText,
 } from "../../styles/Memories/Styles";
 import MemoryCard from "./MemoryCard";
+import { pastMemories } from "./../../data/pastMemories";
 const Memories = () => {
-  const memoryData = [
-    {
-      heading: "",
-      description: "",
-    },
-  ];
+  const memoryData = [...pastMemories];
 
   return (
     <MemoryBody>
       <ElementCenter>
-        <HeadingTitle>Past Memories</HeadingTitle>
+        <HeadingTitle className="mt-20">Past Memories</HeadingTitle>
       </ElementCenter>
       <div className="grid mt-12 md:grid-cols-3 sm:grid-cols-1 gap-8">
-        <div className=" flex justify-center">
-          <MemoryCard className="" />
-        </div>
-        <div className=" flex justify-center">
-          <MemoryCard className="" />
-        </div>
-        <div className=" flex justify-center">
-          <MemoryCard className="" />
-        </div>
+        {memoryData.map((memory,i) => (
+          <div key={i} className=" flex justify-center">
+            <MemoryCard className="" {...memory}  />
+          </div>
+        ))}
       </div>
-    
     </MemoryBody>
   );
 };

@@ -35,7 +35,7 @@ export const CardBody = styled.div`
 `;
 
 export const CardTitle = styled.h1`
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: ${({ theme }) => theme.fontColor.primary};
   font-family: "Space Grotesk", sans-serif;
   text-transform: uppercase;
@@ -45,19 +45,41 @@ export const CardTitle = styled.h1`
   }
 `;
 
+export const SubTitleContainer = styled.h2`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:1rem ;
+`;
+
+export const SubTitle = styled.h2`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: ${({ theme }) => theme.fontColor.primary};
+
+`;
+
 export const CardDesc = styled.h4`
   min-height: 10rem;
   font-size: 1rem;
   color: ${({ theme }) => theme.fontColor.primary};
   font-family: "Space Grotesk", sans-serif;
+
+  @media only screen and (max-width: 768px) {
+    min-height: 4rem;
+
+  }
 `;
 
-export const ResgisterBody = styled.div`
+export const ResgisterBody = styled.button`
   border: 2px solid ${({ theme }) => theme.fontColor.primary};
   color: ${({ theme }) => theme.fontColor.primary};
   border-radius: 8px;
   display: flex;
   margin-top: 1rem;
+  width: 100%;
+
 `;
 
 export const PriceValue = styled.h6`
@@ -75,7 +97,7 @@ export const PriceValue = styled.h6`
 `;
 
 export const RegisterText = styled.h6`
-  font-size: 1.5rem;
+ font-size: 1.5rem;
   padding: 1rem;
   width: 50%;
   color: ${({ theme }) => theme.fontColor.primary};
@@ -83,7 +105,12 @@ export const RegisterText = styled.h6`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: red;
   @media only screen and (max-width: 768px) {
     padding: 0.5rem;
   }
+  background: ${(props) => props.bg};
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px
+
 `;

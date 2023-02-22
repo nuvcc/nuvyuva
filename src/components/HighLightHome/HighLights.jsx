@@ -20,14 +20,28 @@ const HighLights = () => {
       </ElementCenter>
 
       {events[0].events.map((val, i) => {
-        const { title, description, image, registerBgCode } = val;
+        const {
+          title,
+          event_date,
+          participation_type,
+          description,
+          image,
+          registerBgCode,
+          price,
+        } = val;
+
         return (
-          <RegisterCard
-            title={title}
-            description={description}
-            image={image}
-            registerBgCode={registerBgCode}
-          />
+          <div key={i}>
+            <RegisterCard
+              title={title}
+              description={description}
+              image={image}
+              registerBgCode={registerBgCode}
+              EventDate={event_date}
+              ParticipationType={participation_type}
+              Price={price}
+            />
+          </div>
         );
       })}
     </Container>
