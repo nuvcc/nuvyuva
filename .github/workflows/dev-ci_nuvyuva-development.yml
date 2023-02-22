@@ -22,9 +22,10 @@ jobs:
           node-version: '18.x'
 
       - name: npm install, build, and test
-        run: |
-          npm ci 
-          npm run build
+        - run: npm i 
+        - run: npm run build
+          env: 
+            CI: false
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
