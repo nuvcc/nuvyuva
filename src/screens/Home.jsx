@@ -27,8 +27,8 @@ const Home = () => {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
+          minHeight: 100.0,
+          minWidth: 100.0,
           scale: 1.0,
           scaleMobile: 1.0,
           wingSpan: 17.0,
@@ -44,14 +44,12 @@ const Home = () => {
     <div className="">
       {/* ---- hero section ----  */}
 
-      <ImgBG id="home" ref={myRef}>
-      
-        <div  className="logo-counter md:mt-5">
+      <ImgBG id="home" ref={myRef} >
+        <div className="logo-counter md:mt-5">
           <img src={"/images/yuva-logo.webp"} alt="nuvyuva-logo" />
-        <div className="">
-          <Counter />
-        </div>
-        
+          <div className="">
+            <Counter />
+          </div>
         </div>
       </ImgBG>
 

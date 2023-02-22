@@ -17,7 +17,7 @@ import { teamMembers } from "../data/teamMembers";
 const Team = () => {
   return (
     <Container>
-      <TeamHeading >
+      <TeamHeading>
         <HeadingTitle className=" text-center">
           Let's Meet Our Team
         </HeadingTitle>
@@ -28,9 +28,13 @@ const Team = () => {
             {teams.category}
           </HeadingTitle>
           <TeamBody
-            
             className={`grid  sm:grid-cols-1 gap-8 md:gap-12 ${
-              teams.members.length == 1 ? "md:grid-cols-1 justify-center" : "md:grid-cols-3 justify-start"
+              teams.members.length >= 3
+                ? "md:grid-cols-3 justify-start": 
+                 teams.members.length === 2
+                  ? "md:grid-cols-2 justify-center"
+                  : "md:grid-cols-1 justify-center"
+                // : "md:grid-cols-3 justify-start"
             }`}
           >
             {teams.members.map((member) => (
