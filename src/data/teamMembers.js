@@ -38,9 +38,9 @@ export const teamMembers = [
     category: 'Treasurer',
     members: [
       {
-        name: 'Jaimin Mevada',
-        quote: 'Treasurer',
-        img: 'images/team/jaimin.webp',
+        name: "Jaimin Mevada",
+        quote: "Treasurer",
+        img: "images/team/JaiminMevada.jpg"
       },
       {
         name: 'Ishaan Agrawal',
@@ -130,7 +130,6 @@ export const teamMembers = [
   //   ],
   // },
   {
-    category: 'Cultural Team',
     members: [
       {
         name: 'Mansi Thakkar',

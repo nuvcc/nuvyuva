@@ -143,9 +143,14 @@ export const FooterDiv = styled.div`
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 28px;
   text-align: center;
   color: #ffffff;
   padding: 2rem 0;
+
+  a{
+    border-bottom: 1px solid #fff;
+   }
+
 `;
