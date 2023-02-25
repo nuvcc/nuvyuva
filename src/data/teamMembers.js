@@ -165,7 +165,8 @@ export const teamMembers = [
     members: [
       {
         name: 'Devansh Bhrambhatt',
-        quote: 'images/team/Devansh.jpg',
+        quote: "Head",
+        img: 'images/team/Devansh.jpg',
       },
     ],
   },
