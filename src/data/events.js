@@ -25,7 +25,7 @@ export const events = [
         participation_type: "Group/Solo",
         duration:"",
         place:"",
-        price: "100 PP",
+        price: "700 PP",
       },
       {
         title: "Concert Night",
