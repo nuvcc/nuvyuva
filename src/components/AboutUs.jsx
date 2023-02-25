@@ -1,11 +1,10 @@
-import React from "react";
 import {
   DescriptionText,
   ElementCenter,
   HeadingTitle,
   SubHeadingTitle,
 } from "../styles/globalStyles";
-import { AboutUsBody, Container } from "../styles/Home/Styles";
+import { AboutUsBody } from "../styles/Home/Styles";
 import { FaLink } from "react-icons/fa";
 
 const AboutUs = () => {
@@ -23,11 +22,10 @@ const AboutUs = () => {
           </div>
 
           <DescriptionText>
-            NUV-YUVA is an inter-college festival that encourages students from
-            various institutions all over gujarat to demonstrate their ability
-            and talents in various fields and events. The event aims to bring
-            together cultural, technical and sports aspects and merge them
-            together with knowledge and enjoyment.
+          Navrachana University’s biggest and grandest Youth fest.
+          <br /> 
+          NUV-YUVA is a youth fest hosted by Navrachana University. The fest incorporates a bunch of TECHNICAL, NON-TECHNICAL, SPORTS and CULTURAL EVENTS. 
+          The event aims to provide a space to learn skills and showcase talent on a large platform."								
           </DescriptionText>
         </div>
         <div className="side-2 flex justify-center  w-full">

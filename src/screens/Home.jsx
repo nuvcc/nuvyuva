@@ -1,16 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AboutUs from "../components/AboutUs";
-import Banner from "../components/Banner";
 import EventHome from "../components/EventHome/EventHome";
 import HighLights from "../components/HighLightHome/HighLights";
-import { LabelBody } from "../styles/globalStyles";
-import { Container, CounterBlock, ImgBG, NUVLogo } from "../styles/Home/Styles";
-import Events from "./Events";
+import { Container, ImgBG } from "../styles/Home/Styles";
 import Counter from "../components/Counter";
-import PastMemories from "../components/Memories/PastMemories";
 import Location from "./Location";
 import Schedule from "./Schedule";
-import { Element } from "react-scroll";
 import Memories from "../components/Memories/Memories";
 import BIRDS from "vanta/dist/vanta.birds.min";
 
