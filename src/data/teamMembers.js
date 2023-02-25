@@ -49,24 +49,64 @@ export const teamMembers = [
       },
     ],
   },
+  // {
+  //   category: 'OUT REACH & SPONSER',
+  //   members: [
+  //     {
+  //       name: 'Kush Rana',
+  //       quote: 'HEAD',
+  //       img: 'images/team/KUSHRANA.jpg',
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'CONTENT',
+  //   members: [
+  //     {
+  //       name: 'HITAKSHI CHUGH',
+  //       quote: 'HEAD',
+  //       img: 'images/team/Hitakshi.jpeg',
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: 'MUN',
+  //   members: [
+  //     {
+  //       name: 'Chaitali Dixit',
+  //       quote: 'HEAD',
+  //       img: 'images/team/ChaitaliDixit.jpeg',
+  //     },
+  //   ],
+  // },
   {
-    category: 'OUT REACH & SPONSER',
+    category: "OUT REACH & SPONSER/CONTENT/MUN",
     members: [
       {
         name: 'Kush Rana',
-        quote: 'OUT REACH & SPONSER',
+        quote: 'HEAD',
         img: 'images/team/KUSHRANA.jpg',
       },
-    ],
+      {
+        name: 'HITAKSHI CHUGH',
+        quote: 'HEAD',
+        img: 'images/team/Hitakshi.jpeg',
+      },
+      {
+        name: 'Chaitali Dixit',
+        quote: 'HEAD',
+        img: 'images/team/ChaitaliDixit.jpeg',
+      },
+    ]
   },
   {
     category: 'Technical Team',
     members: [
-      // {
-      //   name: 'Dhaval Fatani',
-      //   quote: 'Tech Head',
-      //   img: '',
-      // },
+      {
+        name: 'Dhaval Fatani',
+        quote: 'Tech Head',
+        img: 'images/team/DhavalFatnani.jpg',
+      },
       {
         name: 'Krish Savani',
         quote: 'Tech Head',
@@ -120,16 +160,17 @@ export const teamMembers = [
     ],
   },
 
-  // {
-  //   category: 'Social Media & Media Team',
-  //   members: [
-  //     {
-  //       name: 'Devansh Bhrambhatt',
-  //       quote: '',
-  //     },
-  //   ],
-  // },
   {
+    category: 'Social Media & Media Team',
+    members: [
+      {
+        name: 'Devansh Bhrambhatt',
+        quote: 'images/team/Devansh.jpg',
+      },
+    ],
+  },
+  {
+    category: "CULTURAL TEAM",
     members: [
       {
         name: 'Mansi Thakkar',
@@ -141,11 +182,11 @@ export const teamMembers = [
   {
     category: 'Sports Team',
     members: [
-      // {
-      //   name: 'Naitik',
-      //   quote: 'Head',
-      //   img: '',
-      // },
+      {
+        name: 'Naitik',
+        quote: 'Head',
+        img: '',
+      },
       {
         name: 'Pratham Vajifdar',
         quote: 'Co-Head',

@@ -48,7 +48,7 @@ const EventHomeCard = ({ title, description, image, count }) => {
         </NavLink>
       </div>
       <div className="right-side">
-        <img className="img" src={"/images/event.png"} alt="card-img" />
+        <img className="img" src={image} alt="card-img" />
         <div className=" flex flex-row-reverse">
           <img
             src="/images/Polygon-3.png"
