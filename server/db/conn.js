@@ -1,13 +1,17 @@
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 
-dotenv.config({path : "config.env"});
+dotenv.config();
 
 const DB = process.env.DATABASE;
 
 mongoose.set('strictQuery', false);
-mongoose.connect(DB, {useNewUrlParser: true, UseUnifiedTopology: true})
-.then(()=>{console.log("Connected to MongoDB");})
-.catch((err)=>{
+mongoose
+  .connect(DB, { useNewUrlParser: true, UseUnifiedTopology: true })
+  .then((DB) => {
+    // console.log(DB);
+    console.log(`Connected to MongoDB Database: ${DB.connections[0].name}`);
+  })
+  .catch((err) => {
     console.log(err);
-})
+  });
