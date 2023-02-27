@@ -12,9 +12,10 @@ export const events = [
         image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "",
+        link: "#"
       },
       ,
       {
@@ -24,9 +25,10 @@ export const events = [
         image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "",
+        link: "#"
       },
       {
         title: "NUV MUN",
@@ -35,9 +37,10 @@ export const events = [
         image: "/images/events/cultural/mun.png ",
         event_date: "27th and 28th March 2023",
         participation_type: "Group/Solo",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "100 PP",
+        link: "https://pmny.in/BJs3ePZjXvqA"
       },
     ],
   },
@@ -52,9 +55,10 @@ export const events = [
         image: "/images/events/cultural/ajanachle.png",
         event_date: "28th March 2023",
         participation_type: "Group/Solo",
-        duration:"2.5-5 minutes ",
-        place:"Amphitheater",
+        duration: "2.5-5 minutes ",
+        place: "Amphitheater",
         price: "100 PP",
+        link: "https://pmny.in/pIZjDcuENZUB"
       },
       {
         title: "Yuva Studio",
@@ -62,9 +66,10 @@ export const events = [
         image: "/images/events/cultural/YuvaStudio.png",
         event_date: "29th March 2023",
         participation_type: "Group / Solo",
-        duration:"2.5-5 minutes ",
-        place:"Amphitheater",
+        duration: "2.5-5 minutes ",
+        place: "Amphitheater",
         price: "100 PP",
+        link: "https://pmny.in/4I3jmcCEMZVT"
       },
       {
         title: "Rango Ki Mehfil",
@@ -72,9 +77,10 @@ export const events = [
         image: "/images/events/cultural/RangoliCompetition.png",
         event_date: "29th March 2023",
         participation_type: "Group(Max 4) / Solo",
-        duration:"2 hour",
-        place:"Amphitheater ",
+        duration: "2 hour",
+        place: "Amphitheater ",
         price: "100 PP",
+        link: "https://pmny.in/VrMJGr9sjmQD"
       },
       {
         title: "Yuva’s Got Talent",
@@ -82,9 +88,10 @@ export const events = [
         image: "/images/events/cultural/Yuvagottalent.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo ",
-        duration:"3-5 minutes ",
-        place:"Amphitheater",
+        duration: "3-5 minutes ",
+        place: "Amphitheater",
         price: "100 PP",
+        link: "https://pmny.in/tJL38PnjDE2J"
       },
 
       {
@@ -93,9 +100,10 @@ export const events = [
         image: "/images/events/cultural/RockwithBand.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo",
-        duration:"",
-        place:"Amphitheater",
+        duration: "",
+        place: "Amphitheater",
         price: "100 PP",
+        link: "https://pmny.in/0IDlaDddaLFm"
       },
 
       {
@@ -104,9 +112,10 @@ export const events = [
         image: "/images/events/cultural/RampShow.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
-        duration:"",
-        place:"Amphitheater",
+        duration: "",
+        place: "Amphitheater",
         price: "100 PP",
+        link: "https://pmny.in/mI4jyczEnZeI"
       },
 
       {
@@ -115,9 +124,10 @@ export const events = [
         image: "/images/events/cultural/PaintingCompetition.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "100 PP",
+        link: "https://pmny.in/qIWM9O7KG3QH"
       },
       {
         title: "Treasure Hunt ",
@@ -125,9 +135,10 @@ export const events = [
         image: "/images/events/reveal.png",
         event_date: "30th March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "",
+        link: "https://pmny.in/XIhjjcrE2a16"
       },
       {
         title: "Ek se bhalae teen ",
@@ -135,9 +146,10 @@ export const events = [
         image: "/images/events/reveal.png",
         event_date: "30th March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "70",
+        link: "https://pmny.in/iIKjjcXEia0J"
       },
     ],
   },
@@ -149,34 +161,37 @@ export const events = [
     events: [
       {
         title: "CAD CHAOS",
-        description:"'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.", 
+        description: "'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.",
         image: "/images/events/reveal.png",
         event_date: "23rd March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "150 PP",
+        link: "#"
       },
       {
         title: "DERBY RACE",
-        description:"Join our Derby Race event and create a four-wheeled vehicle using only wood, nails, and wheels.",
+        description: "Join our Derby Race event and create a four-wheeled vehicle using only wood, nails, and wheels.",
         image: "/images/events/reveal.png",
         event_date: "28th March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "200 PP",
+        link: "#"
       },
       {
         title: "TECH TALKS by Neofolks",
-        description:"A series of technical talks focused on different interesting domains of technology and design hosted by Neofolks",
-         
+        description: "A series of technical talks focused on different interesting domains of technology and design hosted by Neofolks",
+
         image: "/images/events/reveal.png",
         event_date: "29th March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
-        price: ""
+        duration: "",
+        place: "",
+        price: "",
+        link: "#"
       },
       {
         title: "Tinkerthon",
@@ -185,9 +200,10 @@ export const events = [
         image: "/images/events/reveal.png",
         event_date: "23rd March 2023",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "150 PP",
+        link: "#"
       },
     ],
   },
@@ -197,16 +213,17 @@ export const events = [
       " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "",
     events: [
-  
+
       {
         title: "BGMI",
         description: "BGMI MOBILE, (max 4 players)",
         image: "/images/events/esports/bgmi.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "400 /Group ",
+        link: "https://pmny.in/1rX5Zz2GrEls"
       },
       {
         title: "COD MOBILE",
@@ -214,9 +231,10 @@ export const events = [
         image: "/images/events/esports/cod.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "400 /Group",
+        link: "https://pmny.in/PJW3dPujBvND"
       },
       {
         title: "VALORANT",
@@ -224,9 +242,10 @@ export const events = [
         image: "/images/events/esports/Valorant.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "1000 /Group",
+        link: "https://pmny.in/IIRj2cVE3a8V"
       }
     ],
   },
@@ -243,9 +262,10 @@ export const events = [
         image: "/images/events/sports/BoxCricket.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "2000 /Team",
+        link: "https://pmny.in/GJN8XvI6rheo"
       },
       {
         title: "Yuva League",
@@ -254,9 +274,10 @@ export const events = [
         image: "/images/events/sports/Football.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
-        price: "1600 /Team "
+        duration: "",
+        place: "",
+        price: "1600 /Team ",
+        link: "https://pmny.in/oIQjccSEMa6D"
       },
       {
         title: "Dribble",
@@ -264,9 +285,10 @@ export const events = [
         image: "/images/events/sports/Basketball.png",
         event_date: "Group",
         participation_type: "",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "800 /Team",
+        link: "https://pmny.in/Kr3JHrCsfmfE"
       },
       {
         title: "Game of Thrones",
@@ -274,9 +296,10 @@ export const events = [
         image: "/images/events/sports/Chess.png",
         event_date: "",
         participation_type: "Solo",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "100 PP",
+        link: "https://pmny.in/KIrl0D7dULHb"
       },
       {
         title: "Flick",
@@ -284,9 +307,10 @@ export const events = [
         image: "/images/events/sports/Carrom.png",
         event_date: "",
         participation_type: "Solo",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "100 PP",
+        link: "https://pmny.in/LrMJrr4sKmdU"
       },
       {
         title: "Ping Pong",
@@ -294,9 +318,10 @@ export const events = [
         image: "/images/events/sports/TableTennis.png",
         event_date: "",
         participation_type: "Solo",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "150 PP",
+        link: "https://pmny.in/qJw39P6jNvG4"
       },
       {
         title: "Volleyball",
@@ -304,9 +329,10 @@ export const events = [
         image: "/images/events/sports/Volleyball.png",
         event_date: "",
         participation_type: "Group",
-        duration:"",
-        place:"",
+        duration: "",
+        place: "",
         price: "1000 /Team",
+        link: "https://pmny.in/3rl0eLcYLfVZ"
       },
 
 
