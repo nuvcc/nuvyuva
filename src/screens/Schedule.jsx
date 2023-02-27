@@ -11,7 +11,7 @@ const Schedule = () => {
         </ElementCenter>
       </div>
       <ElementCenter className="mt-10">
-        <img src="/images/event_chart_layout_v2_without-background.png" alt="schedule-timline"/>
+        <img src="/images/schedule_crop.png" alt="schedule-timline"/>
       </ElementCenter>
     </>
      
