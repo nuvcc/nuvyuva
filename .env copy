@@ -1,0 +1,4 @@
+ticketSecret=<ticket-secret>
+DATABASE=<MONGO-URI>
+email=<EMAIL>
+pass=<PASS>
