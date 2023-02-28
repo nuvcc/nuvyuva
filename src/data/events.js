@@ -6,22 +6,9 @@ export const events = [
     image: "",
     events: [
       {
-        title: "CONCERT NIGHT",
+        title: "NUV VYAPAR",
         description:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-        image: "/images/events/reveal.png",
-        event_date: "",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
-        link: "#"
-      },
-      ,
-      {
-        title: "Tinkerthon",
-        description:
-          "Hackathon is a 24-hour event where students from all over the world come together to create something new. It is a great opportunity to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun.",
         image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
@@ -33,8 +20,20 @@ export const events = [
       {
         title: "NUV MUN",
         description:
+          "Hackathon is a 24-hour event where students from all over the world come together to create something new. It is a great opportunity to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun.",
+        image: "/images/events/reveal.png",
+        event_date: "",
+        participation_type: "",
+        duration: "",
+        place: "",
+        price: "",
+        link: "#"
+      },
+      {
+        title: "Concert Night",
+        description:
           " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-        image: "/images/events/cultural/mun.png ",
+        image: "/images/events/reveal.png ",
         event_date: "27th and 28th March 2023",
         participation_type: "Group/Solo",
         duration: "",
@@ -42,17 +41,18 @@ export const events = [
         price: "100 PP",
         link: "https://pmny.in/BJs3ePZjXvqA"
       },
+
     ],
   },
   {
     title: "Cultural Events",
-    description: "To embed fun and rich-cultural taste in the event",
-    image: "",
+    description: "From 'It's the Time to Disco' to 'Kuch Rang Apne hunar ke', join us and show your cultural side with dancing, rangoli, fashion show and so much more!",
+    image: "images/events/cultural/pic.png",
     events: [
       {
         title: "Aaja Nachle",
         description: "It’s the time to Disco! (Dancing competition)",
-        image: "/images/events/cultural/ajanachle.png",
+        image: "/images/events/cultural/ajanachle/ajanachle.png",
         event_date: "28th March 2023",
         participation_type: "Group/Solo",
         duration: "2.5-5 minutes ",
@@ -63,7 +63,7 @@ export const events = [
       {
         title: "Yuva Studio",
         description: "Bless us with your lovely tone! (Singing competition)",
-        image: "/images/events/cultural/YuvaStudio.png",
+        image: "/images/events/cultural/YuvaStudio/YuvaStudio.png",
         event_date: "29th March 2023",
         participation_type: "Group / Solo",
         duration: "2.5-5 minutes ",
@@ -74,7 +74,7 @@ export const events = [
       {
         title: "Rango Ki Mehfil",
         description: "Kuch rang apne hunar ke! (Rangoli competition)",
-        image: "/images/events/cultural/RangoliCompetition.png",
+        image: "/images/events/cultural/RangoliCompetition/RangoliCompetition.png",
         event_date: "29th March 2023",
         participation_type: "Group(Max 4) / Solo",
         duration: "2 hour",
@@ -85,7 +85,7 @@ export const events = [
       {
         title: "Yuva’s Got Talent",
         description: "Har kala anokhi hai! (Stand up, Beat boxing, etc)",
-        image: "/images/events/cultural/Yuvagottalent.png",
+        image: "/images/events/cultural/Yuvagottalent/Yuvagottalent.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo ",
         duration: "3-5 minutes ",
@@ -97,7 +97,7 @@ export const events = [
       {
         title: "Rock With Band",
         description: "So who are the next backstreet boys! (Band show)",
-        image: "/images/events/cultural/RockwithBand.png",
+        image: "/images/events/cultural/RockwithBand/RockwithBand.png",
         event_date: "30th March 2023",
         participation_type: "Group / Solo",
         duration: "",
@@ -109,7 +109,7 @@ export const events = [
       {
         title: "Yuva’s Ramp Show",
         description: "Fashion ka hai ye jalwa! (Fashion show)",
-        image: "/images/events/cultural/RampShow.png",
+        image: "/images/events/cultural/RampShow/RampShow.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
         duration: "",
@@ -121,7 +121,7 @@ export const events = [
       {
         title: "Painter’s Den",
         description: "Let the canvas do the talking! (Painting competition)",
-        image: "/images/events/cultural/PaintingCompetition.png",
+        image: "/images/events/cultural/PaintingCompetition/PaintingCompetition.png",
         event_date: "30th March 2023",
         participation_type: "Solo",
         duration: "",
@@ -130,8 +130,8 @@ export const events = [
         link: "https://pmny.in/qIWM9O7KG3QH"
       },
       {
-        title: "Treasure Hunt ",
-        description: "Let the canvas do the talking! (Painting competition)",
+        title: "Uncharted (Treasure Hunt) ",
+        description: "Track, Trail & Tail (Painting competition)",
         image: "/images/events/reveal.png",
         event_date: "30th March 2023",
         participation_type: "",
@@ -139,6 +139,7 @@ export const events = [
         place: "",
         price: "",
         link: "https://pmny.in/XIhjjcrE2a16"
+
       },
       {
         title: "Ek se bhalae teen ",
@@ -156,8 +157,8 @@ export const events = [
   {
     title: "Tech Events",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-    image: "",
+      "Thrilling events for technology lovers comprising of tech junkies favourites; tech talks, tinkerthon and more!",
+    image: "images/events/Technical/pic.png",
     events: [
       {
         title: "CAD CHAOS",
@@ -197,7 +198,7 @@ export const events = [
         title: "Tinkerthon",
         description:
           "Tinkerthon is a 36 hours competition for incubation startups ideas around the given theme and problem statements.",
-        image: "/images/events/reveal.png",
+        image: "/images/events/Technical/thinkerthon/pic.png",
         event_date: "23rd March 2023",
         participation_type: "",
         duration: "",
@@ -211,9 +212,8 @@ export const events = [
     title: "Gaming Events",
     description:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-    image: "",
+    image: "images/events/gaming/pic.png",
     events: [
-
       {
         title: "BGMI",
         description: "BGMI MOBILE, (max 4 players)",
@@ -252,8 +252,8 @@ export const events = [
   {
     title: "Sports Events",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-    image: "",
+      " Sports lovers, it's time to step up your game! Get ready for making hoops, scoring goals, ping pong and much more!",
+    image: "images/events/sports/pic.png",
     events: [
       {
         title: "Box Cricket",
@@ -334,8 +334,6 @@ export const events = [
         price: "1000 /Team",
         link: "https://pmny.in/3rl0eLcYLfVZ"
       },
-
-
     ],
   },
 ];
