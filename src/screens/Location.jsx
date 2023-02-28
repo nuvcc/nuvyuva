@@ -35,13 +35,13 @@ const Location = () => {
   return (
     <LocationBody>
       <LText>Location</LText>
-      <LoadScript googleMapsApiKey={"AIzaSyDPK4W-mdjPmzRnJAgB63bHm9KiiyZ6bJM"}>
+      <LoadScript googleMapsApiKey={"AIzaSyBlRCebEIlVOXYXNti9qEgvOLWdoMqQ3ik"}>
         <GoogleMap  mapContainerStyle={{height: "500px", borderRadius: "30px"}} center={nuv.position} zoom={15}>
            <OverlayView mapPaneName="floatPane"  position={{lat: 22.2925777, lng: 73.1220663}}>
             <InfoWindow position={centers.position}>
             <LocationCard>
               <p>{nuv.label}</p>
-              <a target={"_blank"} href={nuv.link}>Get Direction</a>
+              <a target={"_blank"} href={nuv.link}>Join Us</a>
             <Marker onLoad={onLoad} position={centers.position} />
             </LocationCard>
             </InfoWindow>

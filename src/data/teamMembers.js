@@ -196,6 +196,7 @@ export const teamMembers = [
   // },
   {
     category: 'Sports Team',
+
     members: [
       {
         name: 'Naitik',
