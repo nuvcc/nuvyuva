@@ -24,6 +24,7 @@ const RegisterCard = ({
   image,
   Price,
   ParticipationType,
+  Link
 }) => {
   function getNextColor() {
     let color = bgColor[index];
@@ -50,8 +51,8 @@ const RegisterCard = ({
             <PriceValue className="border">
               {Price ? `Rs. ${Price}` : "Soon..."}
             </PriceValue>
-            <RegisterText className="border" onClick={() => Price && window.open("https://form.typeform.com/to/IW6973EO", "_blank")} bg={getNextColor()}>
-              Register
+            <RegisterText className="border" onClick={() => Price && window.open(Link, "_blank")} bg={getNextColor()}>
+              Register Now
             </RegisterText>
           </ResgisterBody>
         </div>
