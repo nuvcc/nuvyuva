@@ -20,14 +20,13 @@ export const events = [
       {
         title: "NUV MUN",
         description:
-          "Hackathon is a 24-hour event where students from all over the world come together to create something new. It is a great opportunity to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun.",
-        image: "/images/events/reveal.png",
-        event_date: "",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
-        link: "#"
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
+        image: "/images/events/cultural/mun/mun.png ",
+        event_date: "27th and 28th March 2023",
+        participation_type: "Group/Solo",
+        duration:"",
+        place:"",
+        price: "700 PP",
       },
       {
         title: "Concert Night",
@@ -38,8 +37,8 @@ export const events = [
         participation_type: "Group/Solo",
         duration: "",
         place: "",
-        price: "100 PP",
-        link: "https://pmny.in/BJs3ePZjXvqA"
+        price: "",
+        link: ""
       },
 
     ],
@@ -134,12 +133,11 @@ export const events = [
         description: "Track, Trail & Tail (Painting competition)",
         image: "/images/events/reveal.png",
         event_date: "30th March 2023",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
+        participation_type: "Group",
+        duration:"",
+        place:"",
         link: "https://pmny.in/XIhjjcrE2a16"
-
+        price: "100 PP",
       },
       {
         title: "Ek se bhalae teen ",
@@ -162,19 +160,18 @@ export const events = [
     events: [
       {
         title: "CAD CHAOS",
-        description: "'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.",
-        image: "/images/events/reveal.png",
+        description:"'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.", 
+        image: "/images/events/Technical/cad/pic.svg",
         event_date: "23rd March 2023",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "150 PP",
-        link: "#"
+        participation_type: "Solo",
+        duration:"",
+        place:"",
+        price: "100 PP",
       },
       {
         title: "DERBY RACE",
-        description: "Join our Derby Race event and create a four-wheeled vehicle using only wood, nails, and wheels.",
-        image: "/images/events/reveal.png",
+        description:"Join our Derby Race event and create a four-wheeled vehicle using only wood, nails, and wheels.",
+        image: "/images/events/Technical/derbyrace/pic.svg",
         event_date: "28th March 2023",
         participation_type: "",
         duration: "",
@@ -184,9 +181,8 @@ export const events = [
       },
       {
         title: "TECH TALKS by Neofolks",
-        description: "A series of technical talks focused on different interesting domains of technology and design hosted by Neofolks",
-
-        image: "/images/events/reveal.png",
+        description:"A series of technical talks focused on different interesting domains of technology and design hosted by Neofolks",
+        image: "/images/events/Technical/neofolks/pic.svg",
         event_date: "29th March 2023",
         participation_type: "",
         duration: "",
@@ -222,7 +218,7 @@ export const events = [
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "400 /Group ",
+        price: "400/- Group ",
         link: "https://pmny.in/1rX5Zz2GrEls"
       },
       {
@@ -233,7 +229,7 @@ export const events = [
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "400 /Group",
+        price: "400/- Group",
         link: "https://pmny.in/PJW3dPujBvND"
       },
       {
@@ -244,7 +240,7 @@ export const events = [
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "1000 /Group",
+        price: "1000/- Group",
         link: "https://pmny.in/IIRj2cVE3a8V"
       }
     ],
@@ -264,7 +260,7 @@ export const events = [
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "2000 /Team",
+        price: "2000/- Team",
         link: "https://pmny.in/GJN8XvI6rheo"
       },
       {
@@ -276,7 +272,7 @@ export const events = [
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "1600 /Team ",
+        price: "1600/- Team ",
         link: "https://pmny.in/oIQjccSEMa6D"
       },
       {

@@ -25,7 +25,7 @@ const Team = () => {
       {teamMembers.map((teams, i) => (
         <div key={i}>
           <HeadingTitle className="text-center decoration-white">
-            {teams.category}
+            {teams.category?.toUpperCase()}
           </HeadingTitle>
           <TeamBody
             className={`grid  sm:grid-cols-1 gap-8 md:gap-12 ${
@@ -41,6 +41,7 @@ const Team = () => {
               <TeamCard className="flex flex-col items-center" key={index}>
                 <img
                   src="/images/star-4.png"
+                  alt=""
                   className=" stars relative right-2/4"
                 />
                 <img
@@ -55,6 +56,7 @@ const Team = () => {
                 <img
                   src="/images/star-2.png"
                   className=" stars relative left-2/4"
+                  alt=""
                 />
                 <div className="relative bottom-8">
                   <CardTitle className="text-center">{member.name?.toUpperCase()}</CardTitle>

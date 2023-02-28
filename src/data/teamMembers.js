@@ -80,7 +80,7 @@ export const teamMembers = [
   //   ],
   // },
   {
-    category: "OUT REACH & SPONSER/CONTENT/MUN",
+    category: "OUTREACH, CONTENT AND MUN",
     members: [
       {
         name: 'Kush Rana',
@@ -159,20 +159,14 @@ export const teamMembers = [
       },
     ],
   },
-
   {
-    category: 'Social Media & Media Team',
+    category: 'Media And Cultural',
     members: [
       {
         name: 'Devansh Bhrambhatt',
         quote: "Head",
         img: 'images/team/Devansh.jpg',
       },
-    ],
-  },
-  {
-    category: "CULTURAL TEAM",
-    members: [
       {
         name: 'Mansi Thakkar',
         quote: 'Head',
@@ -180,13 +174,34 @@ export const teamMembers = [
       },
     ],
   },
+  // {
+  //   category: 'Social Media & Media Team',
+  //   members: [
+  //     {
+  //       name: 'Devansh Bhrambhatt',
+  //       quote: "Head",
+  //       img: 'images/team/Devansh.jpg',
+  //     },
+  //   ],
+  // },
+  // {
+  //   category: "CULTURAL TEAM",
+  //   members: [
+  //     {
+  //       name: 'Mansi Thakkar',
+  //       quote: 'Head',
+  //       img: 'images/team/MansiThakkar.jpeg',
+  //     },
+  //   ],
+  // },
   {
     category: 'Sports Team',
+
     members: [
       {
         name: 'Naitik',
         quote: 'Head',
-        img: '',
+        img: 'images/team/Naitik.jpg',
       },
       {
         name: 'Pratham Vajifdar',
