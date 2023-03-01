@@ -48,6 +48,7 @@ const Events = () => {
                   image,
                   registerBgCode,
                   price,
+                  link
                 } = val;
 
                 return (
@@ -59,6 +60,7 @@ const Events = () => {
                       registerBgCode={registerBgCode}
                       ParticipationType={participation_type}
                       Price={price}
+                      Link={link}
                     />
                   </div>
                 );
