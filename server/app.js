@@ -3,8 +3,9 @@ const path = require('path');
 const cors = require('cors');
 var bodyParser = require('body-parser');
 const dotenv = require('dotenv');
+const getQROnTicket = require('../server/functions/tickets');
 dotenv.config();
-const makeQROnFly = require('./makeQr');
+const makeQROnFly = require('./functions/makeQr');
 
 const app = express();
 const nodeoutlook = require('nodejs-nodemailer-outlook');
@@ -47,6 +48,7 @@ app.post('/callback', async (req, res) => {
   console.log('callback from the paynow portal');
   const output = await req.body;
   console.log(output);
+  // await getQROnTicket(output.mihpayid);
   res.status(200).json({
     message: 'works like a charm!',
   });
@@ -59,45 +61,48 @@ app.post('/pay1', async (req, res) => {
     console.log(output);
     const [email, name, phone, amount, transactionid, status, productinfo] = [
       output.email,
-      output.name,
+      output.field4,
       output.phone,
       output.amount,
       output.mihpayid,
       output.status,
-      output.productinfo
+      output.productinfo,
     ];
 
-    const buttonId = productinfo.split(" ");
+    const buttonPart = productinfo.split(' ');
+    const buttonId = buttonPart[3].trim();
 
     const eventDetail = {
-      "24334060": "Cricket",
-      "24334256": "BGMI_Mobile",
-      "24334238": "Valorant",
-      "24334221": "COD_Mobile",
-      "24334194": "Model United Nation",
-      "24334173": "Volleyball",
-      "24334162": "Football",
-      "24334138": "Table Tennis",
-      "24334114": "Carrom",
-      "24334091": "Chess",
-      "24334078": "Basketball",
-      "24334035": "The_Camera_Geek",
-      "24333957": "Rangoli",
-      "24333897": "Treasure_Hunt",
-      "24333875": "Ek_Se_Bhale_Teen",
-      "24333847": "Painting_Competition",
-      "24333828": "Band_Show",
-      "24333489": "Danceing_Competition",
-      "24333575": "Singing_Competition",
-      "24333583": "Stand_Up_Beat_Boxing",
-      "24333598": "Fashion_Show"
+      24334060: 'Cricket',
+      24334256: 'BGMI_Mobile',
+      24334238: 'Valorant',
+      24334221: 'COD_Mobile',
+      24334194: 'Model United Nation',
+      24334173: 'Volleyball',
+      24334162: 'Football',
+      24334138: 'Table Tennis',
+      24334114: 'Carrom',
+      24334091: 'Chess',
+      24334078: 'Basketball',
+      24334035: 'The_Camera_Geek',
+      24333957: 'Rangoli',
+      24333897: 'Treasure_Hunt',
+      24333875: 'Ek_Se_Bhale_Teen',
+      24333847: 'Painting_Competition',
+      24333828: 'Band_Show',
+      24333489: 'Danceing_Competition',
+      24333575: 'Singing_Competition',
+      24333583: 'Stand_Up_Beat_Boxing',
+      24333598: 'Fashion_Show',
     };
 
-    const eventName = eventDetail[buttonId[3]];
+    console.log(`buttonid:${buttonId}`);
+    const eventName = eventDetail[buttonId];
+    console.log(email, phone, amount, transactionid, status, eventName);
 
-    await makeQROnFly(transactionid, name, email, amount);
+    // await makeQROnFly(transactionid, name, email, amount);
+    await getQROnTicket(transactionid);
     let emailStatus = false;
-    console.log(email, phone, amount, transactionid, status);
 
     const user = await userModel.findOne({ transactionid });
     if (user) {
@@ -108,6 +113,7 @@ app.post('/pay1', async (req, res) => {
       email,
       name,
       phone,
+      eventName,
       amount,
       paymentStatus: status,
       emailStatus,
@@ -119,7 +125,16 @@ app.post('/pay1', async (req, res) => {
     }
 
     if (status === 'success') {
-      const templateInput = `Payment ${status}`;
+      // const templateInput = `Payment ${status}`;
+      const newtemplateInput = `<p>Hey there!</p>
+
+    <p><br />
+    Thank you for your registration in ${eventName} for NUVYUVA'23!</p>
+
+    <p><br />We look forward to seeing you for the event! The detailed schedule and guidelines will be shared shortly. Stay connected to our social media for regular updates! </p>
+
+    <p><br />P.s Please carry along the attached ticket on the day of the event. </p>
+    <p><br />Thank you again, and have a great day.</p>`;
       console.log('sending email...');
       nodeoutlook.sendEmail({
         auth: {
@@ -129,20 +144,20 @@ app.post('/pay1', async (req, res) => {
         from: senderEmail,
         to: email,
         subject: '✨ Registration Ticket Here!',
-        html: templateInput,
-        text: templateInput,
+        html: newtemplateInput,
+        text: newtemplateInput,
         replyTo: senderEmail,
         attachments: [
           {
             fileName: 'ticket.png',
-            path: `./server/tempImages/qr-${transactionid}.png`,
+            path: `./server/finalTickets/${transactionid}.png`,
           },
         ],
 
         onError: (e) => console.log(e),
         onSuccess: async (i) => {
-          console.log(i);
           try {
+            console.log('sent ✅');
             const updateUser = await userModel.findByIdAndUpdate(
               transactionid,
               {
@@ -166,7 +181,7 @@ app.post('/pay1', async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-  //   return res.status(200).json({ message: 'This is working!' });
+  // return res.status(200).json({ message: 'This is working!' });
 });
 
 // Start the server
