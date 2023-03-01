@@ -1,4 +1,4 @@
-const QRCode = require('QRCode');
+const QRCode = require('qrcode');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
 
