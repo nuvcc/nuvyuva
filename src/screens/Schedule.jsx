@@ -14,9 +14,6 @@ const Schedule = () => {
         <img src="/images/schedule_crop.png" alt="schedule-timline"/>
       </ElementCenter>
     </>
-     
-      
-   
   );
 };
 

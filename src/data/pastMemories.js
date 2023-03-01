@@ -7,11 +7,11 @@ export const pastMemories = [
   {
     title: "NUV KHELAIYA",
     description: "NUV GARBA",
-    image: "",
+    image: "images/memories/nuv-garba.JPG",
   },
   {
     title: "NUV GANESH CHATURTHI",
     description: "",
-    image: "",
+    image: "images/memories/nuv-ganesh.JPG",
   },
 ];
