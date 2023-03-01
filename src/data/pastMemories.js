@@ -2,7 +2,7 @@ export const pastMemories = [
   {
     title: "NUV YUVA 1.0 ",
     description: "NUV'S BIGGEST YOUTH FEST",
-    image: "",
+    image: "images/memories/nuvyuva1.0.jpeg",
   },
   {
     title: "NUV KHELAIYA",
