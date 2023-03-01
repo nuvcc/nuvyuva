@@ -4,6 +4,7 @@ export const ImgBG = styled.section`
   height: 100vh;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
   /* background-image: url("./images/BackgroundImg.png"); */
   padding-top: 3rem;
   .logo-counter {
