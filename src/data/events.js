@@ -255,15 +255,15 @@ export const events = [
     image: "images/events/sports/pic.png",
     events: [
       {
-        title: 'Box Cricket',
+        title: "YUVA's Cup (Cricket )",
         description:
-          "Either a six or wicket, but the watch shows time for Super-Over.7 a side (10 total player)",
+          "Either a six or wicket, but the watch shows time for Super-Over. 9-a-side (Total 11 players)",
         image: "/images/events/sports/BoxCricket.png",
         event_date: "",
         participation_type: "Group",
         duration: "",
         place: "",
-        price: "2000 /Team",
+        price: "2000/Team",
         link: "https://pmny.in/GJN8XvI6rheo"
       },
       {
