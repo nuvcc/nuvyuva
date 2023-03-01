@@ -1,33 +1,32 @@
 export const events = [
   {
-    title: "Highlight Events",
+    title: 'Highlight Events',
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-    image: "",
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet',
+    image: '',
     events: [
       {
         title: "NUV VYAPAR",
         description:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
-        image: "/images/events/reveal.png",
-        event_date: "",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
-        link: "#"
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet',
+        image: '/images/events/reveal.png',
+        event_date: '',
+        participation_type: '',
+        duration: '',
+        place: '',
+        price: '',
+        link: '#',
       },
       {
         title: "NUV MUN",
         description:
-          "Hackathon is a 24-hour event where students from all over the world come together to create something new. It is a great opportunity to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun. Hackathons are a great way to learn new skills, meet new people, and have fun.",
-        image: "/images/events/reveal.png",
-        event_date: "",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
-        link: "#"
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
+        image: "/images/events/cultural/mun/mun.png ",
+        event_date: "27th and 28th March 2023",
+        participation_type: "Group/Solo",
+        duration:"",
+        place:"",
+        price: "700 PP",
       },
       {
         title: "Concert Night",
@@ -139,23 +138,23 @@ export const events = [
         place: "",
         price: "",
         link: "https://pmny.in/XIhjjcrE2a16"
-
       },
       {
-        title: "Ek se bhalae teen ",
-        description: " Teams of two need to complete three rounds in order to win the game and become the ultimate winner of triathlon",
-        image: "/images/events/reveal.png",
-        event_date: "30th March 2023",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "70",
-        link: "https://pmny.in/iIKjjcXEia0J"
+        title: 'Ek se bhalae teen ',
+        description:
+          ' Teams of two need to complete three rounds in order to win the game and become the ultimate winner of triathlon',
+        image: '/images/events/reveal.png',
+        event_date: '30th March 2023',
+        participation_type: '',
+        duration: '',
+        place: '',
+        price: '70',
+        link: 'https://pmny.in/iIKjjcXEia0J',
       },
     ],
   },
   {
-    title: "Tech Events",
+    title: 'Tech Events',
     description:
       "Thrilling events for technology lovers comprising of tech junkies favourites; tech talks, tinkerthon and more!",
     image: "images/events/Technical/pic.png",
@@ -195,7 +194,7 @@ export const events = [
         link: "#"
       },
       {
-        title: "Tinkerthon",
+        title: 'Tinkerthon',
         description:
           "Tinkerthon is a 36 hours competition for incubation startups ideas around the given theme and problem statements.",
         image: "/images/events/Technical/thinkerthon/pic.png",
@@ -209,7 +208,7 @@ export const events = [
     ],
   },
   {
-    title: "Gaming Events",
+    title: 'Gaming Events',
     description:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
     image: "images/events/gaming/pic.png",
@@ -250,13 +249,13 @@ export const events = [
     ],
   },
   {
-    title: "Sports Events",
+    title: 'Sports Events',
     description:
       " Sports lovers, it's time to step up your game! Get ready for making hoops, scoring goals, ping pong and much more!",
     image: "images/events/sports/pic.png",
     events: [
       {
-        title: "Box Cricket",
+        title: 'Box Cricket',
         description:
           "Either a six or wicket, but the watch shows time for Super-Over.7 a side (10 total player)",
         image: "/images/events/sports/BoxCricket.png",
@@ -268,7 +267,7 @@ export const events = [
         link: "https://pmny.in/GJN8XvI6rheo"
       },
       {
-        title: "Yuva League",
+        title: 'Yuva League',
         description:
           " Some dream about goals-we make them! 6 aside (Max 9 players) (Football) ",
         image: "/images/events/sports/Football.png",
@@ -291,48 +290,48 @@ export const events = [
         link: "https://pmny.in/Kr3JHrCsfmfE"
       },
       {
-        title: "Game of Thrones",
+        title: 'Game of Thrones',
         description: "Don't let the king die! (Chess)",
-        image: "/images/events/sports/Chess.png",
-        event_date: "",
-        participation_type: "Solo",
-        duration: "",
-        place: "",
-        price: "100 PP",
-        link: "https://pmny.in/KIrl0D7dULHb"
+        image: '/images/events/sports/Chess.png',
+        event_date: '',
+        participation_type: 'Solo',
+        duration: '',
+        place: '',
+        price: '100 PP',
+        link: 'https://pmny.in/KIrl0D7dULHb',
       },
       {
-        title: "Flick",
-        description: "Rani toh Pappa ni j! (Carrom)",
-        image: "/images/events/sports/Carrom.png",
-        event_date: "",
-        participation_type: "Solo",
-        duration: "",
-        place: "",
-        price: "100 PP",
-        link: "https://pmny.in/LrMJrr4sKmdU"
+        title: 'Flick',
+        description: 'Rani toh Pappa ni j! (Carrom)',
+        image: '/images/events/sports/Carrom.png',
+        event_date: '',
+        participation_type: 'Solo',
+        duration: '',
+        place: '',
+        price: '100 PP',
+        link: 'https://pmny.in/LrMJrr4sKmdU',
       },
       {
-        title: "Ping Pong",
-        description: "Eat. Sleep. Ping Pong! (Table Tennis) ",
-        image: "/images/events/sports/TableTennis.png",
-        event_date: "",
-        participation_type: "Solo",
-        duration: "",
-        place: "",
-        price: "150 PP",
-        link: "https://pmny.in/qJw39P6jNvG4"
+        title: 'Ping Pong',
+        description: 'Eat. Sleep. Ping Pong! (Table Tennis) ',
+        image: '/images/events/sports/TableTennis.png',
+        event_date: '',
+        participation_type: 'Solo',
+        duration: '',
+        place: '',
+        price: '150 PP',
+        link: 'https://pmny.in/qJw39P6jNvG4',
       },
       {
-        title: "Volleyball",
-        description: " 6 aside (max7) ",
-        image: "/images/events/sports/Volleyball.png",
-        event_date: "",
-        participation_type: "Group",
-        duration: "",
-        place: "",
-        price: "1000 /Team",
-        link: "https://pmny.in/3rl0eLcYLfVZ"
+        title: 'Volleyball',
+        description: ' 6 aside (max7) ',
+        image: '/images/events/sports/Volleyball.png',
+        event_date: '',
+        participation_type: 'Group',
+        duration: '',
+        place: '',
+        price: '1000 /Team',
+        link: 'https://pmny.in/3rl0eLcYLfVZ',
       },
     ],
   },
