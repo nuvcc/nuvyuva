@@ -1,6 +1,5 @@
 import React from "react";
-import { MCard, MCardHeading, MCardText } from "../../styles/Memories/Styles";
-import { CardDesc, CardTitle } from "../../styles/RegisterCards/Styles";
+import { MCard } from "../../styles/Memories/Styles";
 const MemoryCard = ({ title, description, image }) => {
   return (
     <MCard className="">

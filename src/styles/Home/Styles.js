@@ -149,7 +149,6 @@ export const FooterDiv = styled.div`
   text-align: center;
   color: #ffffff;
   padding: 2rem 0;
-
   a{
     border-bottom: 1px solid #fff;
    }

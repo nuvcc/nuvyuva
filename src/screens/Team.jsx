@@ -1,15 +1,12 @@
 import React from "react";
 import {
-  DescriptionText,
   HeadingTitle,
-  SubHeadingTitle,
 } from "../styles/globalStyles";
 import { Container } from "../styles/Home/Styles";
 import {
   TeamBody,
   TeamCard,
   TeamHeading,
-  TeamHeadingDesc,
   CardTitle,
 } from "../styles/Team/Styles";
 import { teamMembers } from "../data/teamMembers";

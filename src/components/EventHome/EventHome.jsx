@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { ElementCenter, HeadingTitle } from "../../styles/globalStyles";
 import { Container } from "../../styles/Home/Styles";
 import EventHomeCard from "./EventHomeCard";
-import RegisterCard from "../RegisterCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import 'swiper/css/navigation';
@@ -12,7 +11,6 @@ import { events } from "../../data/events";
 SwiperCore.use([Autoplay]);
 const EventHome = ({ title, data }) => {
   //Sample Data for Slider
-  const [Count, setCount] = useState(0);
 
   return (
     <Container >
@@ -31,7 +29,7 @@ const EventHome = ({ title, data }) => {
         {events.filter((val,i)=>{
           return val.title !== "Highlight Events"
         }).map((val, i) => {
-          const { title, description, image, registerBgCode } = val;
+          const { title, description, image } = val;
 
           return (
             <SwiperSlide key={i}>

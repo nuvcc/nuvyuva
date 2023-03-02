@@ -6,17 +6,14 @@ import {
   NavItem,
   NavLinks,
   NavLinkScroll,
-  NavLinksCroll,
   NavMenu,
 } from "../styles/NavBar/Styles";
 import { FaBars } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
-import { HashLink as Link } from "react-router-hash-link";
 
 const NavBar = ({ toggle }) => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
+  // const toggleHome = () => {
+  //   scroll.scrollToTop();
+  // };
   return (
     <>
       <Nav>

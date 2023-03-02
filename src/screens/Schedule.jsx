@@ -1,6 +1,5 @@
 import React from "react";
 import { ElementCenter, HeadingTitle } from "../styles/globalStyles";
-import { Container } from "../styles/Home/Styles";
 
 const Schedule = () => {
   return (

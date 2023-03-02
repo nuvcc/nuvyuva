@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { HeadingTitle, SubHeadingTitle } from "../styles/globalStyles";
 import { CounterBlock } from "../styles/Home/Styles";
 
 const Counter = () => {

@@ -1,11 +1,7 @@
 import React from "react";
 import { ElementCenter, HeadingTitle } from "../../styles/globalStyles";
 import {
-  TextHeading,
   MemoryBody,
-  FlexBox,
-  BannerBlock,
-  BannerText,
 } from "../../styles/Memories/Styles";
 import MemoryCard from "./MemoryCard";
 import { pastMemories } from "./../../data/pastMemories";

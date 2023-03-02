@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   CardBody,
   CardDesc,
@@ -9,7 +9,6 @@ import {
   SubTitle,
   SubTitleContainer,
 } from "../styles/RegisterCards/Styles";
-import { HeadingTitle, MultiColorButton } from "../styles/globalStyles";
 
 let bgColor = [
   "linear-gradient(180deg, #34a8d7 0%, rgba(0, 84, 118, 0.72) 100%)",
@@ -24,7 +23,7 @@ const RegisterCard = ({
   image,
   Price,
   ParticipationType,
-  Link
+  Link,
 }) => {
   function getNextColor() {
     let color = bgColor[index];
@@ -51,7 +50,11 @@ const RegisterCard = ({
             <PriceValue className="border">
               {Price ? `Rs. ${Price}` : "Soon..."}
             </PriceValue>
-            <RegisterText className="border" onClick={() => Price && window.open(Link, "_blank")} bg={getNextColor()}>
+            <RegisterText
+              className="border"
+              onClick={() => Price && window.open(Link, "_blank")}
+              bg={getNextColor()}
+            >
               Register Now
             </RegisterText>
           </ResgisterBody>

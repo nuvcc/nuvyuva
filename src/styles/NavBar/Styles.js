@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 
 export const Nav = styled.nav`
   background: ${({ theme }) => theme.background.primary};
@@ -29,7 +28,6 @@ export const NavbarContainer = styled.div`
   width: 100%;
   /* padding: 80px 0px; */
   max-width: 1100px;
-
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -169,10 +167,10 @@ export const SidebarLink = styled(NavLink)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: ${({theme})=> theme.fontColor.primary};
+  color: ${({ theme }) => theme.fontColor.primary};
   cursor: pointer;
   &:hover {
-    color: ${({theme})=> theme.fontColor.secondary};
+    color: ${({ theme }) => theme.fontColor.secondary};
     transition: 0.2s ease-in-out;
   }
 `;
@@ -185,10 +183,10 @@ export const SidebarScrollLink = styled(Link)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: ${({theme})=> theme.fontColor.primary};
+  color: ${({ theme }) => theme.fontColor.primary};
   cursor: pointer;
   &:hover {
-    color: ${({theme})=> theme.fontColor.secondary};
+    color: ${({ theme }) => theme.fontColor.secondary};
     transition: 0.2s ease-in-out;
   }
 `;
