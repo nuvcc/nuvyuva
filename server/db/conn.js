@@ -1,9 +1,6 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
 
-dotenv.config();
-
-const DB = process.env.DATABASE;
+const { DB } = require('../utils/index');
 
 mongoose.set('strictQuery', false);
 mongoose

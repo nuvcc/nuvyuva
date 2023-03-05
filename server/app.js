@@ -1,21 +1,24 @@
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
-var bodyParser = require('body-parser');
-const dotenv = require('dotenv');
+const bodyParser = require('body-parser');
 const getQROnTicket = require('../server/functions/tickets');
-dotenv.config();
-const makeQROnFly = require('./functions/makeQr');
-
+const concertTicketsUploadTickets = require('../server/upload-images');
+require('./spaces/index_.js');
+// require('./spaces/index.js');
 const app = express();
 const nodeoutlook = require('nodejs-nodemailer-outlook');
-require('./db/conn');
+
+// Database includes
+// require('./db/conn');
 const userModel = require('./models/user.model');
 
-const senderEmail = process.env.email;
-const senderPassword = process.env.pass;
-
+// env loading
+const { email, pass } = require('../server/utils');
+const senderEmail = email;
+const senderPassword = pass;
 const PORT = process.env.PORT || 80;
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
