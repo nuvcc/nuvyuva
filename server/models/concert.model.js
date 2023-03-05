@@ -21,15 +21,17 @@ const concertTicketSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
+    default: 'Tej Gandhi',
   },
   ticketType: {
     type: String,
     required: true,
+    default: 'Regular',
   },
   amount: {
     type: String,
     required: true,
-    default: 1000,
+    default: 500,
   },
   universityName: {
     type: String,
@@ -44,7 +46,7 @@ const concertTicketSchema = new mongoose.Schema({
   paymentStatus: {
     type: String,
     required: true,
-    default: false,
+    default: 'failed',
   },
   emailStatus: {
     type: Boolean,

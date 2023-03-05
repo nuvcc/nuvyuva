@@ -20,50 +20,21 @@ const s3Client = new S3Client({
 
 const file = fs.readFileSync('./server/tempImages/qr-123.png');
 
-// Step 3: Define the parameters for the object you want to upload.
-const params = {
-  Bucket: 'nuvyuva-storage', // The path to the directory you want to upload the object to, starting with your Space name.
-  Key: 'concertTickets/image2.png`', // Object key, referenced whenever you want to access this file later.
-  Body: file, // The object's contents. This variable is an object, not a string.
-  ACL: 'private', // Defines ACL permissions, such as private or public.
-  Metadata: {
-    // Defines metadata tags.
-    'x-amz-meta-my-key': 'concert-ticket',
-  },
-};
+const main = async () => {
+  const command = new PutObjectCommand({
+    Bucket: 'nuvyuva-storage',
+    Key: 'concertTickets/image3.png',
+    Body: file,
+  });
 
-// Step 4: Define a function that uploads your object using SDK's PutObjectCommand object and catches any errors.
-const uploadObject = async () => {
   try {
-    const data = await s3Client.send(new PutObjectCommand(params));
-    console.log(
-      'Successfully uploaded object: ' + params.Bucket + '/' + params.Key
-    );
-    return data;
+    const response = await s3Client.send(command);
+    // The Body object also has 'transformToByteArray' and 'transformToWebStream' methods.
+    console.log(response);
+    // console.log(str);
   } catch (err) {
-    console.log('Error', err);
+    console.error(err);
   }
 };
 
-module.exports = uploadObject;
-
-// Step 5: Call the uploadObject function.
-uploadObject();
-// const main = async () => {
-//   const command = new PutObjectCommand({
-//     Bucket: 'nuvyuva-storage',
-//     Key: 'concertTickets/notRandom.txt',
-//     Body: 'Not Random',
-//   });
-
-//   try {
-//     const response = await s3Client.send(command);
-//     // The Body object also has 'transformToByteArray' and 'transformToWebStream' methods.
-//     console.log(response);
-//     // console.log(str);
-//   } catch (err) {
-//     console.error(err);
-//   }
-// };
-
-// main();
+main();
