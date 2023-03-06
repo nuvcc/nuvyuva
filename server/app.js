@@ -3,14 +3,13 @@ const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const getQROnTicket = require('../server/functions/tickets');
-const concertTicketsUploadTickets = require('../server/upload-images');
-require('./spaces/index_.js');
-// require('./spaces/index.js');
+const routerTickets = require('../server/controllers/concert.controller');
+// require('./functions/spaces/index.js');
 const app = express();
 const nodeoutlook = require('nodejs-nodemailer-outlook');
 
 // Database includes
-// require('./db/conn');
+require('./db/conn');
 const userModel = require('./models/user.model');
 
 // env loading
@@ -22,19 +21,29 @@ const PORT = process.env.PORT || 80;
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.get('/random', (req, res) => {
+  return res.status(200).json({
+    message: 'Random!',
+    success: 'The URL sent!',
+  });
+});
+
+const getId = require('../server/controllers/concert.controller');
+const {
+  postProfile,
+  getAllProfiles,
+} = require('./controllers/profile.controller');
+
+app.post('/profile', postProfile);
+app.get('/getAllProfiles', getAllProfiles);
+
+app.get('/getIdTruthy', getId);
 // Serve static files from the build folder
 app.use(express.static(path.join(__dirname, '../build')));
 
 // Route all requests to the React app
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../build/index.html'));
-});
-
-app.get('/random', (req, res) => {
-  return res.status(200).json({
-    message: 'Random!',
-    success: 'The URL sent!',
-  });
 });
 
 // getting details from the portal and looking!

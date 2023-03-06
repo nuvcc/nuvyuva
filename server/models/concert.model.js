@@ -38,6 +38,11 @@ const concertTicketSchema = new mongoose.Schema({
     required: true,
     default: 'Navrachana University',
   },
+  getProfile: {
+    type: String,
+    required: true,
+    default: 'Online Website',
+  },
   bookedStatus: {
     type: Boolean,
     required: true,
@@ -45,7 +50,6 @@ const concertTicketSchema = new mongoose.Schema({
   },
   paymentStatus: {
     type: String,
-    required: true,
     default: 'failed',
   },
   emailStatus: {
