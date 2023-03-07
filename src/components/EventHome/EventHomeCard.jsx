@@ -3,11 +3,7 @@ import {
   CardBody,
   CardDesc,
   CardTitle,
-  PriceValue,
-  RegisterText,
-  ResgisterBody,
 } from "../../styles/RegisterCards/Styles";
-import { HeadingTitle, MultiColorButton } from "../../styles/globalStyles";
 import { ViewBtn } from "../../styles/Eventcard/Styles";
 import { NavLink } from "react-router-dom";
 

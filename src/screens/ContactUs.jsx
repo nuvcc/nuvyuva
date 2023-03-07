@@ -3,8 +3,6 @@ import { Detail, Title } from "../styles/ContactUs/Style";
 import {
   ElementCenter,
   HeadingTitle,
-  SubHeadingTitle,
-  DescriptionText,
 } from "../styles/globalStyles";
 import { Container } from "../styles/Home/Styles";
 

@@ -42,7 +42,6 @@ const Events = () => {
               {events.map((val, i) => {
                 const {
                   title,
-                  event_date,
                   participation_type,
                   description,
                   image,

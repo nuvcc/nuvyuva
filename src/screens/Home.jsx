@@ -8,9 +8,8 @@ import Location from "./Location";
 import Schedule from "./Schedule";
 import Memories from "../components/Memories/Memories";
 import BIRDS from "vanta/dist/vanta.birds.min";
-
 const Home = () => {
-  const [vantaEffect, setVantaEffect] = useState(0);
+  const [vantaEffect, setVantaEffect] = useState(null);
 
   const myRef = useRef(null);
 
@@ -19,15 +18,7 @@ const Home = () => {
       setVantaEffect(
         BIRDS({
           el: myRef.current,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          outerWidth: 0.5,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          wingSpan: 17.0,
+          
         })
       );
     }
@@ -37,7 +28,7 @@ const Home = () => {
   }, [vantaEffect]);
 
   return (
-    <div className="">
+    <>
       {/* ---- hero section ----  */}
 
       <ImgBG id="home" ref={myRef} >
@@ -86,7 +77,7 @@ const Home = () => {
 
       {/* ---- Location ----  */}
       <Location />
-    </div>
+    </>
   );
 };
 

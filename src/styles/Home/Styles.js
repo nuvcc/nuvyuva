@@ -4,6 +4,7 @@ export const ImgBG = styled.section`
   height: 100vh;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
   /* background-image: url("./images/BackgroundImg.png"); */
   padding-top: 3rem;
   .logo-counter {
@@ -148,7 +149,6 @@ export const FooterDiv = styled.div`
   text-align: center;
   color: #ffffff;
   padding: 2rem 0;
-
   a{
     border-bottom: 1px solid #fff;
    }
