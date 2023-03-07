@@ -3,7 +3,6 @@ const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const getQROnTicket = require('../server/functions/tickets');
-const routerTickets = require('../server/controllers/concert.controller');
 // require('./functions/spaces/index.js');
 const app = express();
 const nodeoutlook = require('nodejs-nodemailer-outlook');
@@ -28,7 +27,11 @@ app.get('/random', (req, res) => {
   });
 });
 
-const getId = require('../server/controllers/concert.controller');
+const {
+  getId,
+  postTickets,
+  buyTicket,
+} = require('../server/controllers/concert.controller');
 const {
   postProfile,
   getAllProfiles,
@@ -36,8 +39,10 @@ const {
 
 app.post('/profile', postProfile);
 app.get('/getAllProfiles', getAllProfiles);
+app.post('/buyTicket', buyTicket);
 
 app.get('/getIdTruthy', getId);
+app.post('/postTickets', postTickets);
 // Serve static files from the build folder
 app.use(express.static(path.join(__dirname, '../build')));
 

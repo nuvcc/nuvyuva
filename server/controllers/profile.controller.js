@@ -26,8 +26,12 @@ const getAllProfiles = async (req, res) => {
   if (profiles.length === 0)
     return res.status(400).json({ message: 'The profiles were not found!' });
   console.log(profiles);
+  let profileNames = [];
+  profiles.forEach((profile) => {
+    profileNames.push(profile.name);
+  });
   return res.status(200).json({
-    profiles,
+    profileNames,
   });
 };
 
