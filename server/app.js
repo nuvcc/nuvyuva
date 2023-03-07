@@ -17,47 +17,21 @@ const senderEmail = email;
 const senderPassword = pass;
 const PORT = process.env.PORT || 80;
 
+// Express server use configs
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get('/random', (req, res) => {
-  return res.status(200).json({
-    message: 'Random!',
-    success: 'The URL sent!',
-  });
-});
 
-const {
-  getId,
-  postTickets,
-  buyTicket,
-} = require('../server/controllers/concert.controller');
-const {
-  postProfile,
-  getAllProfiles,
-} = require('./controllers/profile.controller');
+// Calling router here
+const router = require('./routes/index');
+app.use('/', router);
 
-app.post('/profile', postProfile);
-app.get('/getAllProfiles', getAllProfiles);
-app.post('/buyTicket', buyTicket);
-
-app.get('/getIdTruthy', getId);
-app.post('/postTickets', postTickets);
 // Serve static files from the build folder
+// Route all requests to the React app
 app.use(express.static(path.join(__dirname, '../build')));
 
-// Route all requests to the React app
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../build/index.html'));
-});
-
-// getting details from the portal and looking!
-app.post('/pay', async (req, res) => {
-  const output = await req.body;
-  console.log(output);
-  res.status(200).json({
-    message: 'works like a charm!',
-  });
 });
 
 // Getting post callback after payment!

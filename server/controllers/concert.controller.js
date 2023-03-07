@@ -45,6 +45,22 @@ const buyTicket = async (req, res) => {
   ];
   console.log(id, name, email, phone, universityName, getProfile);
   try {
+    if (!id) {
+      return res
+        .status(400)
+        .json({ message: 'The id was not found in the request!' });
+    } else if (id) {
+      try {
+        const ticket = await concertTicketModel.findById(id);
+        if (ticket.bookedStatus === true) {
+          return res
+            .status(400)
+            .json({ message: 'This ticket was already booked!' });
+        }
+      } catch (error) {
+        return res.status(400).json({ message: 'This ticket does not exist!' });
+      }
+    }
     const ticket = await concertTicketModel.findByIdAndUpdate(
       id,
       {
@@ -81,7 +97,7 @@ const buyTicket = async (req, res) => {
           console.log(e);
           if (!ticket.bookedStatus) {
             return res
-              .status(403)
+              .status(400)
               .json({ message: "This ticket can't be booked!" });
           } else {
             return res.status(200).json({
@@ -116,7 +132,7 @@ const buyTicket = async (req, res) => {
   } catch (err) {
     console.log(err);
     res
-      .status(403)
+      .status(400)
       .json({ message: "This ticket can't be booked!", error: `${err}` });
   }
 };
