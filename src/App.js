@@ -27,7 +27,7 @@ function App() {
         <ImgLoader src="/loader.gif" alt="loader" hidden />
       ) : (
         <>
-          {" "}
+          {' '}
           <SideNav isOpen={isOpen} toggle={toggle} />
           <NavBar toggle={toggle} />
           <Routes>

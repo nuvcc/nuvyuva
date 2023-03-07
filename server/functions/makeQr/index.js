@@ -7,7 +7,7 @@ dotenv.config();
 const ticketSecret = process.env.ticketSecret;
 
 const { createCanvas } = require('canvas');
-const canvas = createCanvas(4096, 1379);
+const canvas = createCanvas(4172, 1550);
 
 const makeQROnFly = async (uid) => {
   console.log(uid);

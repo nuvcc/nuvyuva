@@ -17,6 +17,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  eventName: {
+    type: String,
+    required: true,
+  },
   amount: {
     type: String,
     required: true,

@@ -8,7 +8,7 @@ const Counter = () => {
   const [seconds, setSeconds] = useState("00");
   useEffect(() => {
     setTimeout(() => {
-      let countDownDate = new Date("April 6, 2023 15:37:25").getTime();
+      let countDownDate = new Date("March 27, 2023 15:37:25").getTime();
       let now = new Date().getTime();
       let distance = countDownDate - now;
       setDays(Math.floor(distance / (1000 * 60 * 60 * 24)));
