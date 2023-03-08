@@ -4,7 +4,6 @@ const postProfile = async (req, res) => {
   const results = req.body;
   try {
     const newProfile = await profileModel.create({
-      _id: results.id,
       name: results.name,
     });
     if (!newProfile)

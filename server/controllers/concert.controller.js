@@ -145,7 +145,11 @@ const getId = async (req, res) => {
   if (!ticket.bookedStatus)
     return res
       .status(200)
-      .json({ message: 'This ticket can be booked!', canBeBooked: true });
+      .json({
+        message: 'This ticket can be booked!',
+        canBeBooked: true,
+        ticketType: ticket.ticketType,
+      });
   else
     return res
       .status(200)
