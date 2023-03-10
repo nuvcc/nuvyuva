@@ -50,15 +50,15 @@ app.post('/pay1', async (req, res) => {
   try {
     const output = await req.body;
     console.log(output);
-    const [email, name, phone, amount, transactionid, status, productinfo] = [
+    const [email, phone, amount, transactionid, status, productinfo] = [
       output.email,
-      output.field4,
       output.phone,
       output.amount,
       output.mihpayid,
       output.status,
       output.productinfo,
     ];
+    let name = output.field4;
 
     const buttonPart = productinfo.split(' ');
     const buttonId = buttonPart[3].trim();
@@ -89,7 +89,12 @@ app.post('/pay1', async (req, res) => {
 
     console.log(`buttonid:${buttonId}`);
     const eventName = eventDetail[buttonId];
-    console.log(email, phone, amount, transactionid, status, eventName);
+    console.log();
+    if ((name == '') | (name == null) | (name == undefined)) {
+      console.log('name is null, setting to its email');
+      name = email;
+    }
+    console.log(email, name, phone, amount, transactionid, status, eventName);
 
     // await makeQROnFly(transactionid, name, email, amount);
     await getQROnTicket(transactionid);
