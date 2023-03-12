@@ -11,10 +11,13 @@ const {
   getAllProfiles,
 } = require('../controllers/profile.controller');
 
+const { getAllUsers } = require('../controllers/user.controller');
+
 router.post('/profile', postProfile);
 router.get('/getAllProfiles', getAllProfiles);
 router.post('/buyTicket', buyTicket);
 router.get('/getIdTruthy', getId);
 router.post('/postTickets', postTickets);
+router.get('/getAllUsers', getAllUsers);
 
 module.exports = router;
