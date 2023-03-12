@@ -115,7 +115,7 @@ export const events = [
         duration: "",
         place: "Amphitheater",
         price: "100 PP",
-        link: "https://pmny.in/mI4jyczEnZeI",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScvHa794VF8fYpPmJm1sano_K_57nLMpGbF9f-WLl2xYJrwSg/viewform?usp=pp_url&entry.2005620554",
       },
 
       {
