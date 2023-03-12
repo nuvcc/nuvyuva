@@ -17,6 +17,9 @@ const senderEmail = email;
 const senderPassword = pass;
 const PORT = process.env.PORT || 80;
 
+// Calling function and utils
+const sendEmail = require('../server/utils/sendEmail');
+
 // Express server use configs
 app.use(cors());
 app.use(bodyParser.json());
@@ -100,78 +103,38 @@ app.post('/pay1', async (req, res) => {
     await getQROnTicket(transactionid);
     let emailStatus = false;
 
-    const user = await userModel.findOne({ transactionid });
+    const user = await userModel.findById({ _id: transactionid });
+    console.log('user:', user);
     if (user) {
-      return res.status(409).json({ message: 'A similar user exists! 🔴 ' });
-    }
-    const newUser = await userModel.create({
-      _id: transactionid,
-      email,
-      name,
-      phone,
-      eventName,
-      amount,
-      paymentStatus: status,
-      emailStatus,
-    });
-    if (!newUser) {
-      res.json({
-        message: 'Some error occurred while adding a new user! 🔴 ',
+      if (user.paymentStatus == 'success') {
+        return res.status(409).json({ message: 'A similar user exists! 🔴 ' });
+      } else if (user.paymentStatus != 'success') {
+        console.log('Payment failed but now trying to update!');
+      }
+    } else {
+      const newUser = await userModel.create({
+        _id: transactionid,
+        email,
+        name,
+        phone,
+        eventName,
+        amount,
+        paymentStatus: status,
+        emailStatus,
       });
+      if (!newUser) {
+        return res.json({
+          message: 'Some error occurred while adding a new user! 🔴 ',
+        });
+      }
     }
 
     if (status === 'success') {
-      // const templateInput = `Payment ${status}`;
-      const newtemplateInput = `<p>Hey there!</p>
-
-    <p><br />
-    Thank you for your registration in ${eventName} for NUVYUVA'23!</p>
-
-    <p><br />We look forward to seeing you for the event! The detailed schedule and guidelines will be shared shortly. Stay connected to our social media for regular updates! </p>
-
-    <p><br />P.s Please carry along the attached ticket on the day of the event. </p>
-    <p><br />Thank you again, and have a great day.</p>`;
-      console.log('sending email...');
-      nodeoutlook.sendEmail({
-        auth: {
-          user: senderEmail,
-          pass: senderPassword,
-        },
-        from: senderEmail,
-        to: email,
-        subject: '✨ Registration Ticket Here!',
-        html: newtemplateInput,
-        text: newtemplateInput,
-        replyTo: senderEmail,
-        attachments: [
-          {
-            fileName: 'ticket.png',
-            path: `./server/finalTickets/${transactionid}.png`,
-          },
-        ],
-
-        onError: (e) => console.log(e),
-        onSuccess: async (i) => {
-          try {
-            console.log('sent ✅');
-            const updateUser = await userModel.findByIdAndUpdate(
-              transactionid,
-              {
-                $set: { emailStatus: true },
-              }
-            );
-            return res.json({
-              message: 'Email send to the user!!! 🟢',
-              user: updateUser,
-              success: true,
-            });
-          } catch (error) {
-            return res.status(401).json({
-              message: 'Some error occurred while updating the user! 🔴',
-              err: error,
-            });
-          }
-        },
+      await sendEmail(req, res, transactionid, eventName);
+    } else {
+      return res.json({
+        message: 'Payment failed or pending 🔴',
+        success: false,
       });
     }
   } catch (error) {
