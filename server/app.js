@@ -68,9 +68,9 @@ app.post('/pay1', async (req, res) => {
 
     const eventDetail = {
       24334060: 'Cricket',
-      24334256: 'BGMI_Mobile',
+      24334256: 'BGMI Mobile',
       24334238: 'Valorant',
-      24334221: 'COD_Mobile',
+      24334221: 'COD Mobile',
       24334194: 'Model United Nation',
       24334173: 'Volleyball',
       24334162: 'Football',
@@ -78,16 +78,17 @@ app.post('/pay1', async (req, res) => {
       24334114: 'Carrom',
       24334091: 'Chess',
       24334078: 'Basketball',
-      24334035: 'The_Camera_Geek',
+      24334035: 'The Camera Geek',
       24333957: 'Rangoli',
-      24333897: 'Treasure_Hunt',
-      24333875: 'Ek_Se_Bhale_Teen',
-      24333847: 'Painting_Competition',
-      24333828: 'Band_Show',
-      24333489: 'Danceing_Competition',
-      24333575: 'Singing_Competition',
-      24333583: 'Stand_Up_Beat_Boxing',
-      24333598: 'Fashion_Show',
+      24333897: 'Treasure Hunt',
+      24333875: 'Ek Se Bhale Teen',
+      24333847: 'Painting Competition',
+      24333828: 'Band Show',
+      24333489: 'Danceing Competition',
+      24333575: 'Singing Competition',
+      24333583: 'Stand Up Beat Boxing',
+      24333598: 'Fashion Show',
+      24589616: 'Nuv Vyapar',
     };
 
     console.log(`buttonid:${buttonId}`);
