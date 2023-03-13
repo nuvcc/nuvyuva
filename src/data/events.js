@@ -8,7 +8,7 @@ export const events = [
       {
         title: "NUV VYAPAR",
         description:
-          " A marketplace platform for young entrepreneurs to showcase their small and growing businesses",
+          "A platform for young and budding entrepreneurs to showcase their businesses and gain an experience of the market place.",
         image: "/images/events/reveal.png",
         event_date: "",
         participation_type: "",
@@ -20,7 +20,7 @@ export const events = [
       {
         title: "NUV MUN",
         description:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
+          "Focuses on developing leadership skills, research, writing, public speaking, and problem-solving skills. Moreover, coming up with solutions that are acceptable to a majority of the representatives also inculcates skills of negotiation, conflict resolution, and cooperation.",
         image: "/images/events/cultural/mun/mun.png ",
         event_date: "27th and 28th March 2023",
         participation_type: "Group/Solo",
@@ -31,7 +31,7 @@ export const events = [
       {
         title: "Concert Night",
         description:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
+          "A perfect way to conclude the fest in high spirits! Add to your memories the perfect “college life” experience and cherish the time for years to come!",
         image: "/images/events/reveal.png ",
         event_date: "27th and 28th March 2023",
         participation_type: "Group/Solo",
@@ -170,8 +170,9 @@ export const events = [
         participation_type: "",
         duration: "",
         place: "",
-        price: "150 PP",
-        link: "#",
+        price: "100 PP",
+        link1: "#",
+        link2: "#",
       },
       {
         title: "DERBY RACE",
@@ -215,7 +216,7 @@ export const events = [
   {
     title: "Gaming Events",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit  consectetur adipisicing elit Quisquam consectetur adipisicing elit amet",
+      "Pulling an all-nighter to play another game, well it’s time to finally put all those nights to use! Take your gears and get set ready to shoot, our gaming events have got you covered.",
     image: "images/events/gaming/pic.png",
     events: [
       {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   CardBody,
   CardDesc,
@@ -9,6 +9,7 @@ import {
   SubTitle,
   SubTitleContainer,
 } from "../styles/RegisterCards/Styles";
+import DropDown from "./DropDown/DropDown";
 
 let bgColor = [
   "linear-gradient(180deg, #34a8d7 0%, rgba(0, 84, 118, 0.72) 100%)",
@@ -30,6 +31,7 @@ const RegisterCard = ({
     index = (index + 1) % bgColor.length;
     return color;
   }
+  const [show, setShow] = useState(true);
 
   return (
     <>
@@ -52,10 +54,14 @@ const RegisterCard = ({
             </PriceValue>
             <RegisterText
               className="border"
-              onClick={() => Price && window.open(Link, "_blank")}
+              onClick={title !== "CAD CHAOS" ? () => Price && window.open(Link, "_blank"): () => setShow(!show)}
+              //() => Price && window.open(Link, "_blank")
               bg={getNextColor()}
             >
-              Register Now
+              <span>Register Now
+                {title === "CAD CHAOS" && <DropDown show={show} />}
+                
+              </span>
             </RegisterText>
           </ResgisterBody>
         </div>
