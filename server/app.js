@@ -131,7 +131,7 @@ app.post('/pay1', async (req, res) => {
     }
 
     if (status === 'success') {
-      await sendEmail(req, res, transactionid, eventName);
+      await sendEmail(req, res, transactionid, eventName, email);
     } else {
       return res.json({
         message: 'Payment failed or pending 🔴',

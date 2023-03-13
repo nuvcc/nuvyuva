@@ -4,7 +4,7 @@ const { email, pass } = require('./index');
 const senderEmail = email;
 const senderPassword = pass;
 
-const sendEmail = async (req, res, transactionid, eventName) => {
+const sendEmail = async (req, res, transactionid, eventName, clientEmail) => {
   const newtemplateInput = `<p>Hey there!</p>
 
     <p><br />
@@ -21,7 +21,7 @@ const sendEmail = async (req, res, transactionid, eventName) => {
       pass: senderPassword,
     },
     from: senderEmail,
-    to: email,
+    to: clientEmail,
     subject: '✨ Registration Ticket Here!',
     html: newtemplateInput,
     text: newtemplateInput,
