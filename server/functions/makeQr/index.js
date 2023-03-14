@@ -2,9 +2,7 @@ const QRCode = require('qrcode');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
 
-const dotenv = require('dotenv');
-dotenv.config();
-const ticketSecret = process.env.ticketSecret;
+const { ticketSecret } = require('../../utils');
 
 const { createCanvas } = require('canvas');
 const canvas = createCanvas(4172, 1550);
