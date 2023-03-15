@@ -27,7 +27,7 @@ export const events = [
         participation_type: "Group/Solo",
         duration: "",
         place: "",
-        price: "700 PP",
+        price: "700/Person",
 
       },
       {
@@ -39,7 +39,7 @@ export const events = [
         participation_type: "Group/Solo",
         duration: "",
         place: "",
-        price: "100 PP",
+        price: "",
         link: "https://pmny.in/BJs3ePZjXvqA",
       },
     ],
@@ -58,7 +58,7 @@ export const events = [
         participation_type: 'Group/Solo',
         duration: '2.5-5 minutes ',
         place: 'Amphitheater',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/pIZjDcuENZUB',
       },
       {
@@ -69,7 +69,7 @@ export const events = [
         participation_type: 'Group / Solo',
         duration: '2.5-5 minutes ',
         place: 'Amphitheater',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/4I3jmcCEMZVT',
       },
       {
@@ -81,7 +81,7 @@ export const events = [
         participation_type: 'Group(Max 4) / Solo',
         duration: '2 hour',
         place: 'Amphitheater ',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/VrMJGr9sjmQD',
       },
       {
@@ -92,7 +92,7 @@ export const events = [
         participation_type: 'Group / Solo ',
         duration: '3-5 minutes ',
         place: 'Amphitheater',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/tJL38PnjDE2J',
       },
 
@@ -104,7 +104,7 @@ export const events = [
         participation_type: 'Group / Solo',
         duration: '',
         place: 'Amphitheater',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/0IDlaDddaLFm',
       },
 
@@ -116,8 +116,8 @@ export const events = [
         participation_type: 'Solo',
         duration: '',
         place: 'Amphitheater',
-        price: '100 PP',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLScvHa794VF8fYpPmJm1sano_K_57nLMpGbF9f-WLl2xYJrwSg/viewform?usp=pp_url&entry.2005620554',
+        price: '100/Person',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLScvHa794VF8fY/PersonmJm1sano_K_57nLMpGbF9f-WLl2xYJrwSg/viewform?usp=/Person_url&entry.2005620554',
       },
 
       {
@@ -129,7 +129,7 @@ export const events = [
         participation_type: 'Solo',
         duration: '',
         place: '',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/qIWM9O7KG3QH',
       },
       {
@@ -172,7 +172,7 @@ export const events = [
         participation_type: "",
         duration: "",
         place: "",
-        price: "100 PP",
+        price: "100/Person",
         link1: "#",
         link2: "#",
       },
@@ -185,7 +185,7 @@ export const events = [
         participation_type: '',
         duration: '',
         place: '',
-        price: '200 PP',
+        price: '200/Person',
         link: '#',
       },
       {
@@ -210,8 +210,8 @@ export const events = [
         participation_type: '',
         duration: '',
         place: '',
-        price: '150 PP',
-        link: '#',
+        price: '150/Person',
+        link: 'https://neofolks.live',
       },
     ],
   },
@@ -307,18 +307,18 @@ export const events = [
         participation_type: 'Solo',
         duration: '',
         place: '',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/KIrl0D7dULHb',
       },
       {
         title: 'Flick',
-        description: 'Rani toh Pappa ni j! (Carrom)',
+        description: 'Rani toh Pa/Persona ni j! (Carrom)',
         image: '/images/events/sports/Carrom.png',
         event_date: '',
         participation_type: 'Solo',
         duration: '',
         place: '',
-        price: '100 PP',
+        price: '100/Person',
         link: 'https://pmny.in/LrMJrr4sKmdU',
       },
       {
@@ -329,7 +329,7 @@ export const events = [
         participation_type: 'Solo',
         duration: '',
         place: '',
-        price: '150 PP',
+        price: '150/Person',
         link: 'https://pmny.in/qJw39P6jNvG4',
       },
       {

@@ -54,13 +54,17 @@ const RegisterCard = ({
             </PriceValue>
             <RegisterText
               className="border"
-              onClick={title !== "CAD CHAOS" ? () => Price && window.open(Link, "_blank"): () => setShow(!show)}
+              onClick={
+                title !== "CAD CHAOS"
+                  ? () => Price && window.open(Link, "_blank")
+                  : () => setShow(!show)
+              }
               //() => Price && window.open(Link, "_blank")
               bg={getNextColor()}
             >
-              <span>Register Now
+              <span style={{width: "100%"}}>
+                Register Now
                 {title === "CAD CHAOS" && <DropDown show={show} />}
-                
               </span>
             </RegisterText>
           </ResgisterBody>
