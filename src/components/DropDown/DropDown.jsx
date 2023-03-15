@@ -13,8 +13,8 @@ const DropDown = ({ show, link1, link2 }) => {
       {/* <DropText>Register Now</DropText> */}
       <DropContainer hidden={!show}>
         <DropList>
-          <DropListItems>2d</DropListItems>
-          <DropListItems>3d</DropListItems>
+          <DropListItems onClick={() => window.open(link1)}>2d</DropListItems>
+          <DropListItems onClick={() => window.open(link2)}>3d</DropListItems>
         </DropList>
       </DropContainer>
     </DropMenu>

@@ -31,7 +31,7 @@ const RegisterCard = ({
     index = (index + 1) % bgColor.length;
     return color;
   }
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <>
