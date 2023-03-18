@@ -64,7 +64,7 @@ const RegisterCard = ({
             >
               <span style={{width: "100%"}}>
                 Register Now
-                {title === "CAD CHAOS" && <DropDown show={show} />}
+                {title === "CAD CHAOS" && <DropDown show={show} link1={Link[0]} link2={Link[1]} />}
               </span>
             </RegisterText>
           </ResgisterBody>

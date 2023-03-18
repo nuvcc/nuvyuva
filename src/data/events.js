@@ -172,8 +172,7 @@ export const events = [
         duration: "",
         place: "",
         price: "100/Person",
-        link1: "#",
-        link2: "#",
+        link1:["#", "#"]
       },
       {
         title: 'DERBY RACE',
