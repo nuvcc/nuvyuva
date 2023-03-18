@@ -27,6 +27,7 @@ export const events = [
         duration: "",
         place: "",
         price: "700/Person",
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSfi4LixMjD-tstZIbFXoHepbDoDUjhzy3DO8owMAlI8pGRf6Q/viewform"
 
       },
       {
@@ -132,13 +133,13 @@ export const events = [
       },
       {
         title: 'Uncharted (Treasure Hunt) ',
-        description: 'Track, Trail & Tail (Painting competition)',
+        description: 'Track, Trail & Tail.',
         image: '/images/events/reveal.png',
         event_date: '30th March 2023',
         participation_type: '',
         duration: '',
         place: '',
-        price: '',
+        price: '100/person',
         link: 'https://pmny.in/XIhjjcrE2a16',
       },
       {
