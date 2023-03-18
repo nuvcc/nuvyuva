@@ -24,7 +24,8 @@ export const DropList = styled.ul`
 export const DropListItems = styled.li`
   padding: 0.2rem;
   border-bottom: 1px solid #caced8;
-  color: #000;
+  /* color: #000; */
+  color: white;
 `;
 
 export const DropContainer = styled.div`
@@ -33,6 +34,7 @@ export const DropContainer = styled.div`
   border: 1px solid #caced8;
   border-radius: 0.4rem;
   width: 100%;
+  color: white;
   /* padding: 12px 16px; */
-  background-color: #fff;
+  background-color: #1b3547;
 `;
