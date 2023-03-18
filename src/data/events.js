@@ -8,15 +8,14 @@ export const events = [
       {
         title: 'NUV VYAPAR',
         description:
-          "A platform for young and budding entrepreneurs to showcase their businesses and gain an experience of the market place.",
-        image: "/images/events/reveal.png",
-        event_date: "",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "",
-        link: "#",
-
+          'A platform for young and budding entrepreneurs to showcase their businesses and gain an experience of the market place.',
+        image: '/images/events/reveal.png',
+        event_date: '',
+        participation_type: '',
+        duration: '',
+        place: '',
+        price: '',
+        link: '#',
       },
       {
         title: 'NUV MUN',
@@ -33,14 +32,13 @@ export const events = [
       {
         title: 'Concert Night',
         description:
-          "A perfect way to conclude the fest in high spirits! Add to your memories the perfect “college life” experience and cherish the time for years to come!",
-        image: "/images/events/reveal.png ",
-        event_date: "27th and 28th March 2023",
-        participation_type: "Group/Solo",
-        duration: "",
-        place: "",
-        price: "",
-        link: "https://pmny.in/BJs3ePZjXvqA",
+          'A perfect way to conclude the fest in high spirits! Add to your memories the perfect “college life” experience and cherish the time for years to come!',
+        image: '/images/events/reveal.png ',
+        event_date: '27th and 28th March 2023',
+        participation_type: 'Group/Solo',
+        duration: '',
+        place: '',
+        link: '#',
       },
     ],
   },
@@ -218,8 +216,8 @@ export const events = [
   {
     title: 'Gaming Events',
     description:
-      "Pulling an all-nighter to play another game, well it’s time to finally put all those nights to use! Take your gears and get set ready to shoot, our gaming events have got you covered.",
-    image: "images/events/gaming/pic.png",
+      'Pulling an all-nighter to play another game, well it’s time to finally put all those nights to use! Take your gears and get set ready to shoot, our gaming events have got you covered.',
+    image: 'images/events/gaming/pic.png',
     events: [
       {
         title: 'BGMI',
