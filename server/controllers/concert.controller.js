@@ -4,17 +4,16 @@ const senderEmail = email;
 const senderPassword = pass;
 const nodeoutlook = require('nodejs-nodemailer-outlook');
 
-const fun = async (id) => {
+const fun = async (id, ticketType, amount) => {
   console.log('id: ', id);
   const newTicket = await concertTicketModel.create({
     _id: id,
-    imageURL: 'random.com',
-    email: 'random@adasd',
-    phone: '1234567890',
-    name: 'random',
-    ticketType: 'Earky Bird',
-    amount: 500,
-    universityName: 'MSU',
+    email: 'tejgandhi2013@gmail.com',
+    phone: '8347613157',
+    name: 'Tej Gandhi',
+    ticketType,
+    amount,
+    universityName: 'NUV',
     bookedStatus: false,
     paymentStatus: 'yet to book',
     emailStatus: false,
@@ -23,15 +22,56 @@ const fun = async (id) => {
 };
 const postTickets = async (req, res) => {
   console.log('was here!');
-  for (let i = 1; i <= 1000; i++) {
+  const eb = {
+    ticketType: 'Early Bird',
+    amount: 500,
+  };
+  const vip = {
+    ticketType: 'VIP',
+    amount: 1000,
+  };
+  const fp = {
+    ticketType: 'Fan Pit',
+    amount: 1700,
+  };
+  const reg = {
+    ticketType: 'Regular',
+    amount: 2000,
+  };
+
+  let ticketMeta = {
+    ticketType: '',
+    amount: 0,
+  };
+
+  for (let i = 1; i <= 3100; i++) {
     let id;
-    if (i < 10) id = '000' + i;
-    if (i > 9) id = '00' + i;
-    if (i > 99) id = '0' + i;
-    if (i === 1000) id = i;
-    await fun(id);
+    if (i < 10) {
+      id = '000' + i;
+      ticketMeta = eb;
+    } else if (i > 9) {
+      id = '00' + i;
+      ticketMeta = eb;
+    } else if (i > 99 && i < 501) {
+      id = '0' + i;
+      ticketMeta = eb;
+    } else if (i > 500 && i < 1000) {
+      id = '0' + i;
+      ticketMeta = vip;
+    } else if (i >= 1000 && i <= 1100) {
+      id = i;
+      if (i === 1000) {
+        ticketMeta = vip;
+      } else {
+        ticketMeta = fp;
+      }
+    } else if (i > 1100 && i <= 3100) {
+      id = i;
+      ticketMeta = reg;
+    }
+    await fun(id, ticketMeta.ticketType, ticketMeta.amount);
   }
-  return res.status(200).json({ message: 'The clients was created!' });
+  return res.status(200).json({ message: 'The ticket were created!' });
 };
 
 const buyTicket = async (req, res) => {
@@ -143,13 +183,11 @@ const getId = async (req, res) => {
   const ticket = await concertTicketModel.findOne({ _id: results.id });
   console.log(ticket.bookedStatus);
   if (!ticket.bookedStatus)
-    return res
-      .status(200)
-      .json({
-        message: 'This ticket can be booked!',
-        canBeBooked: true,
-        ticketType: ticket.ticketType,
-      });
+    return res.status(200).json({
+      message: 'This ticket can be booked!',
+      canBeBooked: true,
+      ticketType: ticket.ticketType,
+    });
   else
     return res
       .status(200)

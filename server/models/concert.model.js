@@ -5,9 +5,6 @@ const concertTicketSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  imageURL: {
-    type: String,
-  },
   email: {
     type: String,
     required: true,
