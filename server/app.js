@@ -89,6 +89,9 @@ app.post('/pay1', async (req, res) => {
       24333583: 'Stand Up Beat Boxing',
       24333598: 'Fashion Show',
       24589616: 'Nuv Vyapar',
+      24722463: 'Derby Race',
+      24722406: 'CAD Chaos 3D',
+      24722348: 'CAD Chaos 2D',
     };
 
     console.log(`buttonid:${buttonId}`);
