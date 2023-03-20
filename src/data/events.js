@@ -165,14 +165,13 @@ export const events = [
         title: 'CAD CHAOS',
         description:
           "'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.",
-        image: '/images/events/reveal.png',
-        event_date: '23rd March 2023',
-        participation_type: '',
-        duration: '',
-        place: '',
-        price: '100/Person',
-        link1: 'https://pmny.in/vIccCdmBEpKy',
-        link2: 'https://pmny.in/rJh8muRwAcX7',
+        image: "/images/events/reveal.png",
+        event_date: "23rd March 2023",
+        participation_type: "",
+        duration: "",
+        place: "",
+        price: "100/Person",
+        link1:["https://pmny.in/vIccCdmBEpKy", "https://pmny.in/rJh8muRwAcX7"]
       },
       {
         title: 'DERBY RACE',
