@@ -20,15 +20,14 @@ export const events = [
       {
         title: 'NUV MUN',
         description:
-          "Focuses on developing leadership skills, research, writing, public speaking, and problem-solving skills. Moreover, coming up with solutions that are acceptable to a majority of the representatives also inculcates skills of negotiation, conflict resolution, and cooperation.",
-        image: "/images/events/cultural/mun/mun.png ",
-        event_date: "27th and 28th March 2023",
-        participation_type: "Group/Solo",
-        duration: "",
-        place: "",
-        price: "700/Person",
-        link:"https://docs.google.com/forms/d/e/1FAIpQLSfi4LixMjD-tstZIbFXoHepbDoDUjhzy3DO8owMAlI8pGRf6Q/viewform"
-
+          'Focuses on developing leadership skills, research, writing, public speaking, and problem-solving skills. Moreover, coming up with solutions that are acceptable to a majority of the representatives also inculcates skills of negotiation, conflict resolution, and cooperation.',
+        image: '/images/events/cultural/mun/mun.png ',
+        event_date: '27th and 28th March 2023',
+        participation_type: 'Group/Solo',
+        duration: '',
+        place: '',
+        price: '700/Person',
+        link: 'https://docs.google.com/forms/d/e/1FAIpQLSfi4LixMjD-tstZIbFXoHepbDoDUjhzy3DO8owMAlI8pGRf6Q/viewform',
       },
       {
         title: 'Concert Night',
@@ -166,14 +165,14 @@ export const events = [
         title: 'CAD CHAOS',
         description:
           "'Unleash your creativity with our Design Challenge', Draw, design, create, and compete to win amazing prizes.",
-        image: "/images/events/reveal.png",
-        event_date: "23rd March 2023",
-        participation_type: "",
-        duration: "",
-        place: "",
-        price: "100/Person",
-        link1: "#",
-        link2: "#",
+        image: '/images/events/reveal.png',
+        event_date: '23rd March 2023',
+        participation_type: '',
+        duration: '',
+        place: '',
+        price: '100/Person',
+        link1: 'https://pmny.in/vIccCdmBEpKy',
+        link2: 'https://pmny.in/rJh8muRwAcX7',
       },
       {
         title: 'DERBY RACE',
@@ -185,7 +184,7 @@ export const events = [
         duration: '',
         place: '',
         price: '200/Person',
-        link: '#',
+        link: 'https://pmny.in/3IoMBO6keUIZ',
       },
       {
         title: 'TECH TALKS by Neofolks',
