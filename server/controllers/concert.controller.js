@@ -54,7 +54,7 @@ const postTickets = async (req, res) => {
     if (i < 10) {
       id = '000' + i;
       ticketMeta = eb;
-    } else if (i > 9) {
+    } else if (i > 9 && i < 100) {
       id = '00' + i;
       ticketMeta = eb;
     } else if (i > 99 && i < 501) {
