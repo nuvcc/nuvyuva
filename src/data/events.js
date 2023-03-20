@@ -171,7 +171,7 @@ export const events = [
         duration: "",
         place: "",
         price: "100/Person",
-        link1:["https://pmny.in/vIccCdmBEpKy", "https://pmny.in/rJh8muRwAcX7"]
+        link:["https://pmny.in/vIccCdmBEpKy", "https://pmny.in/rJh8muRwAcX7"]
       },
       {
         title: 'DERBY RACE',
