@@ -25,7 +25,7 @@ const AboutUs = () => {
           Navrachana University’s biggest and grandest Youth fest.
           <br /> 
           NUV-YUVA is a youth fest hosted by Navrachana University. The fest incorporates a bunch of TECHNICAL, NON-TECHNICAL, SPORTS and CULTURAL EVENTS. 
-          The event aims to provide a space to learn skills and showcase talent on a large platform."								
+          The event aims to provide a space to learn skills and showcase talent on a large platform.								
           </DescriptionText>
         </div>
         <div className="side-2 flex justify-center  w-full">
