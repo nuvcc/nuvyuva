@@ -3,7 +3,12 @@ const { email, pass } = require('../utils');
 const senderEmail = email;
 const senderPassword = pass;
 const nodeoutlook = require('nodejs-nodemailer-outlook');
-
+const {
+  earlybirdPrices,
+  regularPrices,
+  vipPrices,
+  fanPitPrices,
+} = require('../utils');
 const fun = async (id, ticketType, amount) => {
   console.log('id: ', id);
   const newTicket = await concertTicketModel.create({
@@ -24,19 +29,19 @@ const postTickets = async (req, res) => {
   console.log('was here!');
   const eb = {
     ticketType: 'Early Bird',
-    amount: 500,
+    amount: earlybirdPrices,
   };
   const vip = {
     ticketType: 'VIP',
-    amount: 1000,
+    amount: vipPrices,
   };
   const fp = {
     ticketType: 'Fan Pit',
-    amount: 1700,
+    amount: fanPitPrices,
   };
   const reg = {
     ticketType: 'Regular',
-    amount: 2000,
+    amount: regularPrices,
   };
 
   let ticketMeta = {
