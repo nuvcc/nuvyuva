@@ -57,7 +57,7 @@ export const events = [
         duration: '2.5-5 minutes ',
         place: 'Amphitheater',
         price: '100/Person',
-        link: 'https://pmny.in/pIZjDcuENZUB',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Yuva Studio',
@@ -68,7 +68,7 @@ export const events = [
         duration: '2.5-5 minutes ',
         place: 'Amphitheater',
         price: '100/Person',
-        link: 'https://pmny.in/4I3jmcCEMZVT',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Rango Ki Mehfil',
@@ -80,7 +80,7 @@ export const events = [
         duration: '2 hour',
         place: 'Amphitheater ',
         price: '100/Person',
-        link: 'https://pmny.in/VrMJGr9sjmQD',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Yuva’s Got Talent',
@@ -91,7 +91,7 @@ export const events = [
         duration: '3-5 minutes ',
         place: 'Amphitheater',
         price: '100/Person',
-        link: 'https://pmny.in/tJL38PnjDE2J',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
 
       {
@@ -103,7 +103,7 @@ export const events = [
         duration: '',
         place: 'Amphitheater',
         price: '100/Person',
-        link: 'https://pmny.in/0IDlaDddaLFm',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
 
       {
@@ -128,7 +128,7 @@ export const events = [
         duration: '',
         place: '',
         price: '100/Person',
-        link: 'https://pmny.in/qIWM9O7KG3QH',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Uncharted (Treasure Hunt) ',
@@ -139,7 +139,7 @@ export const events = [
         duration: '',
         place: '',
         price: '100/person',
-        link: 'https://pmny.in/XIhjjcrE2a16',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Ek se bhalae teen ',
@@ -151,7 +151,7 @@ export const events = [
         duration: '',
         place: '',
         price: '70',
-        link: 'https://pmny.in/iIKjjcXEia0J',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
     ],
   },
@@ -171,7 +171,7 @@ export const events = [
         duration: "",
         place: "",
         price: "100/Person",
-        link:["https://pmny.in/vIccCdmBEpKy", "https://pmny.in/rJh8muRwAcX7"]
+        link:["https://form.typeform.com/to/IW6973EO", "https://form.typeform.com/to/IW6973EO"]
       },
       {
         title: 'DERBY RACE',
@@ -183,7 +183,7 @@ export const events = [
         duration: '',
         place: '',
         price: '200/Person',
-        link: 'https://pmny.in/3IoMBO6keUIZ',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'TECH TALKS by Neofolks',
@@ -207,7 +207,7 @@ export const events = [
         participation_type: '',
         duration: '',
         place: '',
-        price: '150/Person',
+        price: 'Free',
         link: 'https://neofolks.live',
       },
     ],
@@ -227,7 +227,7 @@ export const events = [
         duration: '',
         place: '',
         price: '400 /Group ',
-        link: 'https://pmny.in/1rX5Zz2GrEls',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'COD MOBILE',
@@ -238,7 +238,7 @@ export const events = [
         duration: '',
         place: '',
         price: '400 /Group',
-        link: 'https://pmny.in/PJW3dPujBvND',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'VALORANT',
@@ -250,7 +250,7 @@ export const events = [
         duration: '',
         place: '',
         price: '1000 /Group',
-        link: 'https://pmny.in/IIRj2cVE3a8V',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
     ],
   },
@@ -270,7 +270,7 @@ export const events = [
         duration: '',
         place: '',
         price: '2000/Team',
-        link: 'https://pmny.in/GJN8XvI6rheo',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Yuva League',
@@ -282,7 +282,7 @@ export const events = [
         duration: '',
         place: '',
         price: '1600 /Team ',
-        link: 'https://pmny.in/oIQjccSEMa6D',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Dribble',
@@ -294,7 +294,7 @@ export const events = [
         duration: '',
         place: '',
         price: '800 /Team',
-        link: 'https://pmny.in/Kr3JHrCsfmfE',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Game of Thrones',
@@ -305,7 +305,7 @@ export const events = [
         duration: '',
         place: '',
         price: '100/Person',
-        link: 'https://pmny.in/KIrl0D7dULHb',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Flick',
@@ -316,7 +316,7 @@ export const events = [
         duration: '',
         place: '',
         price: '100/Person',
-        link: 'https://pmny.in/LrMJrr4sKmdU',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Ping Pong',
@@ -327,7 +327,7 @@ export const events = [
         duration: '',
         place: '',
         price: '150/Person',
-        link: 'https://pmny.in/qJw39P6jNvG4',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
       {
         title: 'Volleyball',
@@ -338,7 +338,7 @@ export const events = [
         duration: '',
         place: '',
         price: '1000 /Team',
-        link: 'https://pmny.in/3rl0eLcYLfVZ',
+        link: 'https://form.typeform.com/to/IW6973EO',
       },
     ],
   },

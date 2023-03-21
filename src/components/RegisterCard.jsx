@@ -50,7 +50,7 @@ const RegisterCard = ({
 
           <ResgisterBody>
             <PriceValue className="border">
-              {Price ? `Rs. ${Price}` : "Soon..."}
+              {Price ? (Price === "Free" ? Price : `Rs. ${Price}`) : "Soon..."}
             </PriceValue>
             <RegisterText
               className="border"
@@ -62,9 +62,11 @@ const RegisterCard = ({
               //() => Price && window.open(Link, "_blank")
               bg={getNextColor()}
             >
-              <span style={{width: "100%"}}>
+              <span style={{ width: "100%" }}>
                 Register Now
-                {title === "CAD CHAOS" && <DropDown show={show} link1={Link[0]} link2={Link[1]} />}
+                {title === "CAD CHAOS" && (
+                  <DropDown show={show} link1={Link[0]} link2={Link[1]} />
+                )}
               </span>
             </RegisterText>
           </ResgisterBody>
