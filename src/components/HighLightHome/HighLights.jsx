@@ -27,7 +27,9 @@ const HighLights = () => {
           image,
           registerBgCode,
           price,
+          link
         } = val;
+
 
         return (
           <div key={i}>
@@ -39,6 +41,7 @@ const HighLights = () => {
               EventDate={event_date}
               ParticipationType={participation_type}
               Price={price}
+              Link={link}
             />
           </div>
         );
